@@ -1,0 +1,43 @@
+# 기본 실행 설정. configs/exp/07_verify.yaml에서 최종 파이프라인 기능을 켠다.
+
+data_dir: data   # 환경 변수 RFP_DATA_DIR가 있으면 그 값이 앞선다
+
+llm:
+  provider: local            # local | openai
+  model: exaone3.5:7.8b
+  base_url: http://127.0.0.1:11434
+  temperature: 0
+  num_ctx: 8192
+  reasoning: false           # 답하기 전에 생각하는 기능(qwen3.5 등). 켜면 느려진다
+
+embeddings:
+  provider: local            # local | openai
+  model: nlpai-lab/KURE-v1
+  device: cpu                # GPU로 색인을 만들려면 cuda로 바꾼다
+
+reranker:                    # 공급자와 상관없이 늘 로컬에서 돈다
+  enabled: false
+  model: BAAI/bge-reranker-v2-m3
+  top_n: 5
+
+chunk:
+  method: fixed              # fixed | section
+  size: 1000
+  overlap: 200
+
+retrieve:
+  method: dense              # dense | bm25 | hybrid
+  search_type: similarity    # similarity | mmr
+  k: 5
+  multi_query: false
+  agency_filter: false
+
+pipeline:
+  route: false               # 질문 종류를 갈라 종류마다 다르게 처리한다
+  verify: false              # 답의 숫자와 날짜가 근거에 있는지 확인한다
+  use_enriched: false        # 색인할 때 미리 만든 요약을 쓴다
+  min_score: 0.45            # verify가 켜졌을 때, 가장 가까운 청크의 코사인 유사도가 이보다 낮으면 "찾을 수 없음"
+
+openai:                      # provider를 openai로 바꿀 때 사용할 모델
+  chat_model: gpt-5-mini
+  embedding_model: text-embedding-3-small
