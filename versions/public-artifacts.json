@@ -5,8 +5,8 @@
   "files": [
     {
       "path": ".github/workflows/review-bundle.yml",
-      "bytes": 949,
-      "sha256_lf": "e04e6a6bce7607d727a8a89cbbec69c228c493538eb73b16afb86e913b2e1c7c"
+      "bytes": 1008,
+      "sha256_lf": "b45e22bc39f7fd6d4571e3e06049ce97be70a95d610b1f50f6ffd4298928c915"
     },
     {
       "path": "AGENTS.md",
@@ -20,8 +20,8 @@
     },
     {
       "path": "candidates/hyunkyung/5e79101/provenance.json",
-      "bytes": 807,
-      "sha256_lf": "d4b324892ab11f63cc009cc196f05b10a23536b0fda0920bcf3bcc28c2d33dc7"
+      "bytes": 1230,
+      "sha256_lf": "ebf3898c2b68da2d3590d66257eb77e193499de40db7a687551950e90b306956"
     },
     {
       "path": "candidates/minhyup/10882e3/provenance.json",
@@ -200,8 +200,8 @@
     },
     {
       "path": "evaluation/README.md",
-      "bytes": 5565,
-      "sha256_lf": "47a70b7fbec031d801b3b9ace2aa24dc936550cac1286e26a10110ec1680cb30"
+      "bytes": 6400,
+      "sha256_lf": "a7397073c37c9ae73351013d5ec74281eff55d97bb73b33db7b303f826d2c696"
     },
     {
       "path": "evaluation/test_cpu_service.py",
@@ -232,6 +232,16 @@
       "path": ".gitattributes",
       "bytes": 303,
       "sha256_lf": "0a4760dd663bed7439494d532a4795f4ac5de8508e68ad4bb1d87479d0b5d05b"
+    },
+    {
+      "path": "candidates/hyunkyung/5e79101/adapter.py",
+      "bytes": 2075,
+      "sha256_lf": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
+    },
+    {
+      "path": "evaluation/test_cleaning_adapter.py",
+      "bytes": 1656,
+      "sha256_lf": "855cfee85c7b8da6e91088d9d22eb3a82f36d4f94244f9b866ff892fc2f2abcc"
     }
   ],
   "scope": "whitelisted source utilities/public teammate components/synthetic UI/aggregate results/offline reproduction; no raw private data",
@@ -244,5 +254,6 @@
     "errors": 0,
     "external_requests": 0,
     "desktop_mobile": true
-  }
+  },
+  "updated_utc": "2026-10-09T08:03:22.313565+00:00"
 }

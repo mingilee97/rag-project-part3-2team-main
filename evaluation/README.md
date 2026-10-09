@@ -6,13 +6,16 @@
 
 ```sh
 python evaluation/test_cpu_service.py
+python evaluation/test_cleaning_adapter.py
 python evaluation/verify_public_bundle.py
 node dashboard/test-example.mjs
 python evaluation/cpu_service.py
 python evaluation/full_cpu_compare.py --help
 ```
 
-첫 세 검사는 모델을 호출하지 않는다. `cpu_service.py`의 기본 실행도 dry-run이다. `full_cpu_compare.py --help`는 모델 패키지를 불러오기 전에 인자 설명만 출력한다. 프로젝트의 기존 `test_core.py`도 실행해야 한다.
+첫 네 검사는 모델을 호출하지 않는다. `cpu_service.py`의 기본 실행도 dry-run이다. `full_cpu_compare.py --help`는 모델 패키지를 불러오기 전에 인자 설명만 출력한다. 프로젝트의 기존 `test_core.py`도 실행해야 한다.
+
+정제 후보의 [adapter.py](../candidates/hyunkyung/5e79101/adapter.py)는 메인의 문서 dict에서 메타데이터와 키를 보존하며 새 `text`만 만든다. `(새 문서, 진단)`을 반환하므로 새 문서는 메인 chunk 함수에 그대로 전달하고 진단은 별도 평가 기록으로 저장한다. 원본 함수는 `(cleaned, removed_lines)`를 반환하므로 본문 문자열만 입력 스키마에 옮겼다. 명시한 보호 구간이 원문에는 있고 정제 뒤 사라지면 그 문서는 원문을 반환한다. 보호 구간을 주지 않은 의미·표 구조까지 검증한 것은 아니다. 이 안전한 복귀는 통합 과정에서 추가한 동작이며 후보 원본의 성능 주장과 구분한다. 운영 ingestion에는 연결하지 않았다.
 
 합성 UI를 볼 때는 저장소 루트에서 `python -m http.server 8091 --bind 127.0.0.1 --directory dashboard/example`를 실행하고 `http://127.0.0.1:8091`을 연다. 예시에는 실제 팀 데이터와 채택 동작이 없다. 브라우저 함수는 원본 TS의 순수 함수에서 생성했으며 React hook을 제외했다. 재생성은 설치된 TypeScript 경로를 인자로 `node dashboard/build-example.mjs <typescript.js>`를 실행한다. 이 명령은 패키지를 자동 설치하지 않는다.
 

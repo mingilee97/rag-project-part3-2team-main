@@ -13,5 +13,13 @@
   "exported_file_sha256": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c",
   "notebook_outputs_dataset_loader_and_models_not_exported": true,
   "behavior_changed": false,
-  "exported_file_newline": "LF; extracted function behavior preserved"
+  "exported_file_newline": "LF; extracted function behavior preserved",
+  "integration_adapter": {
+    "path": "candidates/hyunkyung/5e79101/adapter.py",
+    "sha256_lf": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e",
+    "main_document_keys_preserved": true,
+    "original_native_tuple_return_preserved": true,
+    "integration_added_behavior": "explicit protected-span loss falls back to original text",
+    "not_original_native_guard_or_full_pipeline": true
+  }
 }
