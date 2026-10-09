@@ -1,0 +1,52 @@
+{
+  "id": "roadmap-readable-20261008",
+  "date": "2026-10-08",
+  "role": "reviewed-local-candidate-not-deployed",
+  "source_sealed_at_utc": "2026-10-08T08:32:20.470Z",
+  "original_entry": "index-F09Th-Ln.js",
+  "original_entry_sha256": "71853da34bf7f50f4486c32c1fc9e5abf11b3fb9af0d31a7b960e1636c54b134",
+  "source_manifest_sha256": "a92b8f877f23740d78e56a83144cc73065aaba45b1b2f1434dc563ff3048ebf6",
+  "model_version_independent": true,
+  "published_components": [
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/calendarDate.ts",
+      "bytes": 3570,
+      "sha256": "559a3fd53734266f1e15979a8585272a1bd413c990881b6042e771b6f3982385",
+      "original_relative_path": "src/calendarDate.ts",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/unified-calendar.css",
+      "bytes": 20810,
+      "sha256": "13155c304e1cf4002f9dcba68232ebe92205e2afa6e13204d08a02e45938f5ba",
+      "original_relative_path": "src/unified-calendar.css",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/processRoadmapLayout.ts",
+      "bytes": 17378,
+      "sha256": "058a80085e6f3f4e1fd5f44c8b6f5c8cec29af045f2145bb52f50fcafdc9112e",
+      "original_relative_path": "src/processRoadmapLayout.ts",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/process-roadmap.css",
+      "bytes": 30699,
+      "sha256": "316357544f69377cd56bc6fd1084fc67bfef25a056952d062cd1aab16e060150",
+      "original_relative_path": "src/process-roadmap.css",
+      "same_bytes_as_checkpoint": true
+    }
+  ],
+  "publication_scope": "source-identical pure UI utilities/styles; synthetic example separately",
+  "excluded": [
+    "fullappmetadata",
+    "actualmembers",
+    "SheetURL",
+    "diaries",
+    "DB",
+    "privateevaluationhistory",
+    "deploymentcredentials",
+    "compiledprivatebundle"
+  ],
+  "full_original_checkpoint_recoverable_from_public_repo": false
+}

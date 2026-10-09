@@ -1,0 +1,70 @@
+{
+  "schema": "cpu-answer-component-v1",
+  "completed_utc": "2026-10-09T07:05:40.644104+00:00",
+  "scope": "pilot14documents",
+  "provenance": {
+    "schema": "cpu-answer-component-v1",
+    "component": "main answer.answer + verify=True",
+    "CPU_transport_only_in_memory": true,
+    "registration_guard_removed": false,
+    "registered_07_verify_pipeline_run": false,
+    "route_metadata_enrichment_retrieval_gate": false,
+    "source_answer_sha256": "96072797ee7752bd698b2d27861b7d5b8a978611b750642a039dbe95d2362bd5",
+    "evaluator_sha256": "3c1a2e78fba880a036df78735c60d4ce1713ee3190d111011b2b3c253a2ef783",
+    "model": "exaone3.5:7.8b",
+    "num_ctx": 8192,
+    "num_predict": 1500,
+    "num_gpu": 0,
+    "num_thread": 4,
+    "judge_calls": 0,
+    "paid_calls": 0,
+    "output_raw_answers_private_only": true,
+    "items": 12
+  },
+  "aggregates": [
+    {
+      "treatment": "candidate_bge_parent4_pool20",
+      "total": 4,
+      "successful": 4,
+      "errors": 0,
+      "found_true": 4,
+      "unsupported_final_answers": 0,
+      "mean_wall_seconds_successes": 42.77594850000014,
+      "prompt_eval_count_mean": 2571.0,
+      "judge_score": null
+    },
+    {
+      "treatment": "candidate_bge_top5",
+      "total": 4,
+      "successful": 4,
+      "errors": 0,
+      "found_true": 4,
+      "unsupported_final_answers": 0,
+      "mean_wall_seconds_successes": 33.03013845000032,
+      "prompt_eval_count_mean": 1739.25,
+      "judge_score": null
+    },
+    {
+      "treatment": "main_dense_top5",
+      "total": 4,
+      "successful": 4,
+      "errors": 0,
+      "found_true": 4,
+      "unsupported_final_answers": 0,
+      "mean_wall_seconds_successes": 34.57785765000017,
+      "prompt_eval_count_mean": 2140.5,
+      "judge_score": null
+    }
+  ],
+  "vram_checks_count": 24,
+  "all_observed_size_vram_zero": true,
+  "limits": [
+    "not_full_route07verify_pipeline",
+    "no_independent_semantic_judge",
+    "rule_check_not_semantic_accuracy",
+    "failed_generation_not_zero_score",
+    "successful_found_false_may_be_retrieval_failure"
+  ],
+  "original_guard_preserved": true,
+  "final_model_selection": "pending"
+}

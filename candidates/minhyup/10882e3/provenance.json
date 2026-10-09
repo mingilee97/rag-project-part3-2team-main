@@ -1,0 +1,31 @@
+{
+  "repository": "seolwoom/rag-for-proposals",
+  "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+  "committed_at_utc": "2026-10-07T09:26:52Z",
+  "files": [
+    {
+      "path": "candidates/minhyup/10882e3/rag_chunking.py",
+      "bytes": 7338,
+      "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889",
+      "original_git_blob_sha": "4581f40347779996ed72ef521c8dd440e29a48b6",
+      "source_url": "https://github.com/seolwoom/rag-for-proposals/blob/10882e31f1945369b68e38843a8f64ea777d3ffb/rag_chunking.py"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/rag_reranking.py",
+      "bytes": 4928,
+      "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff",
+      "original_git_blob_sha": "2e60191a73d69dd9b40c91bb1129dbc74c729129",
+      "source_url": "https://github.com/seolwoom/rag-for-proposals/blob/10882e31f1945369b68e38843a8f64ea777d3ffb/rag_reranking.py"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/rag_context.py",
+      "bytes": 2965,
+      "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45",
+      "original_git_blob_sha": "e764d306a715f94cecc2405f83cd32b2cf1831e2",
+      "source_url": "https://github.com/seolwoom/rag-for-proposals/blob/10882e31f1945369b68e38843a8f64ea777d3ffb/rag_context.py"
+    }
+  ],
+  "original_bytes_preserved": true,
+  "native_loader_may_download_or_use_gpu": true,
+  "use_cpu_offline_harness_instead_of_native_loader_for_review": true
+}

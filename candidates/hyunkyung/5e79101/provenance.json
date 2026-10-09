@@ -1,0 +1,17 @@
+{
+  "repository": "HyeongyeongKim/codeit_second_project",
+  "pinned_head": "5e79101a0af1c7e0a18b01d47644090d3b323dd4",
+  "head_committed_at_utc": "2026-10-08T02:01:09Z",
+  "code_upload_commit": "75eec8830987b71f3cbb81766e064695768f3919",
+  "notebook_file_sha256": "b2b942ec5fd6d57da2d5e4aac2cb6f15f6acdcd6215bf6c248a2a99a3b34ceaa",
+  "cell": 10,
+  "cell_source_sha256": "e9bad8c277bfe65e3b021937998210e0284575e35dbf148f5cb6716efd331c17",
+  "exported_functions": [
+    "compact_for_preservation",
+    "clean_document_text"
+  ],
+  "exported_file_sha256": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c",
+  "notebook_outputs_dataset_loader_and_models_not_exported": true,
+  "behavior_changed": false,
+  "exported_file_newline": "LF; extracted function behavior preserved"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "calendar-unified-20261008",
+  "date": "2026-10-08",
+  "role": "reported-operating-checkpoint-as-of-2026-10-08",
+  "source_sealed_at_utc": "2026-10-08T05:01:27.236Z",
+  "original_entry": "index-DPz-vjGk.js",
+  "original_entry_sha256": "2bf9fbba4362ada29858ba7b1d59aa5416533d003b5a1768e0e615e287e77dc4",
+  "source_manifest_sha256": "f7e5e827ec5ef7e6e0bf27a1a9c920c0f227028d6145387ed349243b537b0d13",
+  "model_version_independent": true,
+  "published_components": [
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/calendarDate.ts",
+      "bytes": 3570,
+      "sha256": "559a3fd53734266f1e15979a8585272a1bd413c990881b6042e771b6f3982385",
+      "original_relative_path": "src/calendarDate.ts",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/unified-calendar.css",
+      "bytes": 20810,
+      "sha256": "13155c304e1cf4002f9dcba68232ebe92205e2afa6e13204d08a02e45938f5ba",
+      "original_relative_path": "src/unified-calendar.css",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/processRoadmapLayout.ts",
+      "bytes": 4480,
+      "sha256": "e4a68ef3fd81ab66dbf9d0af2ceacfd9aa6efda3fe04cf8facb4aa8df6a5af61",
+      "original_relative_path": "src/processRoadmapLayout.ts",
+      "same_bytes_as_checkpoint": true
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/process-roadmap.css",
+      "bytes": 21238,
+      "sha256": "2939e593168220a60606fd9e0bdf7fcc576d018b8b62dc5cdac1d0ba3b1ab9aa",
+      "original_relative_path": "src/process-roadmap.css",
+      "same_bytes_as_checkpoint": true
+    }
+  ],
+  "publication_scope": "source-identical pure UI utilities/styles; synthetic example separately",
+  "excluded": [
+    "fullappmetadata",
+    "actualmembers",
+    "SheetURL",
+    "diaries",
+    "DB",
+    "privateevaluationhistory",
+    "deploymentcredentials",
+    "compiledprivatebundle"
+  ],
+  "full_original_checkpoint_recoverable_from_public_repo": false
+}

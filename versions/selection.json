@@ -1,0 +1,24 @@
+{
+  "schema": "model-selection-status-v1",
+  "as_of_utc": "2026-10-09T06:56:02.765183+00:00",
+  "status": "pending",
+  "currently_retained_baseline": "main-07_verify-423a32a",
+  "adopted_new_candidate": null,
+  "reason": "같은조건의전체생성·judge평가미완료;작은검색pilot만으로최종우승을선정하지않음",
+  "local_full_evaluation_authorized_at_utc": "2026-10-09T06:49:00Z",
+  "blocked_or_waiting": [
+    "full100CPUretrieval_in_progress",
+    "full504generation_paused_before_first_input_after_updated_5hour_estimate",
+    "independent_semantic_judge_not_executed",
+    "formal_registered_07verify_holdout_not_executed"
+  ],
+  "judge_missing_or_error_policy": "recordaserrorornull;neverconverttozeroqualityscore",
+  "production_changed": false,
+  "roadmap_adoption_clicked": false,
+  "generation_pilot": {
+    "inputs": 12,
+    "successful": 12,
+    "errors": 0,
+    "actual_vram_zero": true
+  }
+}

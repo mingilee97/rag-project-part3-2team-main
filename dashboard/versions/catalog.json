@@ -1,0 +1,21 @@
+{
+  "schema": "ui-version-catalog-v1",
+  "versions": [
+    {
+      "id": "calendar-unified-20261008",
+      "date": "2026-10-08",
+      "role": "reported-operating-checkpoint-as-of-2026-10-08",
+      "manifest": "versions/calendar-unified-20261008/manifest.json",
+      "original_entry_sha256": "2bf9fbba4362ada29858ba7b1d59aa5416533d003b5a1768e0e615e287e77dc4"
+    },
+    {
+      "id": "roadmap-readable-20261008",
+      "date": "2026-10-08",
+      "role": "reviewed-local-candidate-not-deployed",
+      "manifest": "versions/roadmap-readable-20261008/manifest.json",
+      "original_entry_sha256": "71853da34bf7f50f4486c32c1fc9e5abf11b3fb9af0d31a7b960e1636c54b134"
+    }
+  ],
+  "selection_does_not_adopt_model": true,
+  "live_deployment_checked_this_task": false
+}
