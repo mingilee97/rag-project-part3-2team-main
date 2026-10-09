@@ -1,0 +1,169 @@
+{
+  "schema": "paired-retrieval-analysis-v1",
+  "completed_utc": "2026-10-09T10:48:33.996169+00:00",
+  "corpus_documents": 100,
+  "questions": 168,
+  "projects": 14,
+  "raw_present_quotes": 491,
+  "eligible_quotes": 508,
+  "presence_question_denominator": 152,
+  "paired": [
+    {
+      "treatment": "candidate_bge_parent4_pool20",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 44,
+      "quote_hit_loss": 68,
+      "net_quote_hit_difference": -24,
+      "paired_quote_micro_recall_difference": -0.048879837067209775,
+      "any_hit_questions_gained": 10,
+      "any_hit_questions_lost": 21,
+      "complete_questions_gained": 11,
+      "complete_questions_lost": 19,
+      "questions_quote_count_improved": 25,
+      "questions_quote_count_regressed": 34,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        -0.1099032738095238,
+        0.00806492342782665
+      ],
+      "improved_projects": 3,
+      "regressed_projects": 10
+    },
+    {
+      "treatment": "candidate_bge_top5",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 30,
+      "quote_hit_loss": 50,
+      "net_quote_hit_difference": -20,
+      "paired_quote_micro_recall_difference": -0.04073319755600815,
+      "any_hit_questions_gained": 10,
+      "any_hit_questions_lost": 10,
+      "complete_questions_gained": 8,
+      "complete_questions_lost": 14,
+      "questions_quote_count_improved": 19,
+      "questions_quote_count_regressed": 24,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        -0.09684562159709618,
+        0.009039906634179171
+      ],
+      "improved_projects": 5,
+      "regressed_projects": 8
+    },
+    {
+      "treatment": "candidate_dense_parent4_pool20",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 24,
+      "quote_hit_loss": 80,
+      "net_quote_hit_difference": -56,
+      "paired_quote_micro_recall_difference": -0.11405295315682282,
+      "any_hit_questions_gained": 5,
+      "any_hit_questions_lost": 29,
+      "complete_questions_gained": 8,
+      "complete_questions_lost": 16,
+      "questions_quote_count_improved": 15,
+      "questions_quote_count_regressed": 36,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        -0.16598513579642768,
+        -0.06417808125265657
+      ],
+      "improved_projects": 2,
+      "regressed_projects": 11
+    },
+    {
+      "treatment": "candidate_dense_top5",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 8,
+      "quote_hit_loss": 78,
+      "net_quote_hit_difference": -70,
+      "paired_quote_micro_recall_difference": -0.1425661914460285,
+      "any_hit_questions_gained": 4,
+      "any_hit_questions_lost": 25,
+      "complete_questions_gained": 3,
+      "complete_questions_lost": 17,
+      "questions_quote_count_improved": 6,
+      "questions_quote_count_regressed": 33,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        -0.19298641459243776,
+        -0.09614520958083837
+      ],
+      "improved_projects": 0,
+      "regressed_projects": 13
+    },
+    {
+      "treatment": "main_bge_top5",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 29,
+      "quote_hit_loss": 55,
+      "net_quote_hit_difference": -26,
+      "paired_quote_micro_recall_difference": -0.05295315682281059,
+      "any_hit_questions_gained": 11,
+      "any_hit_questions_lost": 15,
+      "complete_questions_gained": 11,
+      "complete_questions_lost": 14,
+      "questions_quote_count_improved": 19,
+      "questions_quote_count_regressed": 27,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        -0.11681248965060441,
+        0.00425646305193319
+      ],
+      "improved_projects": 5,
+      "regressed_projects": 9
+    },
+    {
+      "treatment": "main_dense_top5",
+      "baseline": "main_dense_top5",
+      "quote_hit_gain": 0,
+      "quote_hit_loss": 0,
+      "net_quote_hit_difference": 0,
+      "paired_quote_micro_recall_difference": 0.0,
+      "any_hit_questions_gained": 0,
+      "any_hit_questions_lost": 0,
+      "complete_questions_gained": 0,
+      "complete_questions_lost": 0,
+      "questions_quote_count_improved": 0,
+      "questions_quote_count_regressed": 0,
+      "cluster_bootstrap_percentile95_quote_recall_difference": [
+        0.0,
+        0.0
+      ],
+      "improved_projects": 0,
+      "regressed_projects": 0
+    }
+  ],
+  "actual_bge_window_pairs": 6720,
+  "bge_predict_seconds_once_sum": 2690.855756299952,
+  "bge_timing_by_variant": [
+    {
+      "variant": "main_fixed1000_200",
+      "calls": 168,
+      "actual_window_pairs": 3360,
+      "mean_seconds": 9.801623379166596,
+      "p50_seconds": 9.94266504999905,
+      "p95_seconds": 12.079813144999935,
+      "max_seconds": 13.481680199998664,
+      "scope": "rerank_children wall time; not full pipeline latency"
+    },
+    {
+      "variant": "minhyup_child1000_200",
+      "calls": 168,
+      "actual_window_pairs": 3360,
+      "mean_seconds": 6.215375170237881,
+      "p50_seconds": 5.798901150001257,
+      "p95_seconds": 9.398025109999798,
+      "max_seconds": 11.072181500003353,
+      "scope": "rerank_children wall time; not full pipeline latency"
+    }
+  ],
+  "source_aggregate_sha256": "7ec1746d07f17f523ad0430b42ad949a98c5676a666dbb31014041344c903971",
+  "analysis_script_sha256": "242ed8547d6b3e9d6f688e8870c5e3399547482b3eb6d24b5a7eae7400b4b95a",
+  "bootstrap": {
+    "seed": 20261009,
+    "samples": 2000,
+    "resample_unit": "whole_project",
+    "cluster_count": 14,
+    "interpretation": "descriptive uncertainty within diagnostic corpus; no independent holdout or external generalization proof"
+  },
+  "quote_gain_loss_definition": "sum of positive/negative per-question HIT COUNT differences; not anchor identity transitions",
+  "private_question_texts_and_project_identifiers_omitted": true,
+  "generated_answer_quality": null,
+  "full_generation_status": "paused_before_first_input"
+}

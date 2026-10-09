@@ -1,0 +1,43 @@
+{
+  "schema": "bf16-ranking-precision-audit-v2",
+  "scope": "current100doc_full_distractor_corpus",
+  "records": [
+    {
+      "variant": "main_fixed1000_200",
+      "corpus_documents": 100,
+      "questions": 168,
+      "vector_count": 10922,
+      "vector_file_sha256": "466b30c0ad36f41ae724576ac9e6a583ace5d207c427d805f740dfc2a94679b7",
+      "norm_min": 0.998046875,
+      "norm_max": 1.0038145780563354,
+      "max_absolute_unit_norm_error": 0.0038145780563354492,
+      "top5_order_changed_questions": 49,
+      "top5_set_changed_questions": 16,
+      "top20_set_changed_questions": 50,
+      "actual_stored_top20_orders_reproduced": 168,
+      "vectors_contexts_or_original_rankings_overwritten": false
+    },
+    {
+      "variant": "minhyup_child1000_200",
+      "corpus_documents": 100,
+      "questions": 168,
+      "vector_count": 17700,
+      "vector_file_sha256": "3eb6699a8a50242e0bd03b9056df69bc577d1a09db9b8ff9d573cc70c2c14584",
+      "norm_min": 0.9980469942092896,
+      "norm_max": 1.0038567781448364,
+      "max_absolute_unit_norm_error": 0.0038567781448364258,
+      "top5_order_changed_questions": 64,
+      "top5_set_changed_questions": 18,
+      "top20_set_changed_questions": 57,
+      "actual_stored_top20_orders_reproduced": 168,
+      "vectors_contexts_or_original_rankings_overwritten": false
+    }
+  ],
+  "actual_search": "exhaustive float32 matvec dot ranking on nominally normalized BF16-derived vectors; no ANN",
+  "diagnostic_correction": "divide same raw float32 dot scores by float32-computed vector/query norms in float64; not a new embedding or full float64 dot experiment",
+  "diagnostic_not_used_to_replace_original_results": true,
+  "generated_answer_quality": null,
+  "source_aggregate_sha256": "7ec1746d07f17f523ad0430b42ad949a98c5676a666dbb31014041344c903971",
+  "audit_source_sha256": "127966332b091abc01338139315ffeaf2491b1e50055aa3bf6e3a2fb919bc987",
+  "private_identifiers_texts_vectors_and_perquestion_orders_not_output": true
+}

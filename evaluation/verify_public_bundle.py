@@ -2,6 +2,7 @@
 import ast
 import hashlib
 import json
+import math
 from pathlib import Path
 import re
 import sys
@@ -78,6 +79,32 @@ def main():
     pilot = read(ROOT / 'evaluation/aggregates/20261009-bge-pilot.json')
     assert len(pilot['aggregates']) == 6 and pilot['generator_calls'] == 0 and pilot['gpu_calls'] == 0
     assert all(r['questions'] == 4 and r['budget_overflows'] == 0 for r in pilot['aggregates'])
+    full_path = ROOT / 'evaluation/aggregates/20261009-full-retrieval.json'
+    paired_path = ROOT / 'evaluation/aggregates/20261009-paired-retrieval.json'
+    precision_path = ROOT / 'evaluation/aggregates/20261009-bf16-precision100.json'
+    if any(path.exists() for path in [full_path, paired_path, precision_path]):
+        assert all(path.exists() for path in [full_path, paired_path, precision_path])
+        full, paired, precision = read(full_path), read(paired_path), read(precision_path)
+        expected = {'main_dense_top5', 'main_bge_top5', 'candidate_dense_top5', 'candidate_bge_top5',
+                    'candidate_dense_parent4_pool20', 'candidate_bge_parent4_pool20'}
+        assert full['schema'] == 'public-full100-retrieval-v1'
+        assert full['corpus_documents'] == 100 and full['questions'] == 168
+        assert full['generator_calls'] == full['judge_calls'] == full['conditions']['gpu_calls'] == 0
+        assert not full['conditions']['exact_cosine'] and full['conditions']['precision_clarification_added_after_run_without_ranking_changes']
+        assert len(full['aggregates']) == 6 and {r['treatment'] for r in full['aggregates']} == expected
+        for row in full['aggregates']:
+            assert row['questions'] == 168 and row['raw_present_quotes'] == 491 and row['eligible_quotes'] == 508
+            assert row['budget_overflows'] == 0 and 0 <= row['pooled_present_quote_hits'] <= 491
+            assert 0 <= row['any_hit_questions'] <= 168 and 0 <= row['complete_questions'] <= 152
+            assert math.isfinite(row['context_tokens_mean']) and 0 <= row['context_tokens_mean'] <= 4000
+            assert math.isclose(row['pooled_present_quote_recall'], row['pooled_present_quote_hits']/491)
+        assert paired['source_aggregate_sha256'] == precision['source_aggregate_sha256'] == full['source_local_aggregate_sha256']
+        assert len(paired['paired']) == 6 and {r['treatment'] for r in paired['paired']} == expected
+        assert paired['raw_present_quotes'] == 491 and paired['presence_question_denominator'] == 152
+        assert paired['bootstrap']['resample_unit'] == 'whole_project' and paired['bootstrap']['cluster_count'] == 14
+        assert len(precision['records']) == 2 and all(r['actual_stored_top20_orders_reproduced'] == 168 for r in precision['records'])
+        assert all(not r['vectors_contexts_or_original_rankings_overwritten'] for r in precision['records'])
+        assert selection['retrieval_full100']['status'] == 'completed' and selection['status'] == 'pending'
     artifact_manifest = ROOT / 'versions/public-artifacts.json'
     if artifact_manifest.exists():
         for item in read(artifact_manifest)['files']:

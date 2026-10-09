@@ -4,11 +4,19 @@ import argparse
 import json
 from pathlib import Path
 import time
+import urllib.parse
+import urllib.request
 from cpu_service import CPUService
 
 MODEL = 'exaone3.5:7.8b'
 DIGEST = 'c7c4e3d1ca22fe9225f18b35eb719f67e2ca96a42e7fd17294a45b83ba8fbf03'
 OLLAMA_VERSION = '0.35.1'
+
+
+class NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, request, response, code, message, headers, new_url):
+        # 전용 loopback 서비스가 다른 URL을 가리켜도 따라가지 않는다.
+        return None
 
 
 def choose_question_indices(questions, scope):
@@ -35,9 +43,20 @@ def require_linux_remote_environment(execution_environment):
 class VMService(CPUService):
     def __init__(self, base_url='http://127.0.0.1:11435', execution_environment='vm', threads=4):
         require_linux_remote_environment(execution_environment)
+        url = urllib.parse.urlsplit(base_url)
+        if url.username is not None or url.password is not None or url.path not in {'', '/'} or url.query or url.fragment:
+            raise ValueError('GPU 평가 서비스 URL에는 인증정보·추가 경로·query·fragment를 넣지 않습니다')
         super().__init__(base_url, MODEL, threads)
         self.execution_environment = execution_environment
         self.protocol_verified = False
+
+    def request(self, endpoint, payload=None, timeout=900):
+        data = json.dumps(payload, ensure_ascii=False).encode('utf-8') if payload is not None else None
+        request = urllib.request.Request(self.base_url+endpoint, data=data, headers={'Content-Type': 'application/json'})
+        # HTTP_PROXY 등 환경 프록시를 쓰지 않아 loopback 본문이 프록시로 전달되지 않는다.
+        opener = urllib.request.build_opener(urllib.request.ProxyHandler({}), NoRedirect())
+        with opener.open(request, timeout=timeout) as stream:
+            return json.loads(stream.read())
 
     def verify_protocol(self):
         version = self.request('/api/version', timeout=10).get('version')

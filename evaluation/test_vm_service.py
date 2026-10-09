@@ -1,7 +1,8 @@
 """모델 호출 없이 Windows 차단·고정 모델 계약·실제 GPU 관측 요구를 검사한다."""
 import unittest
 from unittest.mock import patch
-from vm_service import VMService, DIGEST, require_linux_remote_environment, choose_question_indices
+from vm_service import VMService, DIGEST, require_linux_remote_environment, choose_question_indices, NoRedirect
+import urllib.request
 
 
 class FakeService(VMService):
@@ -22,6 +23,27 @@ class FakeService(VMService):
 
 
 class VMContractTests(unittest.TestCase):
+    def test_credentialed_or_non_origin_service_URL_is_rejected(self):
+        with patch('vm_service.require_linux_remote_environment'):
+            for url in ['http://:password@127.0.0.1:11435', 'http://127.0.0.1:11435/path',
+                        'http://127.0.0.1:11435?token=synthetic', 'http://127.0.0.1:11435#fragment', 'http://example.invalid']:
+                with self.assertRaises(ValueError): VMService(url)
+
+    def test_loopback_request_explicitly_disables_environment_proxy(self):
+        with patch('vm_service.require_linux_remote_environment'):
+            service = VMService()
+        with patch('vm_service.urllib.request.ProxyHandler') as handler, patch('vm_service.urllib.request.build_opener') as build:
+            build.return_value.open.return_value.__enter__.return_value.read.return_value = b'{"version":"0.35.1"}'
+            self.assertEqual(service.request('/api/version', timeout=10), {'version': '0.35.1'})
+            handler.assert_called_once_with({})
+            build.assert_called_once()
+            self.assertIs(build.call_args.args[0], handler.return_value)
+            self.assertIsInstance(build.call_args.args[1], NoRedirect)
+
+    def test_loopback_redirect_does_not_forward_to_another_URL(self):
+        request = urllib.request.Request('http://127.0.0.1:11435/api/chat', data=b'synthetic')
+        self.assertIsNone(NoRedirect().redirect_request(request, None, 302, '', {}, 'https://example.invalid'))
+
     def test_pilot_uses_first_question_of_four_distinct_projects(self):
         questions = [{'project_id': p} for p in ['a', 'a', 'b', 'b', 'c', 'd', 'e']]
         self.assertEqual(choose_question_indices(questions, 'pilot4'), [0, 2, 4, 5])

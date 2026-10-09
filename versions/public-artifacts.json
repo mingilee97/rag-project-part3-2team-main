@@ -189,6 +189,11 @@
       "sha256_lf": "9893cd7a43867383f865f344fe74990a65a75dc7cb5aec2524eb735f3019d746"
     },
     {
+      "path": "evaluation/aggregates/20261009-bf16-precision100.json",
+      "bytes": 1978,
+      "sha256_lf": "7df503d02b4ad39b332198a8929601b20550b75de83a0a24609a35e354af900c"
+    },
+    {
       "path": "evaluation/aggregates/20261009-bf16-precision14.json",
       "bytes": 1215,
       "sha256_lf": "2720a98ce1381c5018ee1afb116258486d71d6e64ff4ee918bdb5873f87a9677"
@@ -204,9 +209,19 @@
       "sha256_lf": "3b68c61bfa39baf0fffe7afc703917aa1665d0dee7705a99d0c3a3c745c40d53"
     },
     {
+      "path": "evaluation/aggregates/20261009-full-retrieval.json",
+      "bytes": 5128,
+      "sha256_lf": "712bfc06b06c0865ea5fff10555dc59eb3e91f3cae7e73f1f53beeae4f52f4bd"
+    },
+    {
       "path": "evaluation/aggregates/20261009-generation-pilot.json",
       "bytes": 2129,
       "sha256_lf": "8011df7184cd511ca23d35026ed586fbdfd0e7f03ccddb465e5d4cfed295f3d0"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-paired-retrieval.json",
+      "bytes": 5890,
+      "sha256_lf": "cd8c67ef2379d08a43b44545490373af67168d1e9aba15307d75d5c1af2d16a8"
     },
     {
       "path": "evaluation/components.py",
@@ -255,18 +270,18 @@
     },
     {
       "path": "evaluation/test_vm_service.py",
-      "bytes": 3559,
-      "sha256_lf": "f1184098b08e052aecc2e447e4173db811897ad44ac058698360f986ad58bfce"
+      "bytes": 5048,
+      "sha256_lf": "41034b3c8fe9c23f7790ed4708be772a7fb6d4e80397b72f9f1e9e360dd107dd"
     },
     {
       "path": "evaluation/verify_public_bundle.py",
-      "bytes": 5753,
-      "sha256_lf": "51332dbd86a28360bd81341bde608028e9994489fcfdeafab19ac4fc51eb1841"
+      "bytes": 8303,
+      "sha256_lf": "b5926584e87fa2d8c8e94c950dd96ab2184f691aa0e10ef4daad362491d11b10"
     },
     {
       "path": "evaluation/vm-package.json",
-      "bytes": 1455,
-      "sha256_lf": "ce3623b5bc079705b5b1a0bf59cbe9157de1be11b4390ca35961ed3bb05a0603"
+      "bytes": 1862,
+      "sha256_lf": "7e8da6a017fc6e151b52990fb51bc7a93f2883e680e5fee2fb443eff45dd1490"
     },
     {
       "path": "evaluation/vm-preflight.py",
@@ -275,8 +290,8 @@
     },
     {
       "path": "evaluation/vm_service.py",
-      "bytes": 5959,
-      "sha256_lf": "e768843e1c94861a3abec32b3154af41d5366711b92b54c2a117f8cc60f0e60d"
+      "bytes": 7152,
+      "sha256_lf": "a492aa9aa6e2ceb5f638cda8d39e4c2ffdf31781831ec1dc78f6bc052657276d"
     },
     {
       "path": "versions/models.json",
@@ -285,8 +300,8 @@
     },
     {
       "path": "versions/selection.json",
-      "bytes": 927,
-      "sha256_lf": "a9afc81be411a862afd50ed737eaaeeffb96737f2f7e1d2897a86abfaa259d40"
+      "bytes": 1577,
+      "sha256_lf": "1affef6bce4650dc624c25bd40f388e44748222276dee4ae1e5e884f27d4a9c3"
     }
   ],
   "scope": "whitelisted source utilities/public teammate components/synthetic UI/aggregate results/offline reproduction; no raw private data",
@@ -300,5 +315,5 @@
     "external_requests": 0,
     "desktop_mobile": true
   },
-  "updated_utc": "2026-10-09T09:03:41.359595+00:00"
+  "updated_utc": "2026-10-09T10:50:53.369572+00:00"
 }

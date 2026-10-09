@@ -1,16 +1,17 @@
 {
   "schema": "model-selection-status-v1",
-  "as_of_utc": "2026-10-09T06:56:02.765183+00:00",
+  "as_of_utc": "2026-10-09T10:50:53.354892+00:00",
   "status": "pending",
   "currently_retained_baseline": "main-07_verify-423a32a",
   "adopted_new_candidate": null,
-  "reason": "같은조건의전체생성·judge평가미완료;작은검색pilot만으로최종우승을선정하지않음",
+  "reason": "전체 100문서 검색 비교를 완료했다. 기존 코드 기준선을 보존하며, 상위 Claude API를 임시로 사용할 아키텍처 검증과 원래 프로젝트 모델의 재검증이 남아 있다. 최종 서비스 모델 채택은 보류한다.",
   "local_full_evaluation_authorized_at_utc": "2026-10-09T06:49:00Z",
   "blocked_or_waiting": [
-    "full100CPUretrieval_in_progress",
     "full504generation_paused_before_first_input_after_updated_5hour_estimate",
     "independent_semantic_judge_not_executed",
-    "formal_registered_07verify_holdout_not_executed"
+    "formal_registered_07verify_holdout_not_executed",
+    "temporary_Claude_API_architecture_validation_model_and_cost_cap_pending",
+    "original_project_model_requirement_source_and_selected_architecture_revalidation_pending"
   ],
   "judge_missing_or_error_policy": "recordaserrorornull;neverconverttozeroqualityscore",
   "production_changed": false,
@@ -20,5 +21,14 @@
     "successful": 12,
     "errors": 0,
     "actual_vram_zero": true
+  },
+  "EXAONE_local_or_VM_generation_plan": "cancelled_or_on_hold_by_latest_user_direction",
+  "temporary_API_validation_is_final_service_model_adoption": false,
+  "retrieval_full100": {
+    "status": "completed",
+    "questions": 168,
+    "treatments": 6,
+    "evidence": "evaluation/aggregates/20261009-full-retrieval.json",
+    "generated_answer_quality": null
   }
 }
