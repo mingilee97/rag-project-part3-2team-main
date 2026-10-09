@@ -39,7 +39,9 @@ python evaluation/full_cpu_compare.py \
 
 Windows PowerShell에서는 줄 연결 기호 대신 한 줄로 실행하거나 인자를 배열로 전달한다. 경로는 자신의 승인된 로컬 자산으로 바꾼다. `--guard-file`을 지정하면 기존 등록 평가의 가드 파일 해시도 실행 계획에 기록한다. 파일을 수정하거나 제거하지 않는다.
 
-CPU4스레드 BF16·KURE normalize·exact cosine을 양쪽에 적용한다. 후보 기본 GPU/다운로드 loader를 실행하지 않는다. 메인과 후보 모두 prefix를 같은 검색 입력에 넣고 BGE에는 본문만 넣는다. 전역 부모 키로 문서 간 ID 충돌을 방지한다. BGE는 동일 pool20을 한 번씩 점수화하고 child top5 또는 parent4에 재사용한다. 총 근거 예산은 같은 4,000 o200k, 부모당 2,000이다.
+CPU4스레드 BF16·KURE normalize 뒤 float32로 저장한 벡터의 dot 전수 검색을 양쪽에 적용한다. 근사 최근접 검색(ANN)은 사용하지 않는다. BF16에서 정규화할 때 생긴 단위 길이 오차를 보존하므로 엄밀한 코사인으로 표시하지 않는다. 후보 기본 GPU/다운로드 loader를 실행하지 않는다. 메인과 후보 모두 prefix를 같은 검색 입력에 넣고 BGE에는 본문만 넣는다. 전역 부모 키로 문서 간 ID 충돌을 방지한다. BGE는 동일 pool20을 한 번씩 점수화하고 child top5 또는 parent4에 재사용한다. 총 근거 예산은 같은 4,000 o200k, 부모당 2,000이다.
+
+공개 재현 코드 v2는 KURE revision `8b418a58414668e75532ed045c22d9ca018ae2b2`, BGE revision `953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e` 이름의 로컬 snapshot과 기존 CPU BF16 벡터 조건을 모델 로딩 전에 확인한다. 캐시 폴더 이름 확인은 가중치의 독립 출처 검증을 대신하지 않는다. 실행 중인 비공개 v1 코드를 수정하지 않았으며 v1 체크포인트를 v2 계획으로 덮어쓰지 않는다. v2 재현에는 새 출력 폴더를 사용한다.
 
 완료 배치마다 vector flush 이후 checkpoint를 저장하며, 문항/variant별 JSON을 원자적으로 저장한다. 같은 명령으로 재개하면 조건·소스 해시를 확인하고 완료 부분을 건너뛴다. 출력 경로는 저장소 밖 또는 Git에서 제외한 `data/` 아래만 허용한다. `aggregate.json` 외에도 원문을 담는 `items.local` 등이 생기므로 평가 출력 폴더 전체를 Git에 추가하지 않는다.
 

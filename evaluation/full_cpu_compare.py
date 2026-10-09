@@ -29,6 +29,7 @@ def no_network(*args, **kwargs):
 socket.socket.connect = no_network
 socket.create_connection = no_network
 from components import build, bounded, coverage, anchors, facts, covered, alignment, test_helpers
+from retrieval_protocol import validate_reuse_protocol
 from langchain_core.documents import Document
 from rag_reranking import rerank_children
 from rag_context import count_tokens
@@ -127,10 +128,11 @@ def main():
     prior_chunks, _, _, _ = build([d for d in docs if d['doc_id'] in common])
     previous = read(ARGS.prior_results)
     manifest = read(ARGS.prior_alignment)
-    state = {'schema': 'full-cpu-100-v1', 'corpus_sha256': sha(data), 'questions_sha256': sha(qpath),
+    protocol = validate_reuse_protocol(previous['conditions'], ARGS.kure_snapshot, ARGS.bge_snapshot)
+    state = {'schema': 'full-cpu-100-v2', 'corpus_sha256': sha(data), 'questions_sha256': sha(qpath),
         'corpus_documents': 100, 'questions': 168, 'projects': 14, 'full_distractor_corpus': True,
         'variants': [{'id': n, 'chunks': len(v), 'alignment_sha256': alignment(v)} for n, v in chunks.items()],
-        'conditions': {'device': 'cpu', 'dtype': 'bfloat16', 'threads': 4, 'batch_size': 8, 'exact_cosine': True,
+        'conditions': {'device': 'cpu', 'dtype': 'bfloat16', 'threads': 4, 'batch_size': 8, **protocol,
             'chunk_chars': 1000, 'overlap_chars': 200, 'parent_chars': 8000, 'pool': 20, 'child_k': 5,
             'parent_k': 4, 'context_budget_o200k': 4000, 'body_only_bge': True,
             'generator_calls': 0, 'judge_calls': 0, 'network_calls': 0, 'gpu_calls': 0},

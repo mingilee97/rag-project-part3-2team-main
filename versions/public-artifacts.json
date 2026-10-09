@@ -4,14 +4,29 @@
   "hash_policy": "UTF-8 text with CRLF normalized to LF for Git platform independence",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 292,
+      "sha256_lf": "0a4760dd663bed7439494d532a4795f4ac5de8508e68ad4bb1d87479d0b5d05b"
+    },
+    {
       "path": ".github/workflows/review-bundle.yml",
-      "bytes": 1008,
-      "sha256_lf": "b45e22bc39f7fd6d4571e3e06049ce97be70a95d610b1f50f6ffd4298928c915"
+      "bytes": 1122,
+      "sha256_lf": "0a93a324652ee09efd952a81a2706f1312f328b49d3ea1aafbc1b70edc5ed7a5"
     },
     {
       "path": "AGENTS.md",
-      "bytes": 1000,
+      "bytes": 992,
       "sha256_lf": "a858c410bf052bb4e98c28ddb1864eba369def1d41836fb82071ff4b66b0c6ac"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4247,
+      "sha256_lf": "2d2bbbf05edda5e485387b6a2a5aeee02970e2d513a10ac5123d464bbfe8ba6e"
+    },
+    {
+      "path": "candidates/hyunkyung/5e79101/adapter.py",
+      "bytes": 2075,
+      "sha256_lf": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
     },
     {
       "path": "candidates/hyunkyung/5e79101/cleaning.py",
@@ -20,12 +35,12 @@
     },
     {
       "path": "candidates/hyunkyung/5e79101/provenance.json",
-      "bytes": 1230,
+      "bytes": 1205,
       "sha256_lf": "ebf3898c2b68da2d3590d66257eb77e193499de40db7a687551950e90b306956"
     },
     {
       "path": "candidates/minhyup/10882e3/provenance.json",
-      "bytes": 1504,
+      "bytes": 1473,
       "sha256_lf": "976a4ad00215de7e1eb8be208590e69cab1b5bf46d963d7934bb785c6c5dd3dd"
     },
     {
@@ -105,12 +120,12 @@
     },
     {
       "path": "dashboard/versions/calendar-unified-20261008/manifest.json",
-      "bytes": 2130,
+      "bytes": 2078,
       "sha256_lf": "bfb0282bf916aedd7b14f996748fa45b2f0c8258c9c6233063a4e2d15a0943a6"
     },
     {
       "path": "dashboard/versions/catalog.json",
-      "bytes": 788,
+      "bytes": 767,
       "sha256_lf": "72225712702b44075e08a134205753539ce48144bc9f6ba6ac51a3c490a7904c"
     },
     {
@@ -135,18 +150,18 @@
     },
     {
       "path": "dashboard/versions/roadmap-readable-20261008/manifest.json",
-      "bytes": 2122,
+      "bytes": 2070,
       "sha256_lf": "7576bea0c2ed44b5f6133e3dc56d3af184ea8c94875f8541415ecb5bafaf072a"
     },
     {
       "path": "docs/버전-검토-인계-20261009.md",
-      "bytes": 3666,
-      "sha256_lf": "0853eba7569885fe20cf9eb699b03b5f9332417f89e4bcbccc8e422deab2df3b"
+      "bytes": 5099,
+      "sha256_lf": "8db302399e397c2f7c8f38aa6b6a1dc3e943c251166c0eec8f7c67446c225725"
     },
     {
       "path": "docs/버전-비교-근거.md",
-      "bytes": 8915,
-      "sha256_lf": "fcfdf8db7d0504b32bfca5c5340abd94e7bbd5f5758185f19337b2f6abe16438"
+      "bytes": 10182,
+      "sha256_lf": "ba50ae70a5440380f67a94a0f4ae7e0372cd9dbe6e1c495e8f1967ca1c936466"
     },
     {
       "path": "docs/평가-환경-비교-20261009.md",
@@ -154,33 +169,48 @@
       "sha256_lf": "9dce50c80eba43004252f2640c44403d889ee5216588844587c96a681bcb4d45"
     },
     {
+      "path": "evaluation/README.md",
+      "bytes": 7127,
+      "sha256_lf": "c8f75a28ad5e22a44098a578098b8beb50099db9572a54dbe1798ca1d6dd7d2e"
+    },
+    {
+      "path": "evaluation/VM-COLAB.md",
+      "bytes": 8822,
+      "sha256_lf": "61f6ba2c8fa74ac3de928a10f2e2bef56239aa7741ef4ffb2987df8d283671f0"
+    },
+    {
       "path": "evaluation/aggregates/20261008-context.json",
-      "bytes": 59017,
+      "bytes": 57845,
       "sha256_lf": "2758171397cdd0dff3b9237b943991eabbb70b53ad89b738a5a9acb268aa14cf"
     },
     {
       "path": "evaluation/aggregates/20261008-retrieval.json",
-      "bytes": 8128,
+      "bytes": 7908,
       "sha256_lf": "9893cd7a43867383f865f344fe74990a65a75dc7cb5aec2524eb735f3019d746"
     },
     {
+      "path": "evaluation/aggregates/20261009-bf16-precision14.json",
+      "bytes": 1215,
+      "sha256_lf": "2720a98ce1381c5018ee1afb116258486d71d6e64ff4ee918bdb5873f87a9677"
+    },
+    {
       "path": "evaluation/aggregates/20261009-bge-pilot-provenance.json",
-      "bytes": 549,
+      "bytes": 539,
       "sha256_lf": "e399c195eb2b130a968be1644fc42dd8bbee3f3236f577aebfe3d94577fefe3e"
     },
     {
       "path": "evaluation/aggregates/20261009-bge-pilot.json",
-      "bytes": 3657,
+      "bytes": 3546,
       "sha256_lf": "3b68c61bfa39baf0fffe7afc703917aa1665d0dee7705a99d0c3a3c745c40d53"
     },
     {
       "path": "evaluation/aggregates/20261009-generation-pilot.json",
-      "bytes": 2199,
+      "bytes": 2129,
       "sha256_lf": "8011df7184cd511ca23d35026ed586fbdfd0e7f03ccddb465e5d4cfed295f3d0"
     },
     {
       "path": "evaluation/components.py",
-      "bytes": 7498,
+      "bytes": 7346,
       "sha256_lf": "64a22158b7cb0d2b9ad78eeab9cf371dcb7af788d4124931fd983b6bec9c108c"
     },
     {
@@ -190,8 +220,8 @@
     },
     {
       "path": "evaluation/full_cpu_compare.py",
-      "bytes": 14776,
-      "sha256_lf": "bf4665fc6671d62108d6a04f8ad4c64ad3334f716522616b5e1febc26a4e6ff4"
+      "bytes": 14677,
+      "sha256_lf": "b5ac4f9b1470a5df13170092d241e90eb39da159da0ea492702ee3a0974bceb1"
     },
     {
       "path": "evaluation/generate_cpu_components.py",
@@ -199,9 +229,19 @@
       "sha256_lf": "2a51eb2e755d77d5280cf0aaabeff3097c77f9ddf9a2045db1c17c7d3a860061"
     },
     {
-      "path": "evaluation/README.md",
-      "bytes": 6400,
-      "sha256_lf": "a7397073c37c9ae73351013d5ec74281eff55d97bb73b33db7b303f826d2c696"
+      "path": "evaluation/generate_vm_components.py",
+      "bytes": 12440,
+      "sha256_lf": "8662a487d461214ca14379bf72f44cad0acc1939338d851b8ccd77f5ca81b41b"
+    },
+    {
+      "path": "evaluation/retrieval_protocol.py",
+      "bytes": 1724,
+      "sha256_lf": "511d2c15c4a495ac358c0031603015ab52e6e7c81666b23ffcd4a6047ad0b1b2"
+    },
+    {
+      "path": "evaluation/test_cleaning_adapter.py",
+      "bytes": 1656,
+      "sha256_lf": "855cfee85c7b8da6e91088d9d22eb3a82f36d4f94244f9b866ff892fc2f2abcc"
     },
     {
       "path": "evaluation/test_cpu_service.py",
@@ -209,39 +249,44 @@
       "sha256_lf": "16ac5ecb3ddec8999431bc0624136de3797ee9410a9b188c38e00edfbd7ce95a"
     },
     {
+      "path": "evaluation/test_retrieval_protocol.py",
+      "bytes": 2011,
+      "sha256_lf": "b901ab980d600e57c8490e34c599957bdd8559fd235ecf3018ff34c6d46a7eb5"
+    },
+    {
+      "path": "evaluation/test_vm_service.py",
+      "bytes": 3559,
+      "sha256_lf": "f1184098b08e052aecc2e447e4173db811897ad44ac058698360f986ad58bfce"
+    },
+    {
       "path": "evaluation/verify_public_bundle.py",
       "bytes": 5753,
       "sha256_lf": "51332dbd86a28360bd81341bde608028e9994489fcfdeafab19ac4fc51eb1841"
     },
     {
-      "path": "README.md",
-      "bytes": 4247,
-      "sha256_lf": "2d2bbbf05edda5e485387b6a2a5aeee02970e2d513a10ac5123d464bbfe8ba6e"
+      "path": "evaluation/vm-package.json",
+      "bytes": 1455,
+      "sha256_lf": "ce3623b5bc079705b5b1a0bf59cbe9157de1be11b4390ca35961ed3bb05a0603"
+    },
+    {
+      "path": "evaluation/vm-preflight.py",
+      "bytes": 4569,
+      "sha256_lf": "f9efcbb19388e966976c9042b8c5497796dd835bc530c22aca4b2de47fecef17"
+    },
+    {
+      "path": "evaluation/vm_service.py",
+      "bytes": 5959,
+      "sha256_lf": "e768843e1c94861a3abec32b3154af41d5366711b92b54c2a117f8cc60f0e60d"
     },
     {
       "path": "versions/models.json",
-      "bytes": 2263,
+      "bytes": 2207,
       "sha256_lf": "8f89ae57305c2f142726f59c38ea2448ae279caf8df7678c24ee1c6730a37211"
     },
     {
       "path": "versions/selection.json",
-      "bytes": 951,
+      "bytes": 927,
       "sha256_lf": "a9afc81be411a862afd50ed737eaaeeffb96737f2f7e1d2897a86abfaa259d40"
-    },
-    {
-      "path": ".gitattributes",
-      "bytes": 303,
-      "sha256_lf": "0a4760dd663bed7439494d532a4795f4ac5de8508e68ad4bb1d87479d0b5d05b"
-    },
-    {
-      "path": "candidates/hyunkyung/5e79101/adapter.py",
-      "bytes": 2075,
-      "sha256_lf": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
-    },
-    {
-      "path": "evaluation/test_cleaning_adapter.py",
-      "bytes": 1656,
-      "sha256_lf": "855cfee85c7b8da6e91088d9d22eb3a82f36d4f94244f9b866ff892fc2f2abcc"
     }
   ],
   "scope": "whitelisted source utilities/public teammate components/synthetic UI/aggregate results/offline reproduction; no raw private data",
@@ -255,5 +300,5 @@
     "external_requests": 0,
     "desktop_mobile": true
   },
-  "updated_utc": "2026-10-09T08:03:22.313565+00:00"
+  "updated_utc": "2026-10-09T09:03:41.359595+00:00"
 }

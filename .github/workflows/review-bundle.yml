@@ -23,6 +23,8 @@ jobs:
           package-manager-cache: false
       - run: python -B evaluation/test_cpu_service.py
       - run: python -B evaluation/test_cleaning_adapter.py
+      - run: python -B evaluation/test_retrieval_protocol.py
+      - run: python -B evaluation/test_vm_service.py
       - run: python -B evaluation/verify_public_bundle.py
       - run: node dashboard/test-example.mjs
       - run: git diff --check
