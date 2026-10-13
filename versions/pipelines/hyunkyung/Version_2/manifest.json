@@ -1,0 +1,40 @@
+{
+  "id": "hyunkyung/Version_2",
+  "label": "Version 2",
+  "repository": "HyeongyeongKim/codeit_second_project",
+  "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+  "change_kind": "형식만 변환",
+  "adoption": "미채택; 기존 평가의 회귀 때문에 보류",
+  "stages": {
+    "parser": [],
+    "chunking": [],
+    "embedding": [],
+    "retrieval": [
+      "business_identifier.py"
+    ],
+    "generation": [],
+    "verification": []
+  },
+  "files": [
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb::normalize_project_text,choose_project,identify_project",
+      "module": "versions/pipelines/hyunkyung/Version_2/business_identifier.py",
+      "sha256": "28e81365fe1b444ef3f51c6f97aab78e03374b32628f08c3bd13142c4923b7bf",
+      "ast_equal_functions": [
+        "normalize_project_text",
+        "choose_project",
+        "identify_project"
+      ],
+      "adapter_functions": [
+        "resolve_project",
+        "select_for_pipeline"
+      ],
+      "adapter_changes": "메인 문서 카탈로그 연결 및 비교·목록·후속 질문 bypass. 원본 전체 파이프라인 아님."
+    }
+  ],
+  "missing": [
+    "parser/chunking/embedding/generation/verification의 이 버전 독립 변환 미완료",
+    "원본 전역 카탈로그는 호출자가 전달해야 함"
+  ],
+  "run": "resolve_project(question, doc_info, aliases=None). 합성 입력으로만 검사하며 평가 전 채택하지 않습니다."
+}

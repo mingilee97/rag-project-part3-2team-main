@@ -1,0 +1,346 @@
+{
+  "schema": "pipeline-source-catalog-v1",
+  "as_of": "2026-10-13",
+  "selected": "Baseline",
+  "automatic_adoption": false,
+  "versions": [
+    {
+      "id": "Baseline",
+      "label": "최초 공개 실행 코드",
+      "repository": "mingilee97/rag-project-part3-2team-main",
+      "commit": "bfca8f0508b65dfa97d9aa01da9a93ac188e68bd",
+      "source_implementation_commit": "423a32ab47ffe8a41b3dfbd00a9844889e4cadd5",
+      "change_kind": "원본 보존",
+      "adoption": "유지한 기준; 확정 우승 모델 아님",
+      "stages": {
+        "parser": [
+          "rfp_rag/ingest/load.py"
+        ],
+        "chunking": [
+          "rfp_rag/ingest/chunk.py"
+        ],
+        "embedding": [
+          "rfp_rag/index.py"
+        ],
+        "retrieval": [
+          "rfp_rag/retrieve.py",
+          "rfp_rag/route.py",
+          "rfp_rag/memory.py"
+        ],
+        "generation": [
+          "rfp_rag/answer.py",
+          "rfp_rag/providers.py",
+          "rfp_rag/pipeline.py"
+        ],
+        "verification": [
+          "rfp_rag/answer.py",
+          "rfp_rag/pipeline.py"
+        ]
+      },
+      "files": [
+        {
+          "original": "configs/base.yaml",
+          "module": "versions/pipelines/Baseline/configs/base.yaml",
+          "sha256": "17db6dc6e741e793895bcd5f14fff9f091aa1076f8d18bb1f6772bca9ffee36c"
+        },
+        {
+          "original": "configs/exp/07_verify.yaml",
+          "module": "versions/pipelines/Baseline/configs/exp/07_verify.yaml",
+          "sha256": "4313f35ea5d8cdf0eb9cc0b89f03a10d1c583064fead3d8b0b9065cbfd493fe8"
+        },
+        {
+          "original": "requirements.txt",
+          "module": "versions/pipelines/Baseline/requirements.txt",
+          "sha256": "845cf8bc5687cecebc9701541d9c7bf77f6f84e66488fd07a58ccb29728ffba7"
+        },
+        {
+          "original": "rfp_rag/__init__.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/__init__.py",
+          "sha256": "ee3626e576e221ba27fd0324ae5052e8df5c38709c48b92f0783f4251624f264"
+        },
+        {
+          "original": "rfp_rag/answer.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/answer.py",
+          "sha256": "e14191408c985e6a08fa442755e28bbc09a15817ee5fc8ad925f56d0602c0552"
+        },
+        {
+          "original": "rfp_rag/calllog.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/calllog.py",
+          "sha256": "a06cc9c8162fe4de9354fa5a689ef00227faae5179b4c8708597e5462ae67df9"
+        },
+        {
+          "original": "rfp_rag/index.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/index.py",
+          "sha256": "9f09f4cb870fd83b7c8da2361ea2fc779c87a6deb2a85b9d1f9c5c16900ec756"
+        },
+        {
+          "original": "rfp_rag/ingest/__init__.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/__init__.py",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+          "original": "rfp_rag/ingest/chunk.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/chunk.py",
+          "sha256": "f9f9949cc7b45178aea245388ce3b50e5694c5f8d3c16566e05f6a3a95af0de3"
+        },
+        {
+          "original": "rfp_rag/ingest/clean.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/clean.py",
+          "sha256": "41b2198670cded36cc7115f654bb6d1ad2e4cb3eda14ec5caf40452f3e8416ef"
+        },
+        {
+          "original": "rfp_rag/ingest/eda.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/eda.py",
+          "sha256": "e621b59f172fc89e4a2d45c2da906ed522f6eb7d2146ec96774de9d926ca5ad6"
+        },
+        {
+          "original": "rfp_rag/ingest/enrich.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/enrich.py",
+          "sha256": "56d17fd6092dfb62ab75e6ab44bfc75adf1831acbcff475eeb2ed2162b643aa9"
+        },
+        {
+          "original": "rfp_rag/ingest/load.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/load.py",
+          "sha256": "f22c2046c9d517c5162b07c6aefa6be5f4dfddf366b7f645785b8647937f5645"
+        },
+        {
+          "original": "rfp_rag/memory.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/memory.py",
+          "sha256": "aa77817b6e65bcf860427057ff50346a2926811174bd2e033259a45fe7d5d96f"
+        },
+        {
+          "original": "rfp_rag/pipeline.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/pipeline.py",
+          "sha256": "a22186d4a4f68c32ef90ed2b5e4d712cb0af1e42cb2226752e828b37f4e89e71"
+        },
+        {
+          "original": "rfp_rag/providers.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/providers.py",
+          "sha256": "2b55bdae0f172c306ebb4ff05839540907bc23e19964abb00265c56158bcad34"
+        },
+        {
+          "original": "rfp_rag/retrieve.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/retrieve.py",
+          "sha256": "3ec66aeac725c288f25fe49973329fdec84296e7c8d937252904a8f2ee607eb7"
+        },
+        {
+          "original": "rfp_rag/route.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/route.py",
+          "sha256": "11e3f6bad2588503e91db5fd9171de1dcf6e3c341b6d97f68e805ce0b665d3d8"
+        },
+        {
+          "original": "rfp_rag/settings.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/settings.py",
+          "sha256": "70c91aa9355b5ec777ed62cdf13c8f9221145f649016064389eba11cf768deb0"
+        }
+      ],
+      "missing": [
+        "별도 원본 문서·모델·색인 필요"
+      ],
+      "run": "Baseline 폴더에서 README의 07_verify 명령을 실행합니다. 모델 호출은 별도 승인 필요."
+    },
+    {
+      "id": "hyunkyung/Version_1",
+      "label": "Version 1",
+      "repository": "HyeongyeongKim/codeit_second_project",
+      "commit": "5e79101a0af1c7e0a18b01d47644090d3b323dd4",
+      "change_kind": "원본 보존 / 형식만 변환",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [
+          "cleaning.py",
+          "adapter.py"
+        ],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "candidates/hyunkyung/5e79101/cleaning.py",
+          "module": "versions/pipelines/hyunkyung/Version_1/cleaning.py",
+          "sha256": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c"
+        },
+        {
+          "original": "candidates/hyunkyung/5e79101/adapter.py",
+          "module": "versions/pipelines/hyunkyung/Version_1/adapter.py",
+          "sha256": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
+        }
+      ],
+      "missing": [
+        "chunking 단계 전체 파이프라인 연결 미완료",
+        "embedding 단계 전체 파이프라인 연결 미완료",
+        "retrieval 단계 전체 파이프라인 연결 미완료",
+        "generation 단계 전체 파이프라인 연결 미완료",
+        "verification 단계 전체 파이프라인 연결 미완료"
+      ],
+      "run": "python versions/pipelines/select.py --version hyunkyung/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+    },
+    {
+      "id": "minhyup/Version_1",
+      "label": "Version 1",
+      "repository": "seolwoom/rag-for-proposals",
+      "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "change_kind": "원본 보존 / 형식만 변환",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [],
+        "chunking": [
+          "rag_chunking.py"
+        ],
+        "embedding": [],
+        "retrieval": [
+          "rag_reranking.py"
+        ],
+        "generation": [
+          "rag_context.py"
+        ],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "candidates/minhyup/10882e3/rag_chunking.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_chunking.py",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+        },
+        {
+          "original": "candidates/minhyup/10882e3/rag_reranking.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_reranking.py",
+          "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff"
+        },
+        {
+          "original": "candidates/minhyup/10882e3/rag_context.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_context.py",
+          "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45"
+        }
+      ],
+      "missing": [
+        "parser 단계 전체 파이프라인 연결 미완료",
+        "embedding 단계 전체 파이프라인 연결 미완료",
+        "verification 단계 전체 파이프라인 연결 미완료"
+      ],
+      "run": "python versions/pipelines/select.py --version minhyup/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+    },
+    {
+      "id": "hyunkyung/Version_2",
+      "label": "Version 2",
+      "repository": "HyeongyeongKim/codeit_second_project",
+      "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+      "change_kind": "형식만 변환",
+      "adoption": "미채택; 기존 평가의 회귀 때문에 보류",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [
+          "business_identifier.py"
+        ],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb::normalize_project_text,choose_project,identify_project",
+          "module": "versions/pipelines/hyunkyung/Version_2/business_identifier.py",
+          "sha256": "28e81365fe1b444ef3f51c6f97aab78e03374b32628f08c3bd13142c4923b7bf",
+          "ast_equal_functions": [
+            "normalize_project_text",
+            "choose_project",
+            "identify_project"
+          ],
+          "adapter_functions": [
+            "resolve_project",
+            "select_for_pipeline"
+          ],
+          "adapter_changes": "메인 문서 카탈로그 연결 및 비교·목록·후속 질문 bypass. 원본 전체 파이프라인 아님."
+        }
+      ],
+      "missing": [
+        "parser/chunking/embedding/generation/verification의 이 버전 독립 변환 미완료",
+        "원본 전역 카탈로그는 호출자가 전달해야 함"
+      ],
+      "run": "resolve_project(question, doc_info, aliases=None). 합성 입력으로만 검사하며 평가 전 채택하지 않습니다."
+    },
+    {
+      "id": "minhyup/Version_2",
+      "label": "Version 2",
+      "repository": "seolwoom/rag-for-proposals",
+      "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "local_adapter_commit": "26dd049e2523137621f7653c52adfd375a5f60d3",
+      "change_kind": "알고리즘 개선 후보; 개선 효과 미입증",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [],
+        "chunking": [
+          "rag_chunking.py",
+          "chunking.py"
+        ],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "controlled_modules::chunk_teammate",
+          "module": "versions/pipelines/minhyup/Version_2/chunking.py",
+          "sha256": "4b379566d0548171c2bc0dc39a1f24c1bfe51703160a1378b9b49bffc4e29e84",
+          "changes": "원본 parent/child 경계와 메인 메타데이터 연결. 1000/200 공통 상한으로 큰 표 재분할; 상대 import만 공개 위치에 맞춤."
+        },
+        {
+          "original": "rag_chunking.py",
+          "module": "versions/pipelines/minhyup/Version_2/rag_chunking.py",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+        }
+      ],
+      "missing": [
+        "독립 embedding/retrieval/generation/verification 연결 미완료"
+      ],
+      "run": "from versions.pipelines.minhyup.Version_2.chunking import chunk_teammate; chunk_teammate(doc,1000,200). 품질 평가를 호출하지 않습니다."
+    },
+    {
+      "id": "eugene/Version_1",
+      "label": "Version 1 · 미확보",
+      "repository": "eugene527/rag-project-evaluation",
+      "commit": null,
+      "change_kind": "미확보",
+      "adoption": "판정 불가",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [],
+      "missing": [
+        "2026-10-13 GitHub 공식 조회 HTTP 404; 비공개·권한·삭제 여부 구분 불가"
+      ],
+      "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+    },
+    {
+      "id": "wonyoung/Version_1",
+      "label": "Version 1 · 미확보",
+      "repository": "1young-codes/codeit-rag",
+      "commit": null,
+      "change_kind": "미확보",
+      "adoption": "판정 불가",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [],
+      "missing": [
+        "2026-10-13 공개 저장소 확인, commits/main HTTP 409: Git Repository is empty."
+      ],
+      "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+    }
+  ]
+}

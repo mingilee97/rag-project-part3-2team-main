@@ -1,0 +1,2 @@
+# 질문 분류, 답변 근거 검증, 문서 요약 검색을 켠다.
+pipeline: {route: true, verify: true, use_enriched: true}

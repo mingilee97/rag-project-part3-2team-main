@@ -35,7 +35,8 @@ def main():
     paths += [ROOT / 'docs/버전-비교-근거.md', ROOT / '.github/workflows/review-bundle.yml']
     for path in paths:
         rel = path.relative_to(ROOT).as_posix()
-        if path.suffix not in SUFFIXES | {'.yml'} or path.stat().st_size > 1_000_000:
+        baseline_config = rel in {'versions/pipelines/Baseline/requirements.txt', 'versions/pipelines/Baseline/configs/base.yaml', 'versions/pipelines/Baseline/configs/exp/07_verify.yaml'}
+        if (path.suffix not in SUFFIXES | {'.yml'} and not baseline_config) or path.stat().st_size > 1_000_000:
             issues.append({'file': rel, 'kind': 'forbidden-type-or-size'}); continue
         try: content = path.read_text(encoding='utf-8')
         except UnicodeError:

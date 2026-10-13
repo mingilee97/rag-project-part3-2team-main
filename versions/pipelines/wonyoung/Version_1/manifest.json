@@ -1,0 +1,21 @@
+{
+  "id": "wonyoung/Version_1",
+  "label": "Version 1 · 미확보",
+  "repository": "1young-codes/codeit-rag",
+  "commit": null,
+  "change_kind": "미확보",
+  "adoption": "판정 불가",
+  "stages": {
+    "parser": [],
+    "chunking": [],
+    "embedding": [],
+    "retrieval": [],
+    "generation": [],
+    "verification": []
+  },
+  "files": [],
+  "missing": [
+    "2026-10-13 공개 저장소 확인, commits/main HTTP 409: Git Repository is empty."
+  ],
+  "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+}
