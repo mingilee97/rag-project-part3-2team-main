@@ -21,7 +21,7 @@
     {
       "path": "README.md",
       "bytes": 4247,
-      "sha256_lf": "fd7bb604f7f182e4c94912c1aa3eeb4b41efbe2e40d1f0abb4a24eb75de8a2b1"
+      "sha256_lf": "98090c2e3e37015dbf1ab99e777c7ee07f1b0fcba95bd5db55f8701b9c50d0c1"
     },
     {
       "path": "candidates/hyunkyung/5e79101/adapter.py",
@@ -276,7 +276,7 @@
     {
       "path": "evaluation/verify_public_bundle.py",
       "bytes": 8303,
-      "sha256_lf": "0a6a0d16727bddfeb2afcf08587ba0a449a2bd236308277929a629fa9ee5c440"
+      "sha256_lf": "b3bd361211f78f1e9186f0435be6964c7afdfe87f37787a91d8155fa943e2e9a"
     },
     {
       "path": "evaluation/vm-package.json",

@@ -32,6 +32,7 @@ def main():
         paths.extend(p for p in (ROOT / area).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     paths += [ROOT / 'README.md', ROOT / 'AGENTS.md']
     paths += list((ROOT / 'docs').glob('*20261009.md'))
+    paths += list((ROOT / 'docs').glob('*20261013.md'))
     paths += [ROOT / 'docs/버전-비교-근거.md', ROOT / '.github/workflows/review-bundle.yml']
     for path in paths:
         rel = path.relative_to(ROOT).as_posix()
