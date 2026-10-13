@@ -393,7 +393,7 @@
             7
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/parser.py",
-          "sha256": "02e7df170fb07d29dbc5270adf0478ff28aa40a2d54927361ded7110b06fc826",
+          "sha256": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
           "source_definitions": [
             {
               "name": "normalize_filename",
@@ -410,7 +410,7 @@
             9
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/cleaning.py",
-          "sha256": "c36c787a752b019745028ed20f9a35008edca5eb08755817286fcb0fd3fb40ae",
+          "sha256": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
           "source_definitions": []
         },
         {
@@ -419,7 +419,7 @@
             11
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/chunking.py",
-          "sha256": "aa015a70f58df4b4ab0beffb1d8f1b2514c203e6767676125d99f386ca4514cb",
+          "sha256": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
           "source_definitions": []
         },
         {
@@ -428,7 +428,7 @@
             13
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/embedding.py",
-          "sha256": "a8cbb3b77638d3698cffa597a9819a5cb6eaa38f72d2535d7841f2fa3bbe8934",
+          "sha256": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
           "source_definitions": []
         },
         {
@@ -439,7 +439,7 @@
             23
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/retrieval.py",
-          "sha256": "0076b421feae02bbae13955c1573e75a8aae1f982bb21d1dd9e8d0b76e21db9c",
+          "sha256": "52258a74a2d4f057a70f98c4d19e68f69559fa26dce829ce8bf2d78112b0d583",
           "source_definitions": [
             {
               "name": "normalize_project_text",
@@ -506,7 +506,7 @@
             26
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/generation.py",
-          "sha256": "5b02ff6704e23d1c6485310b9fc3bca2940a405c40384d1a22d070ed50d06fcf",
+          "sha256": "27c51bff61a2f7f13774e8a00c7f003a66b1305ebff98392f4b83fa4725efc48",
           "source_definitions": [
             {
               "name": "answer_question",
@@ -523,7 +523,7 @@
             19
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/local_model.py",
-          "sha256": "7bdcc4f170ccacef86b528e243083082d49deed7f15695439f06cb5298184ef9",
+          "sha256": "45def99ed0629e07720e41be15de8f88496aaa01fc67af8b44e3e9d5264b1984",
           "source_definitions": []
         },
         {
@@ -532,7 +532,7 @@
             33
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",
-          "sha256": "ae29e7386611b66d800591b8bc0d4374b9686677fe330ae840c93103f8e278c8",
+          "sha256": "1de0b6eaeae5f91363adc09fd1cd1a41303886bf4afff773cbb004ef6526592d",
           "source_definitions": [
             {
               "name": "compact",
@@ -557,7 +557,7 @@
             7
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/parser.py",
-          "sha256": "02e7df170fb07d29dbc5270adf0478ff28aa40a2d54927361ded7110b06fc826",
+          "sha256": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
           "source_definitions": [
             {
               "name": "normalize_filename",
@@ -574,7 +574,7 @@
             9
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/cleaning.py",
-          "sha256": "c36c787a752b019745028ed20f9a35008edca5eb08755817286fcb0fd3fb40ae",
+          "sha256": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
           "source_definitions": []
         },
         {
@@ -583,7 +583,7 @@
             11
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/chunking.py",
-          "sha256": "aa015a70f58df4b4ab0beffb1d8f1b2514c203e6767676125d99f386ca4514cb",
+          "sha256": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
           "source_definitions": []
         },
         {
@@ -592,7 +592,7 @@
             13
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/embedding.py",
-          "sha256": "a8cbb3b77638d3698cffa597a9819a5cb6eaa38f72d2535d7841f2fa3bbe8934",
+          "sha256": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
           "source_definitions": []
         },
         {
@@ -603,7 +603,7 @@
             23
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/retrieval.py",
-          "sha256": "932e401826d37eb6e0956ec72b8d9e3bbfffd3c6a26f961b2fd2251e8b94481c",
+          "sha256": "96a430bbcb5f86f116269e44fb558a936a4cbe994db37e378833665b7fc3caf1",
           "source_definitions": [
             {
               "name": "normalize_project_text",
@@ -677,7 +677,7 @@
             26
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation.py",
-          "sha256": "661569f8856bdfdec036758fba83a04109920016166cedc12844ecf5285d413e",
+          "sha256": "dfc8f3f623c0c78a5f0b39515414da8ee23c1b751cfdbb00e47b30361cab7b3b",
           "source_definitions": [
             {
               "name": "answer_question",
@@ -694,7 +694,7 @@
             20
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation_model.py",
-          "sha256": "d69b7026163519e2b6ff1011da501b1022f4666a915a92016a9dfb1d4bddad0d",
+          "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
           "source_definitions": []
         },
         {
@@ -703,7 +703,7 @@
             33
           ],
           "module": "versions/pipelines/hyunkyung/Version_3/kiwi/verification.py",
-          "sha256": "c508d6367345bfa96064cfdb6210e88cb931002518ebd35bbb1848938b942332",
+          "sha256": "85c81555f3f689dd3dc0896072cc018936798c10dd2e909d9d75b9d65c939875",
           "source_definitions": [
             {
               "name": "compact",
@@ -774,7 +774,7 @@
             7
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/parser_fix.py",
-          "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+          "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
           "source_definitions": [
             {
               "name": "_extract_hyperlink_texts_from_para",
@@ -798,7 +798,7 @@
             8
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/parser.py",
-          "sha256": "09d625f880f7c7e21fc5c6eaea6f9bf3748d829957425fad85918eab4262c669",
+          "sha256": "4a009a57ff5fa911501c2237cb385c065fdaae1d123b1b8ad8e81bb3d6bf432f",
           "source_definitions": []
         },
         {
@@ -807,7 +807,7 @@
             11
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/chunking.py",
-          "sha256": "19a5ee9aa72624e9f0ba0be7d8f73ba2f452b4fcaf2999856d1c6b16477e0811",
+          "sha256": "9efda2d7fd3d430603fb0f2f4eef49959f18589e69326e200ee57aedf10e06e7",
           "source_definitions": []
         },
         {
@@ -816,7 +816,7 @@
             14
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/embedding.py",
-          "sha256": "ff9e30891a7dc2f9fa646a3863c849ee15e574ceb16c3d0176fa7c5911b53c98",
+          "sha256": "4e34a2d31b2241b9edad1c2a334335287f181861d0da418af5ea69880cc52ed5",
           "source_definitions": []
         },
         {
@@ -825,7 +825,7 @@
             17
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/generation_model.py",
-          "sha256": "1e7f380a8d00655699f60758d990006ffd29a671f4ac99691529f874d4cc4b35",
+          "sha256": "f50011df78485ff51d99e499b9bcf5e5479fbd1284dc8e2560e91e10c3324277",
           "source_definitions": []
         },
         {
@@ -835,7 +835,7 @@
             25
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/generation.py",
-          "sha256": "baac2004de42df82f2e878a99c6f0447d3dd0676a30692ece2cfeefd6a38e129",
+          "sha256": "2284c8997dc1efab267986c5c72e41b686f52cc4ec4e8a32f16ce33e399c1fce",
           "source_definitions": [
             {
               "name": "format_docs",
@@ -852,7 +852,7 @@
             31
           ],
           "module": "versions/pipelines/minhyup/Version_3/openai/retrieval.py",
-          "sha256": "a88fd2f1c34f5811c95a7ea6e70d1273d700139b97fbf335d83e87a04b1daf81",
+          "sha256": "5df543ac3d6af760afd0a4089412417f9335315bc7ff3d78ff138ba5d997fdca",
           "source_definitions": [
             {
               "name": "tokenize_korean",
@@ -883,7 +883,7 @@
             9
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/parser_fix.py",
-          "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+          "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
           "source_definitions": [
             {
               "name": "_extract_hyperlink_texts_from_para",
@@ -907,7 +907,7 @@
             10
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/parser.py",
-          "sha256": "eaf8fc2c28eb826c419816bbab9b7d702b78b08cad613a1c70790c7e407cf040",
+          "sha256": "9e814e07f9c632745c2f392f5551a16bf7c02e5dbf6fdf086c05d22b1ec974f0",
           "source_definitions": []
         },
         {
@@ -916,7 +916,7 @@
             13
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/chunking.py",
-          "sha256": "19786ceb6e6e63bb4c4905114d188ec166e8424b400faf64212ffe76682abb1b",
+          "sha256": "074bec7ad7b4b54388eeb0f3f03f6e540f33bf938be42887c999bdb4f29616eb",
           "source_definitions": []
         },
         {
@@ -925,7 +925,7 @@
             17
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/embedding.py",
-          "sha256": "cdbe377386640fc0ef3fb9dc2fd3f9c4b2b0ba235d723ff4136f179520b33901",
+          "sha256": "042e903a6f46cda6ab0d96b7b6465097ec4b5e670844393bd4a6ca033e600a1a",
           "source_definitions": [
             {
               "name": "KoE5Embeddings",
@@ -943,7 +943,7 @@
             21
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/generation_model.py",
-          "sha256": "1f958e01b23428c72e16e4ab613348e7b36cacf0abfd82d5d2e3099f419a6243",
+          "sha256": "b6a3b42235c19a7699839ae87935f73d2e2359d5862cab5e9fe5bf0f8188b6c9",
           "source_definitions": [
             {
               "name": "render_chat_prompt",
@@ -968,7 +968,7 @@
             29
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/generation.py",
-          "sha256": "40b4707ff886c8ab2511db4fbfffb17e205c21359156d317ac21d17daa7328de",
+          "sha256": "f16852e228e675df7fc1674d294be3263744462cd06837e07ffc24aebeb4ad5d",
           "source_definitions": [
             {
               "name": "format_docs",
@@ -985,7 +985,7 @@
             36
           ],
           "module": "versions/pipelines/minhyup/Version_3/local/retrieval.py",
-          "sha256": "dae9b93e6cab9b1a320082d096493c8aded8b5fea2d6ce4515c7b4b2bb5d57a2",
+          "sha256": "81738124b625a18b530ee27dfebfdf32d6480162053489cb94ea73e5bb0008cc",
           "source_definitions": [
             {
               "name": "tokenize_korean",
@@ -1013,25 +1013,25 @@
         {
           "original": "rag_chunking.py",
           "module": "versions/pipelines/minhyup/Version_3/rag_chunking.py",
-          "sha256": "7c33442e1380b8e0885e1d1126edecba7cf7a8c7a5ecf45e346a70923488212c",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889",
           "change": "원본 바이트 보존"
         },
         {
           "original": "rag_reranking.py",
           "module": "versions/pipelines/minhyup/Version_3/rag_reranking.py",
-          "sha256": "fc0b26087c95c0a49d199b3d9889da7a386809fdd67ef4a9dfc1d307b64fdd7b",
+          "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff",
           "change": "원본 바이트 보존"
         },
         {
           "original": "rag_context.py",
           "module": "versions/pipelines/minhyup/Version_3/rag_context.py",
-          "sha256": "866d973adca899a74aaa96610e2b22229f0e1d9bb7de0065de5bc15b8801f7b8",
+          "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45",
           "change": "원본 바이트 보존"
         },
         {
           "original": "verify_rag.py",
           "module": "versions/pipelines/minhyup/Version_3/verify_rag.py",
-          "sha256": "1f72019d1187d0821fdf48eb564111b665a9e3dac55db4ebe06de1dfbb9a4265",
+          "sha256": "eaef80c3cd2635220f7e14eb85da2f24d650a72ddf919a996fcaed1a01b55662",
           "change": "원본 바이트 보존"
         }
       ],

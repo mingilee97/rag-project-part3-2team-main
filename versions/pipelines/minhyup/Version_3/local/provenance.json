@@ -2,7 +2,7 @@
   "repository": "seolwoom/rag-for-proposals",
   "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
   "notebook": "RAG_local_ver.0.1.ipynb",
-  "notebook_sha256": "601c8c38031ffb1941b62cb03433a67a38875ffdc3b317184fd3d462413289fe",
+  "notebook_sha256": "6ca91dc5bf902ee8084aef5a0e740759400c577c7369cd7a26aa26091edf8132",
   "files": [
     {
       "original": "RAG_local_ver.0.1.ipynb",
@@ -10,7 +10,7 @@
         9
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/parser_fix.py",
-      "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+      "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
       "source_definitions": [
         {
           "name": "_extract_hyperlink_texts_from_para",
@@ -34,7 +34,7 @@
         10
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/parser.py",
-      "sha256": "eaf8fc2c28eb826c419816bbab9b7d702b78b08cad613a1c70790c7e407cf040",
+      "sha256": "9e814e07f9c632745c2f392f5551a16bf7c02e5dbf6fdf086c05d22b1ec974f0",
       "source_definitions": []
     },
     {
@@ -43,7 +43,7 @@
         13
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/chunking.py",
-      "sha256": "19786ceb6e6e63bb4c4905114d188ec166e8424b400faf64212ffe76682abb1b",
+      "sha256": "074bec7ad7b4b54388eeb0f3f03f6e540f33bf938be42887c999bdb4f29616eb",
       "source_definitions": []
     },
     {
@@ -52,7 +52,7 @@
         17
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/embedding.py",
-      "sha256": "cdbe377386640fc0ef3fb9dc2fd3f9c4b2b0ba235d723ff4136f179520b33901",
+      "sha256": "042e903a6f46cda6ab0d96b7b6465097ec4b5e670844393bd4a6ca033e600a1a",
       "source_definitions": [
         {
           "name": "KoE5Embeddings",
@@ -70,7 +70,7 @@
         21
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/generation_model.py",
-      "sha256": "1f958e01b23428c72e16e4ab613348e7b36cacf0abfd82d5d2e3099f419a6243",
+      "sha256": "b6a3b42235c19a7699839ae87935f73d2e2359d5862cab5e9fe5bf0f8188b6c9",
       "source_definitions": [
         {
           "name": "render_chat_prompt",
@@ -95,7 +95,7 @@
         29
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/generation.py",
-      "sha256": "40b4707ff886c8ab2511db4fbfffb17e205c21359156d317ac21d17daa7328de",
+      "sha256": "f16852e228e675df7fc1674d294be3263744462cd06837e07ffc24aebeb4ad5d",
       "source_definitions": [
         {
           "name": "format_docs",
@@ -112,7 +112,7 @@
         36
       ],
       "module": "versions/pipelines/minhyup/Version_3/local/retrieval.py",
-      "sha256": "dae9b93e6cab9b1a320082d096493c8aded8b5fea2d6ce4515c7b4b2bb5d57a2",
+      "sha256": "81738124b625a18b530ee27dfebfdf32d6480162053489cb94ea73e5bb0008cc",
       "source_definitions": [
         {
           "name": "tokenize_korean",

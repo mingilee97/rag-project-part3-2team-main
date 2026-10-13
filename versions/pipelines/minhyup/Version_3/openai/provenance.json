@@ -2,7 +2,7 @@
   "repository": "seolwoom/rag-for-proposals",
   "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
   "notebook": "RAG_openai_ver.0.1.ipynb",
-  "notebook_sha256": "48ecd441128f5a343756d26b3256de714231f7a93c682a411dd33db240f6f80e",
+  "notebook_sha256": "bbcbba2fa6121f13746bcc871ef54e416b5aa90cb2da6fb95d391649af1f6a13",
   "files": [
     {
       "original": "RAG_openai_ver.0.1.ipynb",
@@ -10,7 +10,7 @@
         7
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/parser_fix.py",
-      "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+      "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
       "source_definitions": [
         {
           "name": "_extract_hyperlink_texts_from_para",
@@ -34,7 +34,7 @@
         8
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/parser.py",
-      "sha256": "09d625f880f7c7e21fc5c6eaea6f9bf3748d829957425fad85918eab4262c669",
+      "sha256": "4a009a57ff5fa911501c2237cb385c065fdaae1d123b1b8ad8e81bb3d6bf432f",
       "source_definitions": []
     },
     {
@@ -43,7 +43,7 @@
         11
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/chunking.py",
-      "sha256": "19a5ee9aa72624e9f0ba0be7d8f73ba2f452b4fcaf2999856d1c6b16477e0811",
+      "sha256": "9efda2d7fd3d430603fb0f2f4eef49959f18589e69326e200ee57aedf10e06e7",
       "source_definitions": []
     },
     {
@@ -52,7 +52,7 @@
         14
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/embedding.py",
-      "sha256": "ff9e30891a7dc2f9fa646a3863c849ee15e574ceb16c3d0176fa7c5911b53c98",
+      "sha256": "4e34a2d31b2241b9edad1c2a334335287f181861d0da418af5ea69880cc52ed5",
       "source_definitions": []
     },
     {
@@ -61,7 +61,7 @@
         17
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/generation_model.py",
-      "sha256": "1e7f380a8d00655699f60758d990006ffd29a671f4ac99691529f874d4cc4b35",
+      "sha256": "f50011df78485ff51d99e499b9bcf5e5479fbd1284dc8e2560e91e10c3324277",
       "source_definitions": []
     },
     {
@@ -71,7 +71,7 @@
         25
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/generation.py",
-      "sha256": "baac2004de42df82f2e878a99c6f0447d3dd0676a30692ece2cfeefd6a38e129",
+      "sha256": "2284c8997dc1efab267986c5c72e41b686f52cc4ec4e8a32f16ce33e399c1fce",
       "source_definitions": [
         {
           "name": "format_docs",
@@ -88,7 +88,7 @@
         31
       ],
       "module": "versions/pipelines/minhyup/Version_3/openai/retrieval.py",
-      "sha256": "a88fd2f1c34f5811c95a7ea6e70d1273d700139b97fbf335d83e87a04b1daf81",
+      "sha256": "5df543ac3d6af760afd0a4089412417f9335315bc7ff3d78ff138ba5d997fdca",
       "source_definitions": [
         {
           "name": "tokenize_korean",
