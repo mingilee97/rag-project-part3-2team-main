@@ -1,0 +1,313 @@
+{
+  "id": "minhyup/Version_3",
+  "label": "Version 3",
+  "repository": "seolwoom/rag-for-proposals",
+  "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+  "change_kind": "형식 변환과 명시적 공급자 연결; 알고리즘 개선 아님",
+  "adoption": "미채택; 실제 품질 미평가",
+  "stages": {
+    "parser_fix": [
+      "openai/parser_fix.py",
+      "local/parser_fix.py"
+    ],
+    "parser": [
+      "openai/parser.py",
+      "local/parser.py"
+    ],
+    "chunking": [
+      "openai/chunking.py",
+      "local/chunking.py"
+    ],
+    "embedding": [
+      "openai/embedding.py",
+      "local/embedding.py"
+    ],
+    "generation_model": [
+      "openai/generation_model.py",
+      "local/generation_model.py"
+    ],
+    "generation": [
+      "openai/generation.py",
+      "local/generation.py"
+    ],
+    "retrieval": [
+      "openai/retrieval.py",
+      "local/retrieval.py"
+    ],
+    "verification": [
+      "verify_rag.py"
+    ]
+  },
+  "files": [
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        7
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/parser_fix.py",
+      "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+      "source_definitions": [
+        {
+          "name": "_extract_hyperlink_texts_from_para",
+          "cell": 7,
+          "original_ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_equal": true
+        },
+        {
+          "name": "apply_hwp_parser_fix",
+          "cell": 7,
+          "original_ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        8
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/parser.py",
+      "sha256": "09d625f880f7c7e21fc5c6eaea6f9bf3748d829957425fad85918eab4262c669",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        11
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/chunking.py",
+      "sha256": "19a5ee9aa72624e9f0ba0be7d8f73ba2f452b4fcaf2999856d1c6b16477e0811",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        14
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/embedding.py",
+      "sha256": "ff9e30891a7dc2f9fa646a3863c849ee15e574ceb16c3d0176fa7c5911b53c98",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        17
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/generation_model.py",
+      "sha256": "1e7f380a8d00655699f60758d990006ffd29a671f4ac99691529f874d4cc4b35",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        24,
+        25
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/generation.py",
+      "sha256": "baac2004de42df82f2e878a99c6f0447d3dd0676a30692ece2cfeefd6a38e129",
+      "source_definitions": [
+        {
+          "name": "format_docs",
+          "cell": 25,
+          "original_ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+          "ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        31
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/retrieval.py",
+      "sha256": "a88fd2f1c34f5811c95a7ea6e70d1273d700139b97fbf335d83e87a04b1daf81",
+      "source_definitions": [
+        {
+          "name": "tokenize_korean",
+          "cell": 31,
+          "original_ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_equal": true
+        },
+        {
+          "name": "_document_key",
+          "cell": 31,
+          "original_ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+          "ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+          "ast_equal": true
+        },
+        {
+          "name": "hybrid_search",
+          "cell": 31,
+          "original_ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+          "ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        9
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/parser_fix.py",
+      "sha256": "a64906ce56d0e7f0a6c3444bd0c1b97499427923e100cc091b8151a63c2fb7eb",
+      "source_definitions": [
+        {
+          "name": "_extract_hyperlink_texts_from_para",
+          "cell": 9,
+          "original_ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_equal": true
+        },
+        {
+          "name": "apply_hwp_parser_fix",
+          "cell": 9,
+          "original_ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        10
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/parser.py",
+      "sha256": "eaf8fc2c28eb826c419816bbab9b7d702b78b08cad613a1c70790c7e407cf040",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        13
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/chunking.py",
+      "sha256": "19786ceb6e6e63bb4c4905114d188ec166e8424b400faf64212ffe76682abb1b",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        17
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/embedding.py",
+      "sha256": "cdbe377386640fc0ef3fb9dc2fd3f9c4b2b0ba235d723ff4136f179520b33901",
+      "source_definitions": [
+        {
+          "name": "KoE5Embeddings",
+          "cell": 17,
+          "original_ast_sha256": "eaccae5b375cdf1c3853ed1de68ce1203aeb25d33a84cb4a7ecbcaa8c96d0fd9",
+          "ast_sha256": "eaccae5b375cdf1c3853ed1de68ce1203aeb25d33a84cb4a7ecbcaa8c96d0fd9",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        20,
+        21
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/generation_model.py",
+      "sha256": "1f958e01b23428c72e16e4ab613348e7b36cacf0abfd82d5d2e3099f419a6243",
+      "source_definitions": [
+        {
+          "name": "render_chat_prompt",
+          "cell": 21,
+          "original_ast_sha256": "67cd9827b92c815c34a52bbf220722742eb31771e52d2aa3415f527c3fc73ef2",
+          "ast_sha256": "67cd9827b92c815c34a52bbf220722742eb31771e52d2aa3415f527c3fc73ef2",
+          "ast_equal": true
+        },
+        {
+          "name": "generate_chat",
+          "cell": 21,
+          "original_ast_sha256": "3796df8f45d727df6de104882b32990c0537da3949346b146878f9ef82f329f4",
+          "ast_sha256": "3796df8f45d727df6de104882b32990c0537da3949346b146878f9ef82f329f4",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        28,
+        29
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/generation.py",
+      "sha256": "40b4707ff886c8ab2511db4fbfffb17e205c21359156d317ac21d17daa7328de",
+      "source_definitions": [
+        {
+          "name": "format_docs",
+          "cell": 29,
+          "original_ast_sha256": "709dcaaef5bdb95024e9ac01861971473c4dbc2aba82e37945f9db33da8a4e7f",
+          "ast_sha256": "d3c133e8c5b3f2c1c7782bd3c05dc0a6e28553fa908a3a2fb45819e4121c965b",
+          "ast_equal": false
+        }
+      ]
+    },
+    {
+      "original": "RAG_local_ver.0.1.ipynb",
+      "cells": [
+        36
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/local/retrieval.py",
+      "sha256": "dae9b93e6cab9b1a320082d096493c8aded8b5fea2d6ce4515c7b4b2bb5d57a2",
+      "source_definitions": [
+        {
+          "name": "tokenize_korean",
+          "cell": 36,
+          "original_ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_equal": true
+        },
+        {
+          "name": "_document_key",
+          "cell": 36,
+          "original_ast_sha256": "9df4800a792996af1b6e3d1301c49c473b3c2f4c5aadb6289a9e29ac7ca74f41",
+          "ast_sha256": "9df4800a792996af1b6e3d1301c49c473b3c2f4c5aadb6289a9e29ac7ca74f41",
+          "ast_equal": true
+        },
+        {
+          "name": "hybrid_search",
+          "cell": 36,
+          "original_ast_sha256": "70a8cadefed7a4da9d0676bcf3b0ed4b27c344bafddf4ccafa264ad49e27411b",
+          "ast_sha256": "70a8cadefed7a4da9d0676bcf3b0ed4b27c344bafddf4ccafa264ad49e27411b",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "rag_chunking.py",
+      "module": "versions/pipelines/minhyup/Version_3/rag_chunking.py",
+      "sha256": "7c33442e1380b8e0885e1d1126edecba7cf7a8c7a5ecf45e346a70923488212c",
+      "change": "원본 바이트 보존"
+    },
+    {
+      "original": "rag_reranking.py",
+      "module": "versions/pipelines/minhyup/Version_3/rag_reranking.py",
+      "sha256": "fc0b26087c95c0a49d199b3d9889da7a386809fdd67ef4a9dfc1d307b64fdd7b",
+      "change": "원본 바이트 보존"
+    },
+    {
+      "original": "rag_context.py",
+      "module": "versions/pipelines/minhyup/Version_3/rag_context.py",
+      "sha256": "866d973adca899a74aaa96610e2b22229f0e1d9bb7de0065de5bc15b8801f7b8",
+      "change": "원본 바이트 보존"
+    },
+    {
+      "original": "verify_rag.py",
+      "module": "versions/pipelines/minhyup/Version_3/verify_rag.py",
+      "sha256": "1f72019d1187d0821fdf48eb564111b665a9e3dac55db4ebe06de1dfbb9a4265",
+      "change": "원본 바이트 보존"
+    }
+  ],
+  "missing": [
+    "원본에 독립적인 생성 답변 사실·수치 검증 없음; prompt 지시와 파서/청크 검수만 있음"
+  ],
+  "run": "NotebookRuntime(member, variant, providers).run(stage); 외부 초기화는 자동 실행하지 않음"
+}

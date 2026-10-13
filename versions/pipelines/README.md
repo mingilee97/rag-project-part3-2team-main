@@ -16,3 +16,9 @@
 김현경 원본: https://github.com/HyeongyeongKim/codeit_second_project/tree/17614c5005f5e0d78b2d20f466600a86ab5c5379
 
 김민협 원본: https://github.com/seolwoom/rag-for-proposals/tree/10882e31f1945369b68e38843a8f64ea777d3ffb
+
+## Version 3 전체 실행 코드 접수
+
+김현경 business·kiwi와 김민협 openai·local 네 흐름의 파서·청킹·임베딩·검색·생성 코드를 나눴습니다. 원본 모델과 청크 설정은 유지합니다. 외부 초기화는 명시적인 공급자 연결 뒤에만 호출합니다. `python -B evaluation/test_notebook_runtime.py`는 합성 공급자 네 흐름, RRF/캐시 연결과 인스턴스 격리를 확인합니다. 실제 모델 성능 검사는 아닙니다.
+
+김현경 원본의 인용문 정규화·추출 함수와 김민협 `verify_rag.py`의 PDF/parent-child 검수 코드를 보존했습니다. RAGAS 유료 평가는 실행하지 않았습니다. 김민협 원본에는 생성 답변의 독립 사실 검증이 없으며 prompt 지시를 검증 완료로 부르지 않습니다.

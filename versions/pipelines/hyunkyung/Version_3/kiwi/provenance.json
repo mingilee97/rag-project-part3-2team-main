@@ -1,0 +1,187 @@
+{
+  "repository": "HyeongyeongKim/codeit_second_project",
+  "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+  "notebook": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+  "notebook_sha256": "4a484adf03a68d3c77e218b3196be2c72001c241fe56cdf64ef16c0d2546c53a",
+  "files": [
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        5,
+        7
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/parser.py",
+      "sha256": "02e7df170fb07d29dbc5270adf0478ff28aa40a2d54927361ded7110b06fc826",
+      "source_definitions": [
+        {
+          "name": "normalize_filename",
+          "cell": 5,
+          "original_ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+          "ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        9
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/cleaning.py",
+      "sha256": "c36c787a752b019745028ed20f9a35008edca5eb08755817286fcb0fd3fb40ae",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        11
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/chunking.py",
+      "sha256": "aa015a70f58df4b4ab0beffb1d8f1b2514c203e6767676125d99f386ca4514cb",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        13
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/embedding.py",
+      "sha256": "a8cbb3b77638d3698cffa597a9819a5cb6eaa38f72d2535d7841f2fa3bbe8934",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        15,
+        21,
+        23
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/retrieval.py",
+      "sha256": "932e401826d37eb6e0956ec72b8d9e3bbfffd3c6a26f961b2fd2251e8b94481c",
+      "source_definitions": [
+        {
+          "name": "normalize_project_text",
+          "cell": 15,
+          "original_ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+          "ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+          "ast_equal": true
+        },
+        {
+          "name": "metadata_text",
+          "cell": 15,
+          "original_ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+          "ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+          "ast_equal": true
+        },
+        {
+          "name": "choose_project",
+          "cell": 15,
+          "original_ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+          "ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+          "ast_equal": true
+        },
+        {
+          "name": "identify_project",
+          "cell": 15,
+          "original_ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+          "ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+          "ast_equal": true
+        },
+        {
+          "name": "kiwi_morphs",
+          "cell": 15,
+          "original_ast_sha256": "5077680286665d628fedfad120a00ddf59f8a48d870e2c481267b0aaba7b499d",
+          "ast_sha256": "5077680286665d628fedfad120a00ddf59f8a48d870e2c481267b0aaba7b499d",
+          "ast_equal": true
+        },
+        {
+          "name": "get_retrievers",
+          "cell": 15,
+          "original_ast_sha256": "c14c7e9d5d5cd8a34f6a80c555d893fe64771f8a48fcd90e4ae7b955eda96ae8",
+          "ast_sha256": "c14c7e9d5d5cd8a34f6a80c555d893fe64771f8a48fcd90e4ae7b955eda96ae8",
+          "ast_equal": true
+        },
+        {
+          "name": "rrf_search",
+          "cell": 15,
+          "original_ast_sha256": "a8defcddd9636b63583f3e44ac28894d05e2c130054f05476929aa9a069dd307",
+          "ast_sha256": "a8defcddd9636b63583f3e44ac28894d05e2c130054f05476929aa9a069dd307",
+          "ast_equal": true
+        },
+        {
+          "name": "make_search_text",
+          "cell": 21,
+          "original_ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+          "ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+          "ast_equal": true
+        },
+        {
+          "name": "retrieve_and_rerank",
+          "cell": 23,
+          "original_ast_sha256": "89a34a97336826951e5f20580f111019c89a4677358446c11e900c4a6e0496fb",
+          "ast_sha256": "89a34a97336826951e5f20580f111019c89a4677358446c11e900c4a6e0496fb",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        18,
+        26
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation.py",
+      "sha256": "661569f8856bdfdec036758fba83a04109920016166cedc12844ecf5285d413e",
+      "source_definitions": [
+        {
+          "name": "answer_question",
+          "cell": 26,
+          "original_ast_sha256": "cc3408b7c1b0e8be55d6242e2eac10a8f33f953a827873e93deb8b681b03e944",
+          "ast_sha256": "cc3408b7c1b0e8be55d6242e2eac10a8f33f953a827873e93deb8b681b03e944",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        20
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation_model.py",
+      "sha256": "d69b7026163519e2b6ff1011da501b1022f4666a915a92016a9dfb1d4bddad0d",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+      "cells": [
+        33
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/kiwi/verification.py",
+      "sha256": "c508d6367345bfa96064cfdb6210e88cb931002518ebd35bbb1848938b942332",
+      "source_definitions": [
+        {
+          "name": "compact",
+          "cell": 33,
+          "original_ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+          "ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+          "ast_equal": true
+        },
+        {
+          "name": "extract_quotes",
+          "cell": 33,
+          "original_ast_sha256": "a1b57bbeaea24ab7b97195b1be7e8a6252e7a7420d12e81649a16755def24325",
+          "ast_sha256": "a1b57bbeaea24ab7b97195b1be7e8a6252e7a7420d12e81649a16755def24325",
+          "ast_equal": true
+        }
+      ]
+    }
+  ],
+  "transformations": [
+    "코드 셀만 추출; 출력·평가 데이터·질문 실행 셀 제외",
+    "원본 함수·클래스 유지; 단계 셀은 명시적 함수로 감쌈",
+    "외부 import·경로·CSV 읽기는 호출자가 공급",
+    "표시·본문 로그·파일 저장·GPU 정리는 실행 단계에서 제외",
+    "청킹·모델 설정·RRF·재순위 알고리즘은 원본 유지"
+  ],
+  "verification_scope": "원본에 있는 검증만 제공; 새 답변 검증 알고리즘 추가 없음"
+}

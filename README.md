@@ -6,7 +6,7 @@
 
 ## UI 버전과 모델 선정
 
-2026-10-13 고정 코드의 [Baseline·Version 1·Version 2 목록](versions/pipelines/README.md)을 추가했습니다. 기존 부품과 로컬 통제 비교의 사업명·청크 어댑터를 재사용합니다. 각 manifest는 파서·청킹·임베딩·검색·생성·검증의 확보 상태, 출처·고정 commit·변환 내용을 구분합니다. 팀원 전체 노트북의 모듈 변환은 아직 완료되지 않았으며 후보를 자동 채택하지 않습니다. 다음 작업과 점검 근거는 [모듈 확장 인계](docs/모듈-확장-인계-20261013.md)를 읽습니다.
+2026-10-13 고정 코드의 [Baseline·Version 1·Version 2 목록](versions/pipelines/README.md)을 추가했습니다. 기존 부품과 로컬 통제 비교의 사업명·청크 어댑터를 재사용합니다. 각 manifest는 파서·청킹·임베딩·검색·생성·검증의 확보 상태, 출처·고정 commit·변환 내용을 구분합니다. 확보한 공개 노트북 네 흐름은 Version 3에 실행 단계별로 접수했습니다. 실제 공급자로 전체 실행하거나 품질을 평가한 것은 아니며 후보를 자동 채택하지 않습니다. 다음 작업과 점검 근거는 [모듈 확장 인계](docs/모듈-확장-인계-20261013.md)를 읽습니다.
 
 UI 버전은 [UI 목록](dashboard/versions/catalog.json), 모델·알고리즘 후보는 [모델 목록](versions/models.json)에서 따로 관리한다. UI 선택이 모델 채택을 뜻하지 않는다. 현재 새 모델 선정은 [pending](versions/selection.json)이며 메인 `07_verify`를 유지한다. 실측 범위와 한계는 [비교 근거](docs/버전-비교-근거.md), 같은 조건으로 다시 실행하는 방법은 [재현 절차](evaluation/README.md)에 있다.
 
