@@ -1,0 +1,45 @@
+{
+  "id": "minhyup/Version_1",
+  "label": "Version 1",
+  "repository": "seolwoom/rag-for-proposals",
+  "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+  "change_kind": "원본 보존 / 형식만 변환",
+  "adoption": "미채택",
+  "stages": {
+    "parser": [],
+    "chunking": [
+      "rag_chunking.py"
+    ],
+    "embedding": [],
+    "retrieval": [
+      "rag_reranking.py"
+    ],
+    "generation": [
+      "rag_context.py"
+    ],
+    "verification": []
+  },
+  "files": [
+    {
+      "original": "candidates/minhyup/10882e3/rag_chunking.py",
+      "module": "versions/pipelines/minhyup/Version_1/rag_chunking.py",
+      "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+    },
+    {
+      "original": "candidates/minhyup/10882e3/rag_reranking.py",
+      "module": "versions/pipelines/minhyup/Version_1/rag_reranking.py",
+      "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff"
+    },
+    {
+      "original": "candidates/minhyup/10882e3/rag_context.py",
+      "module": "versions/pipelines/minhyup/Version_1/rag_context.py",
+      "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45"
+    }
+  ],
+  "missing": [
+    "parser 단계 전체 파이프라인 연결 미완료",
+    "embedding 단계 전체 파이프라인 연결 미완료",
+    "verification 단계 전체 파이프라인 연결 미완료"
+  ],
+  "run": "python versions/pipelines/select.py --version minhyup/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+}

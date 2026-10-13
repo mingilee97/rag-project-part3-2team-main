@@ -1,0 +1,56 @@
+{
+  "schema": "model-version-catalog-v1",
+  "versions": [
+    {
+      "id": "main-07_verify-423a32a",
+      "role": "currently_retained_baseline",
+      "source_date": "2026-10-06",
+      "source_commit": "423a32ab47ffe8a41b3dfbd00a9844889e4cadd5",
+      "public_runtime_commit": "bfca8f0508b65dfa97d9aa01da9a93ac188e68bd",
+      "config": "configs/exp/07_verify.yaml",
+      "embedding": "nlpai-lab/KURE-v1",
+      "llm": "exaone3.5:7.8b",
+      "retrieval": "densek5fixed1000/200",
+      "reranker_enabled": false,
+      "pipeline": {
+        "route": true,
+        "verify": true,
+        "use_enriched": true
+      },
+      "config_source_checkout_sha256": "86070f8414ba076106f1002254cec604252b1f220b6f937444ff49c52cdff60d",
+      "config_sha256_lf": "4313f35ea5d8cdf0eb9cc0b89f03a10d1c583064fead3d8b0b9065cbfd493fe8",
+      "config_hash_policy": "LF normalized for cross-platform Git checkout; source checkout byte hash kept separately"
+    },
+    {
+      "id": "hyunkyung-5e79101-cleaning",
+      "role": "reviewed_component_not_adopted",
+      "source_date": "2026-10-08",
+      "source_commit": "5e79101a0af1c7e0a18b01d47644090d3b323dd4",
+      "provenance": "candidates/hyunkyung/5e79101/provenance.json",
+      "native_models": "GTE+FAISS+EXAONE_AWQ/RAGAS; GPTplanonly",
+      "native_full_pipeline_executed": false
+    },
+    {
+      "id": "minhyup-10882e3-parent-child",
+      "role": "reviewed_component_not_adopted",
+      "source_date": "2026-10-07",
+      "source_commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "provenance": "candidates/minhyup/10882e3/provenance.json",
+      "native_models": "OpenAIembedding/GPTnativeorKoE5/KULLMlocal;BGEparent4",
+      "native_full_pipeline_executed": false
+    },
+    {
+      "id": "cpu-bge-pilot-20261009",
+      "role": "executed_component_pilot_not_final_winner",
+      "source_date": "2026-10-09",
+      "source_result": "evaluation/aggregates/20261009-bge-pilot.json",
+      "questions": 4,
+      "corpus_documents": 14,
+      "same_model_on_both_chunkers": true,
+      "generation_calls": 0,
+      "judge_calls": 0
+    }
+  ],
+  "ui_versions_separate_catalog": "dashboard/versions/catalog.json",
+  "final_model_selection": "pending"
+}

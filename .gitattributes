@@ -2,3 +2,10 @@
 *.py text eol=lf
 *.yaml text eol=lf
 *.md text eol=lf
+dashboard/** text eol=lf
+dashboard/versions/**/components/* -text
+candidates/** text eol=lf
+candidates/minhyup/**/rag_*.py -text
+evaluation/** text eol=lf
+versions/** text eol=lf
+.github/workflows/review-bundle.yml text eol=lf

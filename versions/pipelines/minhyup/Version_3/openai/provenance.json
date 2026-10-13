@@ -1,0 +1,125 @@
+{
+  "repository": "seolwoom/rag-for-proposals",
+  "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+  "notebook": "RAG_openai_ver.0.1.ipynb",
+  "notebook_sha256": "bbcbba2fa6121f13746bcc871ef54e416b5aa90cb2da6fb95d391649af1f6a13",
+  "files": [
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        7
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/parser_fix.py",
+      "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
+      "source_definitions": [
+        {
+          "name": "_extract_hyperlink_texts_from_para",
+          "cell": 7,
+          "original_ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+          "ast_equal": true
+        },
+        {
+          "name": "apply_hwp_parser_fix",
+          "cell": 7,
+          "original_ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        8
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/parser.py",
+      "sha256": "4a009a57ff5fa911501c2237cb385c065fdaae1d123b1b8ad8e81bb3d6bf432f",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        11
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/chunking.py",
+      "sha256": "9efda2d7fd3d430603fb0f2f4eef49959f18589e69326e200ee57aedf10e06e7",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        14
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/embedding.py",
+      "sha256": "4e34a2d31b2241b9edad1c2a334335287f181861d0da418af5ea69880cc52ed5",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        17
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/generation_model.py",
+      "sha256": "f50011df78485ff51d99e499b9bcf5e5479fbd1284dc8e2560e91e10c3324277",
+      "source_definitions": []
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        24,
+        25
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/generation.py",
+      "sha256": "2284c8997dc1efab267986c5c72e41b686f52cc4ec4e8a32f16ce33e399c1fce",
+      "source_definitions": [
+        {
+          "name": "format_docs",
+          "cell": 25,
+          "original_ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+          "ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "RAG_openai_ver.0.1.ipynb",
+      "cells": [
+        31
+      ],
+      "module": "versions/pipelines/minhyup/Version_3/openai/retrieval.py",
+      "sha256": "5df543ac3d6af760afd0a4089412417f9335315bc7ff3d78ff138ba5d997fdca",
+      "source_definitions": [
+        {
+          "name": "tokenize_korean",
+          "cell": 31,
+          "original_ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+          "ast_equal": true
+        },
+        {
+          "name": "_document_key",
+          "cell": 31,
+          "original_ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+          "ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+          "ast_equal": true
+        },
+        {
+          "name": "hybrid_search",
+          "cell": 31,
+          "original_ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+          "ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+          "ast_equal": true
+        }
+      ]
+    }
+  ],
+  "transformations": [
+    "코드 셀만 추출; 출력·평가 데이터·질문 실행 셀 제외",
+    "원본 함수·클래스 유지; 단계 셀은 명시적 함수로 감쌈",
+    "외부 import·경로·CSV 읽기는 호출자가 공급",
+    "표시·본문 로그·파일 저장·GPU 정리는 실행 단계에서 제외",
+    "청킹·모델 설정·RRF·재순위 알고리즘은 원본 유지"
+  ],
+  "verification_scope": "원본에 있는 검증만 제공; 새 답변 검증 알고리즘 추가 없음"
+}

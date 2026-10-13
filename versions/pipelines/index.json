@@ -1,0 +1,1055 @@
+{
+  "schema": "pipeline-source-catalog-v1",
+  "as_of": "2026-10-13",
+  "selected": "Baseline",
+  "automatic_adoption": false,
+  "versions": [
+    {
+      "id": "Baseline",
+      "label": "최초 공개 실행 코드",
+      "repository": "mingilee97/rag-project-part3-2team-main",
+      "commit": "bfca8f0508b65dfa97d9aa01da9a93ac188e68bd",
+      "source_implementation_commit": "423a32ab47ffe8a41b3dfbd00a9844889e4cadd5",
+      "change_kind": "원본 보존",
+      "adoption": "유지한 기준; 확정 우승 모델 아님",
+      "stages": {
+        "parser": [
+          "rfp_rag/ingest/load.py"
+        ],
+        "chunking": [
+          "rfp_rag/ingest/chunk.py"
+        ],
+        "embedding": [
+          "rfp_rag/index.py"
+        ],
+        "retrieval": [
+          "rfp_rag/retrieve.py",
+          "rfp_rag/route.py",
+          "rfp_rag/memory.py"
+        ],
+        "generation": [
+          "rfp_rag/answer.py",
+          "rfp_rag/providers.py",
+          "rfp_rag/pipeline.py"
+        ],
+        "verification": [
+          "rfp_rag/answer.py",
+          "rfp_rag/pipeline.py"
+        ]
+      },
+      "files": [
+        {
+          "original": "configs/base.yaml",
+          "module": "versions/pipelines/Baseline/configs/base.yaml",
+          "sha256": "17db6dc6e741e793895bcd5f14fff9f091aa1076f8d18bb1f6772bca9ffee36c"
+        },
+        {
+          "original": "configs/exp/07_verify.yaml",
+          "module": "versions/pipelines/Baseline/configs/exp/07_verify.yaml",
+          "sha256": "4313f35ea5d8cdf0eb9cc0b89f03a10d1c583064fead3d8b0b9065cbfd493fe8"
+        },
+        {
+          "original": "requirements.txt",
+          "module": "versions/pipelines/Baseline/requirements.txt",
+          "sha256": "845cf8bc5687cecebc9701541d9c7bf77f6f84e66488fd07a58ccb29728ffba7"
+        },
+        {
+          "original": "rfp_rag/__init__.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/__init__.py",
+          "sha256": "ee3626e576e221ba27fd0324ae5052e8df5c38709c48b92f0783f4251624f264"
+        },
+        {
+          "original": "rfp_rag/answer.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/answer.py",
+          "sha256": "e14191408c985e6a08fa442755e28bbc09a15817ee5fc8ad925f56d0602c0552"
+        },
+        {
+          "original": "rfp_rag/calllog.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/calllog.py",
+          "sha256": "a06cc9c8162fe4de9354fa5a689ef00227faae5179b4c8708597e5462ae67df9"
+        },
+        {
+          "original": "rfp_rag/index.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/index.py",
+          "sha256": "9f09f4cb870fd83b7c8da2361ea2fc779c87a6deb2a85b9d1f9c5c16900ec756"
+        },
+        {
+          "original": "rfp_rag/ingest/__init__.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/__init__.py",
+          "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+          "original": "rfp_rag/ingest/chunk.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/chunk.py",
+          "sha256": "f9f9949cc7b45178aea245388ce3b50e5694c5f8d3c16566e05f6a3a95af0de3"
+        },
+        {
+          "original": "rfp_rag/ingest/clean.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/clean.py",
+          "sha256": "41b2198670cded36cc7115f654bb6d1ad2e4cb3eda14ec5caf40452f3e8416ef"
+        },
+        {
+          "original": "rfp_rag/ingest/eda.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/eda.py",
+          "sha256": "e621b59f172fc89e4a2d45c2da906ed522f6eb7d2146ec96774de9d926ca5ad6"
+        },
+        {
+          "original": "rfp_rag/ingest/enrich.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/enrich.py",
+          "sha256": "56d17fd6092dfb62ab75e6ab44bfc75adf1831acbcff475eeb2ed2162b643aa9"
+        },
+        {
+          "original": "rfp_rag/ingest/load.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/ingest/load.py",
+          "sha256": "f22c2046c9d517c5162b07c6aefa6be5f4dfddf366b7f645785b8647937f5645"
+        },
+        {
+          "original": "rfp_rag/memory.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/memory.py",
+          "sha256": "aa77817b6e65bcf860427057ff50346a2926811174bd2e033259a45fe7d5d96f"
+        },
+        {
+          "original": "rfp_rag/pipeline.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/pipeline.py",
+          "sha256": "a22186d4a4f68c32ef90ed2b5e4d712cb0af1e42cb2226752e828b37f4e89e71"
+        },
+        {
+          "original": "rfp_rag/providers.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/providers.py",
+          "sha256": "2b55bdae0f172c306ebb4ff05839540907bc23e19964abb00265c56158bcad34"
+        },
+        {
+          "original": "rfp_rag/retrieve.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/retrieve.py",
+          "sha256": "3ec66aeac725c288f25fe49973329fdec84296e7c8d937252904a8f2ee607eb7"
+        },
+        {
+          "original": "rfp_rag/route.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/route.py",
+          "sha256": "11e3f6bad2588503e91db5fd9171de1dcf6e3c341b6d97f68e805ce0b665d3d8"
+        },
+        {
+          "original": "rfp_rag/settings.py",
+          "module": "versions/pipelines/Baseline/rfp_rag/settings.py",
+          "sha256": "70c91aa9355b5ec777ed62cdf13c8f9221145f649016064389eba11cf768deb0"
+        }
+      ],
+      "missing": [
+        "별도 원본 문서·모델·색인 필요"
+      ],
+      "run": "Baseline 폴더에서 README의 07_verify 명령을 실행합니다. 모델 호출은 별도 승인 필요."
+    },
+    {
+      "id": "hyunkyung/Version_1",
+      "label": "Version 1",
+      "repository": "HyeongyeongKim/codeit_second_project",
+      "commit": "5e79101a0af1c7e0a18b01d47644090d3b323dd4",
+      "change_kind": "원본 보존 / 형식만 변환",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [
+          "cleaning.py",
+          "adapter.py"
+        ],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "candidates/hyunkyung/5e79101/cleaning.py",
+          "module": "versions/pipelines/hyunkyung/Version_1/cleaning.py",
+          "sha256": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c"
+        },
+        {
+          "original": "candidates/hyunkyung/5e79101/adapter.py",
+          "module": "versions/pipelines/hyunkyung/Version_1/adapter.py",
+          "sha256": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
+        }
+      ],
+      "missing": [
+        "chunking 단계 전체 파이프라인 연결 미완료",
+        "embedding 단계 전체 파이프라인 연결 미완료",
+        "retrieval 단계 전체 파이프라인 연결 미완료",
+        "generation 단계 전체 파이프라인 연결 미완료",
+        "verification 단계 전체 파이프라인 연결 미완료"
+      ],
+      "run": "python versions/pipelines/select.py --version hyunkyung/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+    },
+    {
+      "id": "minhyup/Version_1",
+      "label": "Version 1",
+      "repository": "seolwoom/rag-for-proposals",
+      "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "change_kind": "원본 보존 / 형식만 변환",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [],
+        "chunking": [
+          "rag_chunking.py"
+        ],
+        "embedding": [],
+        "retrieval": [
+          "rag_reranking.py"
+        ],
+        "generation": [
+          "rag_context.py"
+        ],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "candidates/minhyup/10882e3/rag_chunking.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_chunking.py",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+        },
+        {
+          "original": "candidates/minhyup/10882e3/rag_reranking.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_reranking.py",
+          "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff"
+        },
+        {
+          "original": "candidates/minhyup/10882e3/rag_context.py",
+          "module": "versions/pipelines/minhyup/Version_1/rag_context.py",
+          "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45"
+        }
+      ],
+      "missing": [
+        "parser 단계 전체 파이프라인 연결 미완료",
+        "embedding 단계 전체 파이프라인 연결 미완료",
+        "verification 단계 전체 파이프라인 연결 미완료"
+      ],
+      "run": "python versions/pipelines/select.py --version minhyup/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+    },
+    {
+      "id": "hyunkyung/Version_2",
+      "label": "Version 2",
+      "repository": "HyeongyeongKim/codeit_second_project",
+      "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+      "change_kind": "형식만 변환",
+      "adoption": "미채택; 기존 평가의 회귀 때문에 보류",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [
+          "business_identifier.py"
+        ],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb::normalize_project_text,choose_project,identify_project",
+          "module": "versions/pipelines/hyunkyung/Version_2/business_identifier.py",
+          "sha256": "bcd51806c005b5c452d30ccb5fb2d7a786087729f3c0ad7db9f519cccb2ee0fb",
+          "ast_equal_functions": [
+            "normalize_project_text",
+            "choose_project",
+            "identify_project"
+          ],
+          "adapter_functions": [
+            "resolve_project",
+            "select_for_pipeline"
+          ],
+          "adapter_changes": "메인 문서 카탈로그 연결 및 비교·목록·후속 질문 bypass. 원본 전체 파이프라인 아님."
+        }
+      ],
+      "missing": [
+        "parser/chunking/embedding/generation/verification의 이 버전 독립 변환 미완료",
+        "원본 전역 카탈로그는 호출자가 전달해야 함"
+      ],
+      "run": "resolve_project(question, doc_info, aliases=None). 합성 입력으로만 검사하며 평가 전 채택하지 않습니다."
+    },
+    {
+      "id": "minhyup/Version_2",
+      "label": "Version 2",
+      "repository": "seolwoom/rag-for-proposals",
+      "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "local_adapter_commit": "26dd049e2523137621f7653c52adfd375a5f60d3",
+      "change_kind": "알고리즘 개선 후보; 개선 효과 미입증",
+      "adoption": "미채택",
+      "stages": {
+        "parser": [],
+        "chunking": [
+          "rag_chunking.py",
+          "chunking.py"
+        ],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [
+        {
+          "original": "controlled_modules::chunk_teammate",
+          "module": "versions/pipelines/minhyup/Version_2/chunking.py",
+          "sha256": "1fc5845df1db3a567a937ce52f907f7c7d449fe676f8e5ba06faab1d645794ed",
+          "changes": "원본 parent/child 경계와 메인 메타데이터 연결. 1000/200 공통 상한으로 큰 표 재분할; 상대 import만 공개 위치에 맞춤."
+        },
+        {
+          "original": "rag_chunking.py",
+          "module": "versions/pipelines/minhyup/Version_2/rag_chunking.py",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+        }
+      ],
+      "missing": [
+        "독립 embedding/retrieval/generation/verification 연결 미완료"
+      ],
+      "run": "from versions.pipelines.minhyup.Version_2.chunking import chunk_teammate; chunk_teammate(doc,1000,200). 품질 평가를 호출하지 않습니다."
+    },
+    {
+      "id": "eugene/Version_1",
+      "label": "Version 1 · 미확보",
+      "repository": "eugene527/rag-project-evaluation",
+      "commit": null,
+      "change_kind": "미확보",
+      "adoption": "판정 불가",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [],
+      "missing": [
+        "2026-10-13 GitHub 공식 조회 HTTP 404; 비공개·권한·삭제 여부 구분 불가"
+      ],
+      "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+    },
+    {
+      "id": "wonyoung/Version_1",
+      "label": "Version 1 · 미확보",
+      "repository": "1young-codes/codeit-rag",
+      "commit": null,
+      "change_kind": "미확보",
+      "adoption": "판정 불가",
+      "stages": {
+        "parser": [],
+        "chunking": [],
+        "embedding": [],
+        "retrieval": [],
+        "generation": [],
+        "verification": []
+      },
+      "files": [],
+      "missing": [
+        "2026-10-13 공개 저장소 확인, commits/main HTTP 409: Git Repository is empty."
+      ],
+      "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+    },
+    {
+      "id": "hyunkyung/Version_3",
+      "label": "Version 3",
+      "repository": "HyeongyeongKim/codeit_second_project",
+      "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+      "change_kind": "형식 변환과 명시적 공급자 연결; 알고리즘 개선 아님",
+      "adoption": "미채택; 실제 품질 미평가",
+      "stages": {
+        "parser": [
+          "business/parser.py",
+          "kiwi/parser.py"
+        ],
+        "cleaning": [
+          "business/cleaning.py",
+          "kiwi/cleaning.py"
+        ],
+        "chunking": [
+          "business/chunking.py",
+          "kiwi/chunking.py"
+        ],
+        "embedding": [
+          "business/embedding.py",
+          "kiwi/embedding.py"
+        ],
+        "retrieval": [
+          "business/retrieval.py",
+          "kiwi/retrieval.py"
+        ],
+        "generation": [
+          "business/generation.py",
+          "kiwi/generation.py"
+        ],
+        "local_model": [
+          "business/local_model.py"
+        ],
+        "generation_model": [
+          "business/generation_model.py",
+          "kiwi/generation_model.py"
+        ],
+        "verification": [
+          "business/verification.py",
+          "kiwi/verification.py"
+        ]
+      },
+      "files": [
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            5,
+            7
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/parser.py",
+          "sha256": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
+          "source_definitions": [
+            {
+              "name": "normalize_filename",
+              "cell": 5,
+              "original_ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+              "ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            9
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/cleaning.py",
+          "sha256": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            11
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/chunking.py",
+          "sha256": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            13
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/embedding.py",
+          "sha256": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            15,
+            21,
+            23
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/retrieval.py",
+          "sha256": "52258a74a2d4f057a70f98c4d19e68f69559fa26dce829ce8bf2d78112b0d583",
+          "source_definitions": [
+            {
+              "name": "normalize_project_text",
+              "cell": 15,
+              "original_ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+              "ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+              "ast_equal": true
+            },
+            {
+              "name": "metadata_text",
+              "cell": 15,
+              "original_ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+              "ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+              "ast_equal": true
+            },
+            {
+              "name": "choose_project",
+              "cell": 15,
+              "original_ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+              "ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+              "ast_equal": true
+            },
+            {
+              "name": "identify_project",
+              "cell": 15,
+              "original_ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+              "ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+              "ast_equal": true
+            },
+            {
+              "name": "get_retrievers",
+              "cell": 15,
+              "original_ast_sha256": "0042defd4d6c74888426e90f35f00b43c773c1ee456a423c74e02234172791df",
+              "ast_sha256": "0042defd4d6c74888426e90f35f00b43c773c1ee456a423c74e02234172791df",
+              "ast_equal": true
+            },
+            {
+              "name": "rrf_search",
+              "cell": 15,
+              "original_ast_sha256": "af741f49921ae5b5093e4105a07eee7171cf8c6e2485f97201df5dc9c4d35c0a",
+              "ast_sha256": "af741f49921ae5b5093e4105a07eee7171cf8c6e2485f97201df5dc9c4d35c0a",
+              "ast_equal": true
+            },
+            {
+              "name": "make_search_text",
+              "cell": 21,
+              "original_ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+              "ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+              "ast_equal": true
+            },
+            {
+              "name": "retrieve_and_rerank",
+              "cell": 23,
+              "original_ast_sha256": "ccc44b5d4078096a07ee5502b9277570f169d025176d0d3c4c523ace6ec6d67f",
+              "ast_sha256": "ccc44b5d4078096a07ee5502b9277570f169d025176d0d3c4c523ace6ec6d67f",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            18,
+            26
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/generation.py",
+          "sha256": "27c51bff61a2f7f13774e8a00c7f003a66b1305ebff98392f4b83fa4725efc48",
+          "source_definitions": [
+            {
+              "name": "answer_question",
+              "cell": 26,
+              "original_ast_sha256": "b2b9d71335a810d05b270d85314665a0bdb3710131772195e100fe1e3994ba60",
+              "ast_sha256": "b2b9d71335a810d05b270d85314665a0bdb3710131772195e100fe1e3994ba60",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            19
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/local_model.py",
+          "sha256": "45def99ed0629e07720e41be15de8f88496aaa01fc67af8b44e3e9d5264b1984",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            20
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/generation_model.py",
+          "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+          "cells": [
+            33
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",
+          "sha256": "ed84a503587d427b53337c938c23e4ea3bebf572e1240368fef3a4a598723949",
+          "source_definitions": [
+            {
+              "name": "compact",
+              "cell": 33,
+              "original_ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+              "ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+              "ast_equal": true
+            },
+            {
+              "name": "extract_quotes",
+              "cell": 33,
+              "original_ast_sha256": "dfd40da81f362134994c3c0bffd5b51b91fbc74e68f0fbaa12c4821eb15ab33e",
+              "ast_sha256": "dfd40da81f362134994c3c0bffd5b51b91fbc74e68f0fbaa12c4821eb15ab33e",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            5,
+            7
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/parser.py",
+          "sha256": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
+          "source_definitions": [
+            {
+              "name": "normalize_filename",
+              "cell": 5,
+              "original_ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+              "ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            9
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/cleaning.py",
+          "sha256": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            11
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/chunking.py",
+          "sha256": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            13
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/embedding.py",
+          "sha256": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            15,
+            21,
+            23
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/retrieval.py",
+          "sha256": "96a430bbcb5f86f116269e44fb558a936a4cbe994db37e378833665b7fc3caf1",
+          "source_definitions": [
+            {
+              "name": "normalize_project_text",
+              "cell": 15,
+              "original_ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+              "ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+              "ast_equal": true
+            },
+            {
+              "name": "metadata_text",
+              "cell": 15,
+              "original_ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+              "ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+              "ast_equal": true
+            },
+            {
+              "name": "choose_project",
+              "cell": 15,
+              "original_ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+              "ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+              "ast_equal": true
+            },
+            {
+              "name": "identify_project",
+              "cell": 15,
+              "original_ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+              "ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+              "ast_equal": true
+            },
+            {
+              "name": "kiwi_morphs",
+              "cell": 15,
+              "original_ast_sha256": "5077680286665d628fedfad120a00ddf59f8a48d870e2c481267b0aaba7b499d",
+              "ast_sha256": "5077680286665d628fedfad120a00ddf59f8a48d870e2c481267b0aaba7b499d",
+              "ast_equal": true
+            },
+            {
+              "name": "get_retrievers",
+              "cell": 15,
+              "original_ast_sha256": "c14c7e9d5d5cd8a34f6a80c555d893fe64771f8a48fcd90e4ae7b955eda96ae8",
+              "ast_sha256": "c14c7e9d5d5cd8a34f6a80c555d893fe64771f8a48fcd90e4ae7b955eda96ae8",
+              "ast_equal": true
+            },
+            {
+              "name": "rrf_search",
+              "cell": 15,
+              "original_ast_sha256": "a8defcddd9636b63583f3e44ac28894d05e2c130054f05476929aa9a069dd307",
+              "ast_sha256": "a8defcddd9636b63583f3e44ac28894d05e2c130054f05476929aa9a069dd307",
+              "ast_equal": true
+            },
+            {
+              "name": "make_search_text",
+              "cell": 21,
+              "original_ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+              "ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+              "ast_equal": true
+            },
+            {
+              "name": "retrieve_and_rerank",
+              "cell": 23,
+              "original_ast_sha256": "89a34a97336826951e5f20580f111019c89a4677358446c11e900c4a6e0496fb",
+              "ast_sha256": "89a34a97336826951e5f20580f111019c89a4677358446c11e900c4a6e0496fb",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            18,
+            26
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation.py",
+          "sha256": "dfc8f3f623c0c78a5f0b39515414da8ee23c1b751cfdbb00e47b30361cab7b3b",
+          "source_definitions": [
+            {
+              "name": "answer_question",
+              "cell": 26,
+              "original_ast_sha256": "cc3408b7c1b0e8be55d6242e2eac10a8f33f953a827873e93deb8b681b03e944",
+              "ast_sha256": "cc3408b7c1b0e8be55d6242e2eac10a8f33f953a827873e93deb8b681b03e944",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            20
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/generation_model.py",
+          "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
+          "source_definitions": []
+        },
+        {
+          "original": "현재기준_BGE-M3_기본BM25_vs_KiwiBM25.ipynb",
+          "cells": [
+            33
+          ],
+          "module": "versions/pipelines/hyunkyung/Version_3/kiwi/verification.py",
+          "sha256": "fb1872d13ebffe10003f061569ea26b5a2558b96e6bcefcf6b7712dc2fa2b256",
+          "source_definitions": [
+            {
+              "name": "compact",
+              "cell": 33,
+              "original_ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+              "ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+              "ast_equal": true
+            },
+            {
+              "name": "extract_quotes",
+              "cell": 33,
+              "original_ast_sha256": "a1b57bbeaea24ab7b97195b1be7e8a6252e7a7420d12e81649a16755def24325",
+              "ast_sha256": "a1b57bbeaea24ab7b97195b1be7e8a6252e7a7420d12e81649a16755def24325",
+              "ast_equal": true
+            }
+          ]
+        }
+      ],
+      "missing": [
+        "RAGAS 점수 계산은 외부 평가 호출이므로 실행하지 않음; 원본 인용문 정규화·추출·대조 루프 보존",
+        "business 원본 검수는 N=10과 질문 순서 일치를 요구; 정답 의미 판정과 구분"
+      ],
+      "run": "NotebookRuntime(member, variant, providers).run(stage); 외부 초기화는 자동 실행하지 않음"
+    },
+    {
+      "id": "minhyup/Version_3",
+      "label": "Version 3",
+      "repository": "seolwoom/rag-for-proposals",
+      "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+      "change_kind": "형식 변환과 명시적 공급자 연결; 알고리즘 개선 아님",
+      "adoption": "미채택; 실제 품질 미평가",
+      "stages": {
+        "parser_fix": [
+          "openai/parser_fix.py",
+          "local/parser_fix.py"
+        ],
+        "parser": [
+          "openai/parser.py",
+          "local/parser.py"
+        ],
+        "chunking": [
+          "openai/chunking.py",
+          "local/chunking.py"
+        ],
+        "embedding": [
+          "openai/embedding.py",
+          "local/embedding.py"
+        ],
+        "generation_model": [
+          "openai/generation_model.py",
+          "local/generation_model.py"
+        ],
+        "generation": [
+          "openai/generation.py",
+          "local/generation.py"
+        ],
+        "retrieval": [
+          "openai/retrieval.py",
+          "local/retrieval.py"
+        ],
+        "verification": [
+          "verify_rag.py"
+        ]
+      },
+      "files": [
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            7
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/parser_fix.py",
+          "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
+          "source_definitions": [
+            {
+              "name": "_extract_hyperlink_texts_from_para",
+              "cell": 7,
+              "original_ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+              "ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+              "ast_equal": true
+            },
+            {
+              "name": "apply_hwp_parser_fix",
+              "cell": 7,
+              "original_ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+              "ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            8
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/parser.py",
+          "sha256": "4a009a57ff5fa911501c2237cb385c065fdaae1d123b1b8ad8e81bb3d6bf432f",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            11
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/chunking.py",
+          "sha256": "9efda2d7fd3d430603fb0f2f4eef49959f18589e69326e200ee57aedf10e06e7",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            14
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/embedding.py",
+          "sha256": "4e34a2d31b2241b9edad1c2a334335287f181861d0da418af5ea69880cc52ed5",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            17
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/generation_model.py",
+          "sha256": "f50011df78485ff51d99e499b9bcf5e5479fbd1284dc8e2560e91e10c3324277",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            24,
+            25
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/generation.py",
+          "sha256": "2284c8997dc1efab267986c5c72e41b686f52cc4ec4e8a32f16ce33e399c1fce",
+          "source_definitions": [
+            {
+              "name": "format_docs",
+              "cell": 25,
+              "original_ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+              "ast_sha256": "a06a5282da6e41f0ece8284e720223f839191f1ddffb422733f7aa928efcb2c2",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_openai_ver.0.1.ipynb",
+          "cells": [
+            31
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/openai/retrieval.py",
+          "sha256": "5df543ac3d6af760afd0a4089412417f9335315bc7ff3d78ff138ba5d997fdca",
+          "source_definitions": [
+            {
+              "name": "tokenize_korean",
+              "cell": 31,
+              "original_ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+              "ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+              "ast_equal": true
+            },
+            {
+              "name": "_document_key",
+              "cell": 31,
+              "original_ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+              "ast_sha256": "e3099bb6c4842e082a5ada1f296ad79d2b138a32a679fecb8ca6280b3ef2b104",
+              "ast_equal": true
+            },
+            {
+              "name": "hybrid_search",
+              "cell": 31,
+              "original_ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+              "ast_sha256": "d8de8ffc4741fc94fd060498136aa6f5362b2b007f7ebe368aaeb5db4933038e",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            9
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/parser_fix.py",
+          "sha256": "105ca6222ce7ae5ba8c1b0dfa3d82bd04c297a6bde900562105861fad2423387",
+          "source_definitions": [
+            {
+              "name": "_extract_hyperlink_texts_from_para",
+              "cell": 9,
+              "original_ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+              "ast_sha256": "d32c12fb8c81343015c143bc1a580d5184a677119b932bc9ed2148cac30d59ed",
+              "ast_equal": true
+            },
+            {
+              "name": "apply_hwp_parser_fix",
+              "cell": 9,
+              "original_ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+              "ast_sha256": "451451ae5c41f275510ac30332d17f84fc2a8b348672b983b61aa8014a43e94c",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            10
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/parser.py",
+          "sha256": "9e814e07f9c632745c2f392f5551a16bf7c02e5dbf6fdf086c05d22b1ec974f0",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            13
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/chunking.py",
+          "sha256": "074bec7ad7b4b54388eeb0f3f03f6e540f33bf938be42887c999bdb4f29616eb",
+          "source_definitions": []
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            17
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/embedding.py",
+          "sha256": "042e903a6f46cda6ab0d96b7b6465097ec4b5e670844393bd4a6ca033e600a1a",
+          "source_definitions": [
+            {
+              "name": "KoE5Embeddings",
+              "cell": 17,
+              "original_ast_sha256": "eaccae5b375cdf1c3853ed1de68ce1203aeb25d33a84cb4a7ecbcaa8c96d0fd9",
+              "ast_sha256": "eaccae5b375cdf1c3853ed1de68ce1203aeb25d33a84cb4a7ecbcaa8c96d0fd9",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            20,
+            21
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/generation_model.py",
+          "sha256": "b6a3b42235c19a7699839ae87935f73d2e2359d5862cab5e9fe5bf0f8188b6c9",
+          "source_definitions": [
+            {
+              "name": "render_chat_prompt",
+              "cell": 21,
+              "original_ast_sha256": "67cd9827b92c815c34a52bbf220722742eb31771e52d2aa3415f527c3fc73ef2",
+              "ast_sha256": "67cd9827b92c815c34a52bbf220722742eb31771e52d2aa3415f527c3fc73ef2",
+              "ast_equal": true
+            },
+            {
+              "name": "generate_chat",
+              "cell": 21,
+              "original_ast_sha256": "3796df8f45d727df6de104882b32990c0537da3949346b146878f9ef82f329f4",
+              "ast_sha256": "3796df8f45d727df6de104882b32990c0537da3949346b146878f9ef82f329f4",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            28,
+            29
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/generation.py",
+          "sha256": "f16852e228e675df7fc1674d294be3263744462cd06837e07ffc24aebeb4ad5d",
+          "source_definitions": [
+            {
+              "name": "format_docs",
+              "cell": 29,
+              "original_ast_sha256": "709dcaaef5bdb95024e9ac01861971473c4dbc2aba82e37945f9db33da8a4e7f",
+              "ast_sha256": "d3c133e8c5b3f2c1c7782bd3c05dc0a6e28553fa908a3a2fb45819e4121c965b",
+              "ast_equal": false
+            }
+          ]
+        },
+        {
+          "original": "RAG_local_ver.0.1.ipynb",
+          "cells": [
+            36
+          ],
+          "module": "versions/pipelines/minhyup/Version_3/local/retrieval.py",
+          "sha256": "81738124b625a18b530ee27dfebfdf32d6480162053489cb94ea73e5bb0008cc",
+          "source_definitions": [
+            {
+              "name": "tokenize_korean",
+              "cell": 36,
+              "original_ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+              "ast_sha256": "91c1b0aeb898c28e7cb01cd67279dec169447b9b524b7b4816b2fed2c408cded",
+              "ast_equal": true
+            },
+            {
+              "name": "_document_key",
+              "cell": 36,
+              "original_ast_sha256": "9df4800a792996af1b6e3d1301c49c473b3c2f4c5aadb6289a9e29ac7ca74f41",
+              "ast_sha256": "9df4800a792996af1b6e3d1301c49c473b3c2f4c5aadb6289a9e29ac7ca74f41",
+              "ast_equal": true
+            },
+            {
+              "name": "hybrid_search",
+              "cell": 36,
+              "original_ast_sha256": "70a8cadefed7a4da9d0676bcf3b0ed4b27c344bafddf4ccafa264ad49e27411b",
+              "ast_sha256": "70a8cadefed7a4da9d0676bcf3b0ed4b27c344bafddf4ccafa264ad49e27411b",
+              "ast_equal": true
+            }
+          ]
+        },
+        {
+          "original": "rag_chunking.py",
+          "module": "versions/pipelines/minhyup/Version_3/rag_chunking.py",
+          "sha256": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889",
+          "change": "원본 바이트 보존"
+        },
+        {
+          "original": "rag_reranking.py",
+          "module": "versions/pipelines/minhyup/Version_3/rag_reranking.py",
+          "sha256": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff",
+          "change": "원본 바이트 보존"
+        },
+        {
+          "original": "rag_context.py",
+          "module": "versions/pipelines/minhyup/Version_3/rag_context.py",
+          "sha256": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45",
+          "change": "원본 바이트 보존"
+        },
+        {
+          "original": "verify_rag.py",
+          "module": "versions/pipelines/minhyup/Version_3/verify_rag.py",
+          "sha256": "eaef80c3cd2635220f7e14eb85da2f24d650a72ddf919a996fcaed1a01b55662",
+          "change": "원본 바이트 보존"
+        }
+      ],
+      "missing": [
+        "원본에 독립적인 생성 답변 사실·수치 검증 없음; prompt 지시와 파서/청크 검수만 있음"
+      ],
+      "run": "NotebookRuntime(member, variant, providers).run(stage); 외부 초기화는 자동 실행하지 않음"
+    }
+  ]
+}

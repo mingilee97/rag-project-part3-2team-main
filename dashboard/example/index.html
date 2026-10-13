@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>대시보드 UI 버전 비교 · 합성 예시</title>
+<style>
+body{font:16px/1.6 system-ui,sans-serif;background:#f4f7fb;color:#17304d;margin:0}main{max-width:1040px;margin:auto;padding:28px}h1{font-size:25px}label{display:inline-block;margin:0 20px 16px 0}select{padding:8px;font:inherit}section{background:white;border:1px solid #dbe4ee;border-radius:14px;padding:20px;margin-top:20px}.notice{background:#fff5d8;padding:12px;border-radius:8px}.parts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.part{background:#edf5ff;padding:12px;border-radius:8px}.part h3{font-size:17px}.part ol{padding-left:25px}.days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}.day{border:1px solid #e0e7ef;border-radius:5px;min-height:50px;padding:5px}.outside{color:#8493a5;background:#f6f8fb}svg{width:100%;height:130px}.status{font-weight:bold;color:#794600}@media(max-width:700px){.parts{grid-template-columns:repeat(2,1fr)}main{padding:14px}}
+</style>
+<main>
+<h1>대시보드 UI 버전 비교</h1>
+<p class="notice">공개용 합성 예시입니다. 팀원 정보, 실제 일정, DB, 운영 API를 연결하지 않습니다. 원본 운영 화면의 복원본이 아닙니다.</p>
+<label>UI 버전 <select id="version"><option>calendar-unified-20261008</option><option>roadmap-readable-20261008</option></select></label>
+<label>질문 경로 <select id="route"><option>single</option><option>meta</option><option>compare</option><option>search</option></select></label>
+<p>모델 선정 상태: <span class="status">pending · 현재 메인 유지</span></p>
+<section><h2>4파트 · 12단계</h2><div id="parts" class="parts"></div><p id="flow"></p><svg id="geometry" viewBox="0 0 940 130" aria-label="합성 카드의 연결선 비교"></svg></section>
+<section><h2>합성 캘린더 · 2030년 1월</h2><p>원본 버전의 일요일 시작 날짜 계산 함수를 사용합니다.</p><div id="calendar" class="days"></div></section>
+<section><h2>버전 역할</h2><p id="role"></p><p>UI 선택과 모델 채택은 별도로 기록합니다. 새 후보의 검색 결과는 평가 집계에서 확인하며, 채택 동작은 이 예시에 포함하지 않습니다.</p></section>
+</main>
+<script type="module" src="./preview.mjs"></script></html>

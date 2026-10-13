@@ -1,0 +1,21 @@
+{
+  "id": "eugene/Version_1",
+  "label": "Version 1 · 미확보",
+  "repository": "eugene527/rag-project-evaluation",
+  "commit": null,
+  "change_kind": "미확보",
+  "adoption": "판정 불가",
+  "stages": {
+    "parser": [],
+    "chunking": [],
+    "embedding": [],
+    "retrieval": [],
+    "generation": [],
+    "verification": []
+  },
+  "files": [],
+  "missing": [
+    "2026-10-13 GitHub 공식 조회 HTTP 404; 비공개·권한·삭제 여부 구분 불가"
+  ],
+  "run": "원본 코드와 고정 commit을 확보한 뒤 접수합니다."
+}

@@ -1,0 +1,319 @@
+{
+  "schema": "public-review-artifacts-v1",
+  "created_utc": "2026-10-09T07:31:27.875441+00:00",
+  "hash_policy": "UTF-8 text with CRLF normalized to LF for Git platform independence",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 292,
+      "sha256_lf": "0a4760dd663bed7439494d532a4795f4ac5de8508e68ad4bb1d87479d0b5d05b"
+    },
+    {
+      "path": ".github/workflows/review-bundle.yml",
+      "bytes": 1122,
+      "sha256_lf": "b7eac4ffd23247740aa309a59d32d3ff7ee7dcd0b42fc52b26909bcc9a31fef6"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 992,
+      "sha256_lf": "a858c410bf052bb4e98c28ddb1864eba369def1d41836fb82071ff4b66b0c6ac"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4247,
+      "sha256_lf": "d9a089090a255a71dcea6de3daa042aa07d7229d8c1cc980f8e3bc209b82c3fd"
+    },
+    {
+      "path": "candidates/hyunkyung/5e79101/adapter.py",
+      "bytes": 2075,
+      "sha256_lf": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
+    },
+    {
+      "path": "candidates/hyunkyung/5e79101/cleaning.py",
+      "bytes": 1580,
+      "sha256_lf": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c"
+    },
+    {
+      "path": "candidates/hyunkyung/5e79101/provenance.json",
+      "bytes": 1205,
+      "sha256_lf": "ebf3898c2b68da2d3590d66257eb77e193499de40db7a687551950e90b306956"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/provenance.json",
+      "bytes": 1473,
+      "sha256_lf": "976a4ad00215de7e1eb8be208590e69cab1b5bf46d963d7934bb785c6c5dd3dd"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/rag_chunking.py",
+      "bytes": 7338,
+      "sha256_lf": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/rag_context.py",
+      "bytes": 2965,
+      "sha256_lf": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45"
+    },
+    {
+      "path": "candidates/minhyup/10882e3/rag_reranking.py",
+      "bytes": 4928,
+      "sha256_lf": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff"
+    },
+    {
+      "path": "dashboard/build-example.mjs",
+      "bytes": 1766,
+      "sha256_lf": "332a297817ce4ce5ceeeee68e8d4481d1df2d59a03fabad731c0dd62e39261c2"
+    },
+    {
+      "path": "dashboard/example/index.html",
+      "bytes": 2384,
+      "sha256_lf": "135c12edbf143cf12754a9a0eed8a265a69ec9672e4d7bac931973deed6eb340"
+    },
+    {
+      "path": "dashboard/example/modules/calendar-unified-20261008/calendarDate.mjs",
+      "bytes": 2660,
+      "sha256_lf": "4058873e0253a8f689f0bef9866c4ee4e7b9e80555359d07fd0c3ef03309f190"
+    },
+    {
+      "path": "dashboard/example/modules/calendar-unified-20261008/processRoadmapLayout.mjs",
+      "bytes": 4226,
+      "sha256_lf": "7d2e20d06e140aeac41c046ca9c3ecf43d56276b16ea14514b1606e1ea5b2517"
+    },
+    {
+      "path": "dashboard/example/modules/roadmap-readable-20261008/calendarDate.mjs",
+      "bytes": 2660,
+      "sha256_lf": "4058873e0253a8f689f0bef9866c4ee4e7b9e80555359d07fd0c3ef03309f190"
+    },
+    {
+      "path": "dashboard/example/modules/roadmap-readable-20261008/processRoadmapLayout.mjs",
+      "bytes": 16613,
+      "sha256_lf": "c013e8890270d3cac85301251c11dd17769207b5227bf338353cec540416938c"
+    },
+    {
+      "path": "dashboard/example/preview.mjs",
+      "bytes": 2912,
+      "sha256_lf": "7d329f56b12a79e9fb7da958e175a03e9adaab7aa9e72cccb0fc058679311b26"
+    },
+    {
+      "path": "dashboard/test-example.mjs",
+      "bytes": 1575,
+      "sha256_lf": "c4d32e2990335b0472228276b92feca0c356b9dc5858801f94b6c8a6138d8ead"
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/calendarDate.ts",
+      "bytes": 3570,
+      "sha256_lf": "559a3fd53734266f1e15979a8585272a1bd413c990881b6042e771b6f3982385"
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/process-roadmap.css",
+      "bytes": 21238,
+      "sha256_lf": "2939e593168220a60606fd9e0bdf7fcc576d018b8b62dc5cdac1d0ba3b1ab9aa"
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/processRoadmapLayout.ts",
+      "bytes": 4480,
+      "sha256_lf": "e4a68ef3fd81ab66dbf9d0af2ceacfd9aa6efda3fe04cf8facb4aa8df6a5af61"
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/components/unified-calendar.css",
+      "bytes": 20810,
+      "sha256_lf": "13155c304e1cf4002f9dcba68232ebe92205e2afa6e13204d08a02e45938f5ba"
+    },
+    {
+      "path": "dashboard/versions/calendar-unified-20261008/manifest.json",
+      "bytes": 2078,
+      "sha256_lf": "bfb0282bf916aedd7b14f996748fa45b2f0c8258c9c6233063a4e2d15a0943a6"
+    },
+    {
+      "path": "dashboard/versions/catalog.json",
+      "bytes": 767,
+      "sha256_lf": "72225712702b44075e08a134205753539ce48144bc9f6ba6ac51a3c490a7904c"
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/calendarDate.ts",
+      "bytes": 3570,
+      "sha256_lf": "559a3fd53734266f1e15979a8585272a1bd413c990881b6042e771b6f3982385"
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/process-roadmap.css",
+      "bytes": 30699,
+      "sha256_lf": "316357544f69377cd56bc6fd1084fc67bfef25a056952d062cd1aab16e060150"
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/processRoadmapLayout.ts",
+      "bytes": 17378,
+      "sha256_lf": "058a80085e6f3f4e1fd5f44c8b6f5c8cec29af045f2145bb52f50fcafdc9112e"
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/components/unified-calendar.css",
+      "bytes": 20810,
+      "sha256_lf": "13155c304e1cf4002f9dcba68232ebe92205e2afa6e13204d08a02e45938f5ba"
+    },
+    {
+      "path": "dashboard/versions/roadmap-readable-20261008/manifest.json",
+      "bytes": 2070,
+      "sha256_lf": "7576bea0c2ed44b5f6133e3dc56d3af184ea8c94875f8541415ecb5bafaf072a"
+    },
+    {
+      "path": "docs/버전-검토-인계-20261009.md",
+      "bytes": 5099,
+      "sha256_lf": "8db302399e397c2f7c8f38aa6b6a1dc3e943c251166c0eec8f7c67446c225725"
+    },
+    {
+      "path": "docs/버전-비교-근거.md",
+      "bytes": 10182,
+      "sha256_lf": "ba50ae70a5440380f67a94a0f4ae7e0372cd9dbe6e1c495e8f1967ca1c936466"
+    },
+    {
+      "path": "docs/평가-환경-비교-20261009.md",
+      "bytes": 4594,
+      "sha256_lf": "9dce50c80eba43004252f2640c44403d889ee5216588844587c96a681bcb4d45"
+    },
+    {
+      "path": "evaluation/README.md",
+      "bytes": 7127,
+      "sha256_lf": "c8f75a28ad5e22a44098a578098b8beb50099db9572a54dbe1798ca1d6dd7d2e"
+    },
+    {
+      "path": "evaluation/VM-COLAB.md",
+      "bytes": 8822,
+      "sha256_lf": "61f6ba2c8fa74ac3de928a10f2e2bef56239aa7741ef4ffb2987df8d283671f0"
+    },
+    {
+      "path": "evaluation/aggregates/20261008-context.json",
+      "bytes": 57845,
+      "sha256_lf": "2758171397cdd0dff3b9237b943991eabbb70b53ad89b738a5a9acb268aa14cf"
+    },
+    {
+      "path": "evaluation/aggregates/20261008-retrieval.json",
+      "bytes": 7908,
+      "sha256_lf": "9893cd7a43867383f865f344fe74990a65a75dc7cb5aec2524eb735f3019d746"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-bf16-precision100.json",
+      "bytes": 1978,
+      "sha256_lf": "7df503d02b4ad39b332198a8929601b20550b75de83a0a24609a35e354af900c"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-bf16-precision14.json",
+      "bytes": 1215,
+      "sha256_lf": "2720a98ce1381c5018ee1afb116258486d71d6e64ff4ee918bdb5873f87a9677"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-bge-pilot-provenance.json",
+      "bytes": 539,
+      "sha256_lf": "e399c195eb2b130a968be1644fc42dd8bbee3f3236f577aebfe3d94577fefe3e"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-bge-pilot.json",
+      "bytes": 3546,
+      "sha256_lf": "3b68c61bfa39baf0fffe7afc703917aa1665d0dee7705a99d0c3a3c745c40d53"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-full-retrieval.json",
+      "bytes": 5128,
+      "sha256_lf": "712bfc06b06c0865ea5fff10555dc59eb3e91f3cae7e73f1f53beeae4f52f4bd"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-generation-pilot.json",
+      "bytes": 2129,
+      "sha256_lf": "8011df7184cd511ca23d35026ed586fbdfd0e7f03ccddb465e5d4cfed295f3d0"
+    },
+    {
+      "path": "evaluation/aggregates/20261009-paired-retrieval.json",
+      "bytes": 5890,
+      "sha256_lf": "cd8c67ef2379d08a43b44545490373af67168d1e9aba15307d75d5c1af2d16a8"
+    },
+    {
+      "path": "evaluation/components.py",
+      "bytes": 7346,
+      "sha256_lf": "64a22158b7cb0d2b9ad78eeab9cf371dcb7af788d4124931fd983b6bec9c108c"
+    },
+    {
+      "path": "evaluation/cpu_service.py",
+      "bytes": 3939,
+      "sha256_lf": "3264421195c5eab8fde233a0822125b073f0f6ceb92effaf14360f1436414555"
+    },
+    {
+      "path": "evaluation/full_cpu_compare.py",
+      "bytes": 14677,
+      "sha256_lf": "b5ac4f9b1470a5df13170092d241e90eb39da159da0ea492702ee3a0974bceb1"
+    },
+    {
+      "path": "evaluation/generate_cpu_components.py",
+      "bytes": 9486,
+      "sha256_lf": "2a51eb2e755d77d5280cf0aaabeff3097c77f9ddf9a2045db1c17c7d3a860061"
+    },
+    {
+      "path": "evaluation/generate_vm_components.py",
+      "bytes": 12440,
+      "sha256_lf": "8662a487d461214ca14379bf72f44cad0acc1939338d851b8ccd77f5ca81b41b"
+    },
+    {
+      "path": "evaluation/retrieval_protocol.py",
+      "bytes": 1724,
+      "sha256_lf": "511d2c15c4a495ac358c0031603015ab52e6e7c81666b23ffcd4a6047ad0b1b2"
+    },
+    {
+      "path": "evaluation/test_cleaning_adapter.py",
+      "bytes": 1656,
+      "sha256_lf": "855cfee85c7b8da6e91088d9d22eb3a82f36d4f94244f9b866ff892fc2f2abcc"
+    },
+    {
+      "path": "evaluation/test_cpu_service.py",
+      "bytes": 2139,
+      "sha256_lf": "16ac5ecb3ddec8999431bc0624136de3797ee9410a9b188c38e00edfbd7ce95a"
+    },
+    {
+      "path": "evaluation/test_retrieval_protocol.py",
+      "bytes": 2011,
+      "sha256_lf": "b901ab980d600e57c8490e34c599957bdd8559fd235ecf3018ff34c6d46a7eb5"
+    },
+    {
+      "path": "evaluation/test_vm_service.py",
+      "bytes": 5048,
+      "sha256_lf": "41034b3c8fe9c23f7790ed4708be772a7fb6d4e80397b72f9f1e9e360dd107dd"
+    },
+    {
+      "path": "evaluation/verify_public_bundle.py",
+      "bytes": 8303,
+      "sha256_lf": "b3bd361211f78f1e9186f0435be6964c7afdfe87f37787a91d8155fa943e2e9a"
+    },
+    {
+      "path": "evaluation/vm-package.json",
+      "bytes": 1862,
+      "sha256_lf": "7e8da6a017fc6e151b52990fb51bc7a93f2883e680e5fee2fb443eff45dd1490"
+    },
+    {
+      "path": "evaluation/vm-preflight.py",
+      "bytes": 4569,
+      "sha256_lf": "f9efcbb19388e966976c9042b8c5497796dd835bc530c22aca4b2de47fecef17"
+    },
+    {
+      "path": "evaluation/vm_service.py",
+      "bytes": 7152,
+      "sha256_lf": "a492aa9aa6e2ceb5f638cda8d39e4c2ffdf31781831ec1dc78f6bc052657276d"
+    },
+    {
+      "path": "versions/models.json",
+      "bytes": 2207,
+      "sha256_lf": "8f89ae57305c2f142726f59c38ea2448ae279caf8df7678c24ee1c6730a37211"
+    },
+    {
+      "path": "versions/selection.json",
+      "bytes": 1577,
+      "sha256_lf": "1affef6bce4650dc624c25bd40f388e44748222276dee4ae1e5e884f27d4a9c3"
+    }
+  ],
+  "scope": "whitelisted source utilities/public teammate components/synthetic UI/aggregate results/offline reproduction; no raw private data",
+  "full_100_document_retrieval": "in_progress",
+  "full_504_generation": "paused_before_first_input",
+  "selection": "pending",
+  "original_99_local_sealed_artifacts_preserved": true,
+  "synthetic_browser_QA": {
+    "views": 16,
+    "errors": 0,
+    "external_requests": 0,
+    "desktop_mobile": true
+  },
+  "updated_utc": "2026-10-09T10:50:53.369572+00:00"
+}

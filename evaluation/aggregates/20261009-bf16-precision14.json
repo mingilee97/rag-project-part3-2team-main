@@ -1,0 +1,32 @@
+{
+  "schema": "bf16-ranking-precision-audit-v1",
+  "scope": "existing14doc_caches_not_current100doc",
+  "records": [
+    {
+      "variant": "main_fixed1000_200",
+      "corpus_documents": 14,
+      "questions": 168,
+      "vector_count": 1501,
+      "max_absolute_unit_norm_error": 0.0037266016006469727,
+      "top5_order_changed_questions": 48,
+      "top5_set_changed_questions": 15,
+      "top20_set_changed_questions": 46,
+      "original_ranking_or_vectors_overwritten": false
+    },
+    {
+      "variant": "minhyup_child1000_200",
+      "corpus_documents": 14,
+      "questions": 168,
+      "vector_count": 2450,
+      "max_absolute_unit_norm_error": 0.003784656524658203,
+      "top5_order_changed_questions": 64,
+      "top5_set_changed_questions": 18,
+      "top20_set_changed_questions": 58,
+      "original_ranking_or_vectors_overwritten": false
+    }
+  ],
+  "actual_search": "exact dot-product ranking on nominally normalized BF16-derived vectors; no ANN",
+  "legacy_exact_cosine_label_is_approximate_due_to_vector_norm_rounding": true,
+  "float32_renormalized_rank_diagnostic_not_used_to_replace_original_results": true,
+  "private_identifiers_texts_vectors_and_perquestion_orders_not_output": true
+}

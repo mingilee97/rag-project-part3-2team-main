@@ -1,0 +1,39 @@
+{
+  "id": "hyunkyung/Version_1",
+  "label": "Version 1",
+  "repository": "HyeongyeongKim/codeit_second_project",
+  "commit": "5e79101a0af1c7e0a18b01d47644090d3b323dd4",
+  "change_kind": "원본 보존 / 형식만 변환",
+  "adoption": "미채택",
+  "stages": {
+    "parser": [
+      "cleaning.py",
+      "adapter.py"
+    ],
+    "chunking": [],
+    "embedding": [],
+    "retrieval": [],
+    "generation": [],
+    "verification": []
+  },
+  "files": [
+    {
+      "original": "candidates/hyunkyung/5e79101/cleaning.py",
+      "module": "versions/pipelines/hyunkyung/Version_1/cleaning.py",
+      "sha256": "62d016498176e072b3c84c2aad51a61f4ea7c347834869ca0b5085dfde955e5c"
+    },
+    {
+      "original": "candidates/hyunkyung/5e79101/adapter.py",
+      "module": "versions/pipelines/hyunkyung/Version_1/adapter.py",
+      "sha256": "aea89beba221ff6e60df7217d37a14e2ab076148fda38bf3fef5e9654886690e"
+    }
+  ],
+  "missing": [
+    "chunking 단계 전체 파이프라인 연결 미완료",
+    "embedding 단계 전체 파이프라인 연결 미완료",
+    "retrieval 단계 전체 파이프라인 연결 미완료",
+    "generation 단계 전체 파이프라인 연결 미완료",
+    "verification 단계 전체 파이프라인 연결 미완료"
+  ],
+  "run": "python versions/pipelines/select.py --version hyunkyung/Version_1 --check; 실제 호출 규약은 각 함수와 source-provenance.json을 확인합니다."
+}

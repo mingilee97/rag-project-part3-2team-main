@@ -1,0 +1,10 @@
+{
+  "original_script_sha256": "40e1efff59f5f091ec12b6acf4bbd3f1d45d84dcbdf6355a1aa9b2159136f81b",
+  "original_result_sha256": "a04643a048a4aa33af4cc290d1e44d06a47ae75be8f10feb26826edbd075292e",
+  "plan_sha256": "5ca64bcbe7a7497855326c2ca66e3fe68e9495fda8cd9e1f422e590f3b67316c",
+  "private_question_ids_texts_chunktrace_and_paths_omitted": true,
+  "selection": "firstquestionoffirst4distinctconfirmedprojects",
+  "new_bge_pairs": 160,
+  "kure_vector_reuse": true,
+  "generation_judge_failed_or_missing_scores_not_filled_with_zero": true
+}

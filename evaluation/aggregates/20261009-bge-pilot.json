@@ -1,0 +1,111 @@
+{
+  "schema": "bge-cpu-component-pilot-v1",
+  "completed_utc": "2026-10-09T06:43:18.756435+00:00",
+  "model": "BAAI/bge-reranker-v2-m3",
+  "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "max_length": 1024,
+  "load_seconds": 2.9940024000006815,
+  "aggregates": [
+    {
+      "treatment": "candidate_bge_parent4_pool20",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 11,
+      "pooled_present_quote_recall": 1.0,
+      "unconditional_quote_recall": 1.0,
+      "any_hit_questions": 4,
+      "complete_questions": 4,
+      "context_tokens_mean": 2847.25,
+      "budget_overflows": 0
+    },
+    {
+      "treatment": "candidate_bge_top5",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 11,
+      "pooled_present_quote_recall": 1.0,
+      "unconditional_quote_recall": 1.0,
+      "any_hit_questions": 4,
+      "complete_questions": 4,
+      "context_tokens_mean": 1996.5,
+      "budget_overflows": 0
+    },
+    {
+      "treatment": "candidate_dense_parent4_pool20",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 6,
+      "pooled_present_quote_recall": 0.5454545454545454,
+      "unconditional_quote_recall": 0.5454545454545454,
+      "any_hit_questions": 3,
+      "complete_questions": 3,
+      "context_tokens_mean": 2241.0,
+      "budget_overflows": 0
+    },
+    {
+      "treatment": "candidate_dense_top5",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 6,
+      "pooled_present_quote_recall": 0.5454545454545454,
+      "unconditional_quote_recall": 0.5454545454545454,
+      "any_hit_questions": 3,
+      "complete_questions": 3,
+      "context_tokens_mean": 1301.0,
+      "budget_overflows": 0
+    },
+    {
+      "treatment": "main_bge_top5",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 11,
+      "pooled_present_quote_recall": 1.0,
+      "unconditional_quote_recall": 1.0,
+      "any_hit_questions": 4,
+      "complete_questions": 4,
+      "context_tokens_mean": 2813.25,
+      "budget_overflows": 0
+    },
+    {
+      "treatment": "main_dense_top5",
+      "questions": 4,
+      "eligible_quotes": 11,
+      "raw_present_quotes": 11,
+      "pooled_present_quote_hits": 11,
+      "pooled_present_quote_recall": 1.0,
+      "unconditional_quote_recall": 1.0,
+      "any_hit_questions": 4,
+      "complete_questions": 4,
+      "context_tokens_mean": 2406.75,
+      "budget_overflows": 0
+    }
+  ],
+  "wall_seconds": 61.57224209999913,
+  "scope": "4project-firstquestions; gold-informed14doc corpus; reuse exactKURE vectors; body-onlyBGE; same4000o200k",
+  "integration_changes": [
+    "global(doc_id,parent_id) keys avoidnativeper-documentparentIDcollision",
+    "score once and reuseBGEorder forparent4; originalanchor-fallbackbehavior preserved",
+    "body-onlyBGE onbothchunkers; title/agencyprefix retainedonly forKURE"
+  ],
+  "new_embedding_calls": 0,
+  "generator_calls": 0,
+  "judge_calls": 0,
+  "gpu_calls": 0,
+  "paid_calls": 0,
+  "download_calls": 0,
+  "limits": [
+    "pilotnotfull168or100dense",
+    "notnativeRRF20orOpenAIcandidatepath",
+    "BGElogitsnotcosinegateprobabilities",
+    "noanswerqualityorfinalwinnerproof",
+    "o200kcontextnotEXAONEfullpromptfit",
+    "singlelatencymeasurementnotrepeatbenchmark"
+  ]
+}
