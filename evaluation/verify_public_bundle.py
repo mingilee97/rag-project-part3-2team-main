@@ -29,7 +29,7 @@ def read(path): return json.loads(path.read_text(encoding='utf-8'))
 def main():
     issues, paths = [], []
     for area in AREAS:
-        paths.extend(p for p in (ROOT / area).rglob('*') if p.is_file())
+        paths.extend(p for p in (ROOT / area).rglob('*') if p.is_file() and '__pycache__' not in p.parts)
     paths += [ROOT / 'README.md', ROOT / 'AGENTS.md']
     paths += list((ROOT / 'docs').glob('*20261009.md'))
     paths += [ROOT / 'docs/버전-비교-근거.md', ROOT / '.github/workflows/review-bundle.yml']

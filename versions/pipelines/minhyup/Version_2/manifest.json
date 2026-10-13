@@ -21,7 +21,7 @@
     {
       "original": "controlled_modules::chunk_teammate",
       "module": "versions/pipelines/minhyup/Version_2/chunking.py",
-      "sha256": "4b379566d0548171c2bc0dc39a1f24c1bfe51703160a1378b9b49bffc4e29e84",
+      "sha256": "1fc5845df1db3a567a937ce52f907f7c7d449fe676f8e5ba06faab1d645794ed",
       "changes": "원본 parent/child 경계와 메인 메타데이터 연결. 1000/200 공통 상한으로 큰 표 재분할; 상대 import만 공개 위치에 맞춤."
     },
     {
