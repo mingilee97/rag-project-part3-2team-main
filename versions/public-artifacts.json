@@ -11,7 +11,7 @@
     {
       "path": ".github/workflows/review-bundle.yml",
       "bytes": 1122,
-      "sha256_lf": "0a93a324652ee09efd952a81a2706f1312f328b49d3ea1aafbc1b70edc5ed7a5"
+      "sha256_lf": "b7eac4ffd23247740aa309a59d32d3ff7ee7dcd0b42fc52b26909bcc9a31fef6"
     },
     {
       "path": "AGENTS.md",
@@ -21,7 +21,7 @@
     {
       "path": "README.md",
       "bytes": 4247,
-      "sha256_lf": "98090c2e3e37015dbf1ab99e777c7ee07f1b0fcba95bd5db55f8701b9c50d0c1"
+      "sha256_lf": "d9a089090a255a71dcea6de3daa042aa07d7229d8c1cc980f8e3bc209b82c3fd"
     },
     {
       "path": "candidates/hyunkyung/5e79101/adapter.py",
