@@ -154,6 +154,9 @@ class Tests(unittest.TestCase):
                 for variant in variants:
                     with self.subTest(member=member, variant=variant):
                         runtime = NotebookRuntime(member, variant, providers(directory))
+                        if member == 'minhyup':
+                            runtime.run('parser_fix')
+                            self.assertEqual(runtime.call('_extract_hyperlink_texts_from_para', None, b'\x03\x00'), [])
                         runtime.run('parser')
                         if member == 'hyunkyung': runtime.run('cleaning')
                         runtime.run('chunking'); runtime.run('embedding')
@@ -172,6 +175,18 @@ class Tests(unittest.TestCase):
                             self.assertEqual(len(runtime.namespace['retrieval_cache']), before)
                             if variant == 'kiwi': runtime.call('answer_question', '합성 사업 제출 안내', bm25_mode='kiwi')
                             self.assertTrue(runtime.call('extract_quotes', ['"합성 문서의 확인 가능한 근거 문구"']))
+                            runtime.namespace.update(original_records=[{'id': 'synthetic', 'question': '합성 질문', 'evidence_quotes': ['"합성 문서의 확인 가능한 근거 문구"']}],
+                                evaluation_data=[{'id': 'synthetic', 'query': '합성 질문', 'project': '합성 사업', 'question_type': 'synthetic'}],
+                                answers=[{'query': '합성 질문', 'contexts': ['합성 문서의 확인 가능한 근거 문구']} for _ in range(10)])
+                            if variant == 'business':
+                                runtime.run('verification')
+                                self.assertEqual(runtime.namespace['summary_rows'][0]['quote_coverage'], 1)
+                                runtime.namespace['answers'][0]['query'] = '다른 합성 질문'
+                                with self.assertRaises(ValueError): runtime.run('verification')
+                            else:
+                                runtime.namespace['answers_by_mode'] = dict.fromkeys(['current', 'kiwi'], runtime.namespace['answers'])
+                                runtime.run('verification')
+                                self.assertTrue(all(row['quote_coverage'] == 1 for row in runtime.namespace['coverage_rows']))
                             with self.assertRaises(ValueError): runtime.call('identify_project', '없는 사업')
                         else:
                             result = runtime.namespace['hybrid_retrieval_chain'].invoke('합성 질문')

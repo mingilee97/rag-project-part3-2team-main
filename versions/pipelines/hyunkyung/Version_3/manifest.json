@@ -188,7 +188,7 @@
         33
       ],
       "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",
-      "sha256": "1de0b6eaeae5f91363adc09fd1cd1a41303886bf4afff773cbb004ef6526592d",
+      "sha256": "ed84a503587d427b53337c938c23e4ea3bebf572e1240368fef3a4a598723949",
       "source_definitions": [
         {
           "name": "compact",
@@ -359,7 +359,7 @@
         33
       ],
       "module": "versions/pipelines/hyunkyung/Version_3/kiwi/verification.py",
-      "sha256": "85c81555f3f689dd3dc0896072cc018936798c10dd2e909d9d75b9d65c939875",
+      "sha256": "fb1872d13ebffe10003f061569ea26b5a2558b96e6bcefcf6b7712dc2fa2b256",
       "source_definitions": [
         {
           "name": "compact",
@@ -379,7 +379,8 @@
     }
   ],
   "missing": [
-    "RAGAS 점수 계산은 외부 평가 호출이므로 실행하지 않음; 원본 인용문 정규화·추출 함수 보존"
+    "RAGAS 점수 계산은 외부 평가 호출이므로 실행하지 않음; 원본 인용문 정규화·추출·대조 루프 보존",
+    "business 원본 검수는 N=10과 질문 순서 일치를 요구; 정답 의미 판정과 구분"
   ],
   "run": "NotebookRuntime(member, variant, providers).run(stage); 외부 초기화는 자동 실행하지 않음"
 }

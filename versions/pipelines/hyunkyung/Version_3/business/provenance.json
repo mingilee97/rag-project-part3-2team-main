@@ -150,7 +150,7 @@
         33
       ],
       "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",
-      "sha256": "1de0b6eaeae5f91363adc09fd1cd1a41303886bf4afff773cbb004ef6526592d",
+      "sha256": "ed84a503587d427b53337c938c23e4ea3bebf572e1240368fef3a4a598723949",
       "source_definitions": [
         {
           "name": "compact",
