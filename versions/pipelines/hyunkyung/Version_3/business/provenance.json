@@ -147,6 +147,15 @@
     {
       "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
       "cells": [
+        20
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/generation_model.py",
+      "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
         33
       ],
       "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",

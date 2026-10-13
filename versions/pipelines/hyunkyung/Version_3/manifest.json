@@ -33,12 +33,13 @@
     "local_model": [
       "business/local_model.py"
     ],
+    "generation_model": [
+      "business/generation_model.py",
+      "kiwi/generation_model.py"
+    ],
     "verification": [
       "business/verification.py",
       "kiwi/verification.py"
-    ],
-    "generation_model": [
-      "kiwi/generation_model.py"
     ]
   },
   "files": [
@@ -180,6 +181,15 @@
       ],
       "module": "versions/pipelines/hyunkyung/Version_3/business/local_model.py",
       "sha256": "45def99ed0629e07720e41be15de8f88496aaa01fc67af8b44e3e9d5264b1984",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        20
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/generation_model.py",
+      "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
       "source_definitions": []
     },
     {
