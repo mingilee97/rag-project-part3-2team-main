@@ -1,0 +1,74 @@
+{
+  "id": "v4",
+  "label": "Version 4",
+  "status": "최종 후보 · 재배포 권한 확인 필요",
+  "comparison": "비교 보류",
+  "source": {
+    "author": "seolwoom",
+    "repository": "seolwoom/rag-for-proposals",
+    "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+    "notebook": "RAG_local_ver.0.1.ipynb",
+    "notebook_sha256": "6ca91dc5bf902ee8084aef5a0e740759400c577c7369cd7a26aa26091edf8132"
+  },
+  "runtime": {
+    "member": "minhyup",
+    "variant": "local",
+    "bundle_commit": "cf4171e577cd481054fdd0aceee79bf87d6f5518"
+  },
+  "modules": {
+    "parser": "minhyup/Version_3/local/parser.py",
+    "chunker": "minhyup/Version_3/local/chunking.py",
+    "embedder": "minhyup/Version_3/local/embedding.py",
+    "retriever": "minhyup/Version_3/local/retrieval.py",
+    "generator": "minhyup/Version_3/local/generation.py"
+  },
+  "run": {
+    "convention": "원본 노트북 상태와 공급자를 providers로 전달",
+    "stages": [
+      "parser",
+      "chunking",
+      "embedding",
+      "generation",
+      "retrieval"
+    ]
+  },
+  "evidence": "고정 원본 코드/설정과 기존 Version 3 접수·합성 연결 검사. 해당 원본 전체 흐름의 동일조건 품질 순위 미확정.",
+  "license": {
+    "detected": null,
+    "redistribution": "unconfirmed",
+    "checked_on": "2026-10-14"
+  },
+  "deployment_generator": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "max_tokens": 1500,
+    "timeout": 120
+  },
+  "historical_settings": {
+    "parser": {
+      "hwp": "custom olefile",
+      "pdf": "pymupdf4llm + PyPDFLoader fallback"
+    },
+    "chunker": {
+      "method": "recursive",
+      "size": 500,
+      "overlap": 100
+    },
+    "embedder": {
+      "model": "nlpai-lab/KoE5",
+      "store": "FAISS"
+    },
+    "retriever": {
+      "dense_k": 4,
+      "hybrid_dense_k": 5,
+      "hybrid_sparse_k": 5,
+      "hybrid_final_k": 5,
+      "reranker": false
+    },
+    "generator": {
+      "model": "nlpai-lab/KULLM3",
+      "provider": "local"
+    }
+  }
+}

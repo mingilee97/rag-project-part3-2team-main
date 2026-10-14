@@ -1,0 +1,3 @@
+# 과거 선정 당시 EXAONE 생성 조건을 선택할 때만 사용한다.
+llm: {provider: local, model: 'exaone3.5:7.8b'}
+pipeline: {route: true, verify: true, use_enriched: true}
