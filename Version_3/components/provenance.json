@@ -1,0 +1,10 @@
+{
+  "repository": "seolwoom/rag-for-proposals",
+  "commit": "10882e31f1945369b68e38843a8f64ea777d3ffb",
+  "files": {
+    "rag_chunking.py": "9f1946127343d71d22d88e6fb955d5e3b5c38833a513024f56480cff22610889",
+    "rag_context.py": "f403948e5ba89004b597a87d9f056ef2ddf20de7bd17573c14f83e17d2a97c45",
+    "rag_reranking.py": "ded3249a6cbb5843ae8c54d830159d07cb6676b85ff58b26624ab1ce122bf7ff"
+  },
+  "change": "원본 바이트 보존; Version 3과 4가 재사용"
+}

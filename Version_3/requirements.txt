@@ -1,0 +1,7 @@
+-r ../Baseline/requirements.txt
+faiss-cpu
+pandas
+langchain-hwp-hwpx-loader==0.1.1
+hwp-hwpx-parser==1.0.0
+pymupdf4llm
+tiktoken
