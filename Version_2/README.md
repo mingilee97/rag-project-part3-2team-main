@@ -16,3 +16,5 @@ python Version_2/run.py --input-dir data/raw --metadata data/data_list.csv --ask
 공통 세션은 `from version_runtime import VersionSession`, `VersionSession('v2', providers)`입니다. 직접 연결하지 않아도 CLI가 version_inputs.prepare로 실제 라이브러리와 입력을 준비합니다. 공통 run/call 입구는 포함된 원본 함수를 실행하며 동일한 결과를 내는 대체 알고리즘으로 바꾸지 않았습니다. Version 3의 components는 원본 청킹·재순위·문맥 구성 부품이며 중복 복사를 피하려고 공유합니다.
 
 실제 모델 품질을 평가하지 않았습니다. 기존 EXAONE·Luna 평가 근거와 Haiku 변경 이후를 구분합니다. 현재 후보의 동일조건 성능 순위는 비교 보류입니다.
+
+이 Version의 CLI는 원본 answer_question에 `bm25_mode='kiwi'`를 전달합니다. 원래 current/kiwi 비교 함수와 기본값은 수정하지 않았으며 current 비교는 직접 call할 때 선택할 수 있습니다. Version 1~2 질문에는 CSV의 실제 사업명을 포함해야 합니다.

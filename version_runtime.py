@@ -72,6 +72,8 @@ class VersionSession:
         self.run('chunker'); self.run('embedder'); self.connect_haiku()
         if version in ('v1','v2'):
             self.run('retriever'); self.run('generator')
+            if version=='v2':
+                return self.call('answer_question',question,bm25_mode='kiwi')
             return self.call('answer_question',question)
         self.run('generator'); self.run('retriever')
         return self.namespace['hybrid_retrieval_chain'].invoke(question)
