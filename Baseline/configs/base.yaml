@@ -3,8 +3,10 @@
 data_dir: data   # 환경 변수 RFP_DATA_DIR가 있으면 그 값이 앞선다
 
 llm:
-  provider: local            # local | openai
-  model: exaone3.5:7.8b
+  provider: anthropic        # anthropic | local | openai
+  model: claude-haiku-4-5-20251001
+  max_tokens: 1500
+  timeout: 120
   base_url: http://127.0.0.1:11434
   temperature: 0
   num_ctx: 8192

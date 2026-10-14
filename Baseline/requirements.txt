@@ -8,6 +8,7 @@ langchain-chroma
 langchain-huggingface
 langchain-ollama
 langchain-openai
+langchain-anthropic>=1.1.0
 chromadb
 sentence-transformers
 rank_bm25

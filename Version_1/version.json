@@ -1,0 +1,77 @@
+{
+  "id": "v1",
+  "label": "Version 1",
+  "status": "최종 후보 · 재배포 권한 확인 필요",
+  "comparison": "비교 보류",
+  "source": {
+    "author": "HyeongyeongKim",
+    "repository": "HyeongyeongKim/codeit_second_project",
+    "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+    "notebook": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+    "notebook_sha256": "d8b0c60207a80f4ce2ec6aad2b98c4e9a642bd56dc7014d82a77ed8df523da17"
+  },
+  "runtime": {
+    "member": "hyunkyung",
+    "variant": "business",
+    "bundle_commit": "cf4171e577cd481054fdd0aceee79bf87d6f5518"
+  },
+  "modules": {
+    "parser": "hyunkyung/Version_3/business/parser.py",
+    "chunker": "hyunkyung/Version_3/business/chunking.py",
+    "embedder": "hyunkyung/Version_3/business/embedding.py",
+    "retriever": "hyunkyung/Version_3/business/retrieval.py",
+    "generator": "hyunkyung/Version_3/business/generation.py"
+  },
+  "run": {
+    "convention": "원본 노트북 상태와 공급자를 providers로 전달",
+    "stages": [
+      "parser",
+      "cleaning",
+      "chunking",
+      "embedding",
+      "retrieval",
+      "generation"
+    ]
+  },
+  "evidence": "고정 원본 코드/설정과 기존 Version 3 접수·합성 연결 검사. 해당 원본 전체 흐름의 동일조건 품질 순위 미확정.",
+  "license": {
+    "detected": null,
+    "redistribution": "unconfirmed",
+    "checked_on": "2026-10-14"
+  },
+  "deployment_generator": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "max_tokens": 1500,
+    "timeout": 120
+  },
+  "historical_settings": {
+    "parser": {
+      "hwp": "HwpHwpxLoader",
+      "pdf": "pymupdf4llm"
+    },
+    "chunker": {
+      "method": "recursive",
+      "size": 700,
+      "overlap": 100
+    },
+    "embedder": {
+      "model": "dragonkue/BGE-m3-ko",
+      "store": "FAISS",
+      "device": "cuda"
+    },
+    "retriever": {
+      "method": "dense + BM25 RRF",
+      "reranker": "Alibaba-NLP/gte-multilingual-reranker-base",
+      "top_n": 6,
+      "tokenizer": "whitespace",
+      "business_selector": true
+    },
+    "generator": {
+      "model": "gpt-5-mini-2025-08-07",
+      "provider": "openai",
+      "optional_local": "LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ"
+    }
+  }
+}

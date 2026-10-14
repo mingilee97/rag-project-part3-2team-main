@@ -13,3 +13,5 @@ logs/
 results/
 *.pem
 *.key
+!.env.example
+external-modules/

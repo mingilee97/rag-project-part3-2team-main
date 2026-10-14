@@ -1,0 +1,76 @@
+{
+  "id": "baseline",
+  "label": "Baseline · 07_verify",
+  "status": "공유 가능 · 사용자 기준 07_verify",
+  "comparison": "비교 보류",
+  "source": {
+    "author": "mingilee97",
+    "repository": "mingilee97/rag-project-part3-2team-main",
+    "commit": "bfca8f0508b65dfa97d9aa01da9a93ac188e68bd",
+    "implementation_commit": "423a32ab47ffe8a41b3dfbd00a9844889e4cadd5"
+  },
+  "modules": {
+    "parser": [
+      "rfp_rag.ingest.load",
+      "load_docs"
+    ],
+    "chunker": [
+      "rfp_rag.ingest.chunk",
+      "chunk_fixed"
+    ],
+    "embedder": [
+      "rfp_rag.index",
+      "get_embeddings"
+    ],
+    "retriever": [
+      "rfp_rag.retrieve",
+      "retrieve"
+    ],
+    "generator": [
+      "rfp_rag.pipeline",
+      "ask"
+    ]
+  },
+  "run": {
+    "experiment": "07_verify",
+    "convention": "원래 함수 인자를 run(stage, ...)에 전달"
+  },
+  "evidence": "기존 공개 코드와 저장 설정. 최신 Luna 평가와 동일 코드/생성 조건의 점수로 간주하지 않음.",
+  "deployment_generator": {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "temperature": 0,
+    "max_tokens": 1500,
+    "timeout": 120
+  },
+  "historical_settings": {
+    "parser": {
+      "hwp": "custom olefile",
+      "pdf": "PyMuPDF"
+    },
+    "chunker": {
+      "method": "fixed",
+      "size": 1000,
+      "overlap": 200
+    },
+    "embedder": {
+      "model": "nlpai-lab/KURE-v1",
+      "store": "Chroma",
+      "device": "cpu"
+    },
+    "retriever": {
+      "method": "dense",
+      "k": 5,
+      "reranker": false
+    },
+    "generator": {
+      "model": "exaone3.5:7.8b",
+      "provider": "local"
+    },
+    "pipeline": {
+      "route": true,
+      "verify": true,
+      "use_enriched": true
+    }
+  }
+}
