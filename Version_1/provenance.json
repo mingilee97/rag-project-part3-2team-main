@@ -1,0 +1,203 @@
+{
+  "repository": "HyeongyeongKim/codeit_second_project",
+  "commit": "17614c5005f5e0d78b2d20f466600a86ab5c5379",
+  "notebook": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+  "notebook_sha256": "d8b0c60207a80f4ce2ec6aad2b98c4e9a642bd56dc7014d82a77ed8df523da17",
+  "files": [
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        5,
+        7
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/parser.py",
+      "sha256": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
+      "source_definitions": [
+        {
+          "name": "normalize_filename",
+          "cell": 5,
+          "original_ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+          "ast_sha256": "39807e16e89155efee5819ceff9b000a4ebb4f2092c4c242a5a2996026fbd7ea",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        9
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/cleaning.py",
+      "sha256": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        11
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/chunking.py",
+      "sha256": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        13
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/embedding.py",
+      "sha256": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        15,
+        21,
+        23
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/retrieval.py",
+      "sha256": "52258a74a2d4f057a70f98c4d19e68f69559fa26dce829ce8bf2d78112b0d583",
+      "source_definitions": [
+        {
+          "name": "normalize_project_text",
+          "cell": 15,
+          "original_ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+          "ast_sha256": "6181d70374c3e1963184e45fcde8cf80b57b6f64fd1d181fec718c611675482e",
+          "ast_equal": true
+        },
+        {
+          "name": "metadata_text",
+          "cell": 15,
+          "original_ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+          "ast_sha256": "2a6dc87bfac825cc8a49a6f1b3004b1e16d1424424944c57c8304a0ce3454905",
+          "ast_equal": true
+        },
+        {
+          "name": "choose_project",
+          "cell": 15,
+          "original_ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+          "ast_sha256": "880e939abd46b3887d2990c5fe9b770878e2d8a8c7b891d342554673072becff",
+          "ast_equal": true
+        },
+        {
+          "name": "identify_project",
+          "cell": 15,
+          "original_ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+          "ast_sha256": "f06bb8128c82a585bc22c1203a47505fef46b1f1e9a573839f54dc12d4b5672a",
+          "ast_equal": true
+        },
+        {
+          "name": "get_retrievers",
+          "cell": 15,
+          "original_ast_sha256": "0042defd4d6c74888426e90f35f00b43c773c1ee456a423c74e02234172791df",
+          "ast_sha256": "0042defd4d6c74888426e90f35f00b43c773c1ee456a423c74e02234172791df",
+          "ast_equal": true
+        },
+        {
+          "name": "rrf_search",
+          "cell": 15,
+          "original_ast_sha256": "af741f49921ae5b5093e4105a07eee7171cf8c6e2485f97201df5dc9c4d35c0a",
+          "ast_sha256": "af741f49921ae5b5093e4105a07eee7171cf8c6e2485f97201df5dc9c4d35c0a",
+          "ast_equal": true
+        },
+        {
+          "name": "make_search_text",
+          "cell": 21,
+          "original_ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+          "ast_sha256": "c767a82d85cf74becd66cbc26b672b64c5c3e8ba6f27419712b2c43cdd9f2fe0",
+          "ast_equal": true
+        },
+        {
+          "name": "retrieve_and_rerank",
+          "cell": 23,
+          "original_ast_sha256": "ccc44b5d4078096a07ee5502b9277570f169d025176d0d3c4c523ace6ec6d67f",
+          "ast_sha256": "ccc44b5d4078096a07ee5502b9277570f169d025176d0d3c4c523ace6ec6d67f",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        18,
+        26
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/generation.py",
+      "sha256": "27c51bff61a2f7f13774e8a00c7f003a66b1305ebff98392f4b83fa4725efc48",
+      "source_definitions": [
+        {
+          "name": "answer_question",
+          "cell": 26,
+          "original_ast_sha256": "b2b9d71335a810d05b270d85314665a0bdb3710131772195e100fe1e3994ba60",
+          "ast_sha256": "b2b9d71335a810d05b270d85314665a0bdb3710131772195e100fe1e3994ba60",
+          "ast_equal": true
+        }
+      ]
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        19
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/local_model.py",
+      "sha256": "45def99ed0629e07720e41be15de8f88496aaa01fc67af8b44e3e9d5264b1984",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        20
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/generation_model.py",
+      "sha256": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
+      "source_definitions": []
+    },
+    {
+      "original": "현재기준_사업식별_BGE-M3_기본BM25.ipynb",
+      "cells": [
+        33
+      ],
+      "module": "versions/pipelines/hyunkyung/Version_3/business/verification.py",
+      "sha256": "ed84a503587d427b53337c938c23e4ea3bebf572e1240368fef3a4a598723949",
+      "source_definitions": [
+        {
+          "name": "compact",
+          "cell": 33,
+          "original_ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+          "ast_sha256": "425b6a398c7813fa6dfcce1338b833531f2a96d2a526d267d9ae6c05466498e4",
+          "ast_equal": true
+        },
+        {
+          "name": "extract_quotes",
+          "cell": 33,
+          "original_ast_sha256": "dfd40da81f362134994c3c0bffd5b51b91fbc74e68f0fbaa12c4821eb15ab33e",
+          "ast_sha256": "dfd40da81f362134994c3c0bffd5b51b91fbc74e68f0fbaa12c4821eb15ab33e",
+          "ast_equal": true
+        }
+      ]
+    }
+  ],
+  "transformations": [
+    "코드 셀만 추출; 출력·평가 데이터·질문 실행 셀 제외",
+    "원본 함수·클래스 유지; 단계 셀은 명시적 함수로 감쌈",
+    "외부 import·경로·CSV 읽기는 호출자가 공급",
+    "표시·본문 로그·파일 저장·GPU 정리는 실행 단계에서 제외",
+    "청킹·모델 설정·RRF·재순위 알고리즘은 원본 유지"
+  ],
+  "verification_scope": "원본에 있는 검증만 제공; 새 답변 검증 알고리즘 추가 없음",
+  "bundled_files": {
+    "chunking.py": "ee68e00a696f22b8556d4c675293dcd5c72402a2e075b7b5fa4ec71fb902184d",
+    "cleaning.py": "6b24fff8393b420e81beb900aac5c5810017525f1328ede2c0d8983d06ed5b9f",
+    "embedding.py": "914095a943e17aea885964460bb4bd38d4d40fa2bc4280a69fcb8d34588588e9",
+    "generation.py": "27c51bff61a2f7f13774e8a00c7f003a66b1305ebff98392f4b83fa4725efc48",
+    "generation_model.py": "cba70e004a9d434887cc10be8783b5d1b12db50ed137640776a164d6e9a46334",
+    "local_model.py": "45def99ed0629e07720e41be15de8f88496aaa01fc67af8b44e3e9d5264b1984",
+    "parser.py": "dd872200a85e113ad29b293512515335edb49b8ed92acd3c5a856255dd69dc1c",
+    "retrieval.py": "52258a74a2d4f057a70f98c4d19e68f69559fa26dce829ce8bf2d78112b0d583",
+    "verification.py": "ed84a503587d427b53337c938c23e4ea3bebf572e1240368fef3a4a598723949"
+  },
+  "approval": "사용자가 원본 포함 보류를 들은 뒤 2026-10-14 공개 공유 진행을 승인함",
+  "license_detected": null,
+  "note": "원본 라이선스를 임의 생성하지 않음; 원저작자/고정SHA/AST 및 기존 권리표시 보존"
+}

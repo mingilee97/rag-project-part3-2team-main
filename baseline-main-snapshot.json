@@ -1,0 +1,148 @@
+{
+  "file_count": 35,
+  "initial_bytes_identical": true,
+  "symlinks": 0,
+  "independent_file_copies": true,
+  "files": [
+    {
+      "file": "configs/base.yaml",
+      "sha256_lf": "0ed6daba4c589e2f93bbe3bbdefb2cdef0b23b1ae448052b585baa7bfe64f07d"
+    },
+    {
+      "file": "configs/exp/07_verify.yaml",
+      "sha256_lf": "4313f35ea5d8cdf0eb9cc0b89f03a10d1c583064fead3d8b0b9065cbfd493fe8"
+    },
+    {
+      "file": "configs/exp/07_verify_exaone.yaml",
+      "sha256_lf": "2afb6f655172c206c855e7f11bf80cd06da8ec2298c5f9e1a18f78adf763e69e"
+    },
+    {
+      "file": "docs/인수인계.md",
+      "sha256_lf": "2ae77493f4ac37602dd505268cce8b01411ae9c0630851c6b53896d4a684b8f9"
+    },
+    {
+      "file": "docs/팀-버전-선택.md",
+      "sha256_lf": "320012590800df794c39166a8f3b51a1bf84f6bfc7a3e2738d54de2373814c68"
+    },
+    {
+      "file": "docs/팀-버전-인계-20261014.md",
+      "sha256_lf": "4291429e0b4211da5168d53ddecb9bd97be0f06988a6619c5fa4c227e2ff7d6a"
+    },
+    {
+      "file": "docs/팀-버전-출처.md",
+      "sha256_lf": "7e8f745bf69d87bcb616f67afb10da353e4a1f46081676a130b115a2bdba65fe"
+    },
+    {
+      "file": "docs/팀-버전-평가요약.md",
+      "sha256_lf": "fbd882bbf5d193e28224f4594a43f139bf3151f8f445b6c5b877dda5e3bf2cf8"
+    },
+    {
+      "file": "README.md",
+      "sha256_lf": "1a106f2f60951cdb42b2a764e2264a001aa4ee54803a9994e6b0f4db1b6b5332"
+    },
+    {
+      "file": "requirements.txt",
+      "sha256_lf": "d729e3991a9617b2259a464df278670fd8e60bf6e630076a87730b5e3e8188ee"
+    },
+    {
+      "file": "rfp_rag/__init__.py",
+      "sha256_lf": "ee3626e576e221ba27fd0324ae5052e8df5c38709c48b92f0783f4251624f264"
+    },
+    {
+      "file": "rfp_rag/answer.py",
+      "sha256_lf": "e14191408c985e6a08fa442755e28bbc09a15817ee5fc8ad925f56d0602c0552"
+    },
+    {
+      "file": "rfp_rag/calllog.py",
+      "sha256_lf": "a06cc9c8162fe4de9354fa5a689ef00227faae5179b4c8708597e5462ae67df9"
+    },
+    {
+      "file": "rfp_rag/index.py",
+      "sha256_lf": "9f09f4cb870fd83b7c8da2361ea2fc779c87a6deb2a85b9d1f9c5c16900ec756"
+    },
+    {
+      "file": "rfp_rag/ingest/__init__.py",
+      "sha256_lf": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "file": "rfp_rag/ingest/chunk.py",
+      "sha256_lf": "f9f9949cc7b45178aea245388ce3b50e5694c5f8d3c16566e05f6a3a95af0de3"
+    },
+    {
+      "file": "rfp_rag/ingest/clean.py",
+      "sha256_lf": "41b2198670cded36cc7115f654bb6d1ad2e4cb3eda14ec5caf40452f3e8416ef"
+    },
+    {
+      "file": "rfp_rag/ingest/eda.py",
+      "sha256_lf": "e621b59f172fc89e4a2d45c2da906ed522f6eb7d2146ec96774de9d926ca5ad6"
+    },
+    {
+      "file": "rfp_rag/ingest/enrich.py",
+      "sha256_lf": "56d17fd6092dfb62ab75e6ab44bfc75adf1831acbcff475eeb2ed2162b643aa9"
+    },
+    {
+      "file": "rfp_rag/ingest/load.py",
+      "sha256_lf": "f22c2046c9d517c5162b07c6aefa6be5f4dfddf366b7f645785b8647937f5645"
+    },
+    {
+      "file": "rfp_rag/memory.py",
+      "sha256_lf": "aa77817b6e65bcf860427057ff50346a2926811174bd2e033259a45fe7d5d96f"
+    },
+    {
+      "file": "rfp_rag/pipeline.py",
+      "sha256_lf": "a22186d4a4f68c32ef90ed2b5e4d712cb0af1e42cb2226752e828b37f4e89e71"
+    },
+    {
+      "file": "rfp_rag/providers.py",
+      "sha256_lf": "0bcae329d505c1c7fc1a2b624091c4b31956eb938c02cb6f17634c3135ec671f"
+    },
+    {
+      "file": "rfp_rag/retrieve.py",
+      "sha256_lf": "3ec66aeac725c288f25fe49973329fdec84296e7c8d937252904a8f2ee607eb7"
+    },
+    {
+      "file": "rfp_rag/route.py",
+      "sha256_lf": "11e3f6bad2588503e91db5fd9171de1dcf6e3c341b6d97f68e805ce0b665d3d8"
+    },
+    {
+      "file": "rfp_rag/settings.py",
+      "sha256_lf": "70c91aa9355b5ec777ed62cdf13c8f9221145f649016064389eba11cf768deb0"
+    },
+    {
+      "file": "scripts/check_public.py",
+      "sha256_lf": "b82ec715e66bf3cd53766217216b953fb9eba18753577d72d47db47e54e3792a"
+    },
+    {
+      "file": "team_versions/__init__.py",
+      "sha256_lf": "e94260f2af5b9789e8a06651aede6f38e8f59ada4c4cb76d4e6f48212851908b"
+    },
+    {
+      "file": "team_versions/__main__.py",
+      "sha256_lf": "f0c9aa6f2af7dce9d57199c6754db1ea2973bf0f4a06f8cdf0ae30054cdadbee"
+    },
+    {
+      "file": "team_versions/runtime.py",
+      "sha256_lf": "5d5aa5d3639810eb34322285512c508e8501ea815fe748714acb08568343b000"
+    },
+    {
+      "file": "team_versions/source-lock.json",
+      "sha256_lf": "99481bea3373b000173765baef1f044f14891e2d80370fcee37ccdfdf1231fa9"
+    },
+    {
+      "file": "test_core.py",
+      "sha256_lf": "5f01278ac4e316aec94c0d9f53215644d883e005440c226fd526ab2e07567a2d"
+    },
+    {
+      "file": "tests/test_haiku.py",
+      "sha256_lf": "a33280e42fc476bdae1ab0dd86082a121b5592e57cb355c311a0612c70d446b8"
+    },
+    {
+      "file": "tests/test_team_versions.py",
+      "sha256_lf": "97df3b642702e9ac83834d596f3b24cc38118eb5d19a3576cdc9f4882e163af6"
+    },
+    {
+      "file": "version.json",
+      "sha256_lf": "b0d93a988d2fe11ce6dd0e1c31655430861a01f35b5945c1bde38ae060eec4b8"
+    }
+  ]
+}
