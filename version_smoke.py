@@ -92,6 +92,8 @@ def smoke(version):
             assert result['answer']=='합성 근거에 따른 답변'
             chunks=len(session.namespace['chunks'])
             assert session.namespace['retrieval_cache']
+            if version=='v2':
+                assert result['bm25_mode']=='kiwi'
         else:
             assert result=='합성 근거에 따른 답변'
             chunks=len(session.namespace['all_splits'])
