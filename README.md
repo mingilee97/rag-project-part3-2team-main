@@ -36,7 +36,7 @@
 ## 아키텍처
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[HWP와 PDF] --> B[파싱 캐시와 메타데이터]
     B --> C[청킹]
     C --> D[문서 임베딩과 FAISS]
