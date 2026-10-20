@@ -8,6 +8,6 @@
 - [이전 공동 작업 기록](Main/README.md)
 - [Version 1](Version_1/README.md) · [Version 2](Version_2/README.md)
 - [Version 3](Version_3/README.md) · [Version 4](Version_4/README.md)
-- 기존 발표·구조 PDF는 루트와 `presentations/`에 보존합니다.
+- 이전 발표 자료는 위 고정 commit과 로컬 원본에 보존합니다. 구조 요약 PDF는 [기술 리포트 목록](../기술리포트목록.md)으로 옮겼습니다.
 
 기존 출처와 권리표시를 삭제하거나 새로운 일반 공개 라이선스로 바꾸지 않습니다. 현재 변경 내용은 [출처와 변경](../출처와변경.md)을 읽습니다.

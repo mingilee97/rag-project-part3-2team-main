@@ -1,6 +1,6 @@
 # Version 2
 
-실제 원본에서 분리한 단계 코드 8개를 이 폴더에 포함했습니다. 별도 원본 복사가 필요 없습니다. [version.json](version.json)은 과거 설정과 Haiku 배포 설정, [provenance.json](provenance.json)은 고정 SHA·원본 셀·AST와 파일 해시를 보존합니다. 필수 출처는 [SOURCE-NOTES](../SOURCE-NOTES.md)에 있습니다.
+실제 원본에서 분리한 단계 코드 8개를 이 폴더에 포함했습니다. 별도 원본 복사가 필요 없습니다. [version.json](version.json)은 과거 설정과 Haiku 배포 설정, [provenance.json](provenance.json)은 고정 SHA·원본 셀·AST와 파일 해시를 보존합니다. 필수 출처는 [SOURCE-NOTES](../SOURCE-NOTES-before-final02.md)에 있습니다.
 
 포함 파일: chunking.py · cleaning.py · embedding.py · generation.py · generation_model.py · parser.py · retrieval.py · verification.py
 

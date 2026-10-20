@@ -1,0 +1,147 @@
+{
+  "collected_on": "2026-10-20",
+  "final_report": "00_FINAL02_최종기술리포트_20261020.pdf",
+  "policy": "PDF 본문은 수정하지 않았고 SHA256으로 중복을 구분했습니다. 같은 실험의 개정본·상세본·요약본은 판본을 표시합니다.",
+  "reports": [
+    {
+      "file": "00_FINAL02_최종기술리포트_20261020.pdf",
+      "title": "FINAL-02 최종 기술 리포트",
+      "date": "2026-10-20",
+      "status": "현재 제출용 최종본",
+      "pages": 7,
+      "sha256": "53afc46c0c386883b264ecaafe67a3f5a326931b60ab08483f5e3c0b4e06301d",
+      "source": "75934af:docs/FINAL02_최종기술리포트.pdf"
+    },
+    {
+      "file": "20261012_캐시기반_검색비교.pdf",
+      "title": "캐시 기반 검색 비교",
+      "date": "2026-10-12",
+      "status": "과거 기록",
+      "scope": "168문항 검색 진단; 답변 평가와 구분",
+      "pages": 2,
+      "sha256": "cb32ac498fa7cdd4e43409778a1e514008da9fae6346022713642ca3fdc0ff56",
+      "source": "rfp-rag-controlled-modules/reports/controlled-modules-20261012/retrieval-v002/retrieval-comparison.pdf"
+    },
+    {
+      "file": "20261012_RAG_버전별_변경과검증_77쪽.pdf",
+      "title": "RAG 버전별 변경과 검증 결과",
+      "date": "2026-10-12",
+      "status": "과거 기록",
+      "scope": "52개 변경·제출·판단 기록; 독립 실험 52개가 아님",
+      "pages": 77,
+      "sha256": "a58febb0d7f8c27a2cecc251662e287d2a42b00b9d566f62d6c0275bdd4fc60c",
+      "source": "rfp-rag-test/reports/native-subscription-20261012-v001/version-presentation-20261012/RAG 버전별 기술 리포트 20261012.pdf"
+    },
+    {
+      "file": "20261013_선정구성_기술리포트.pdf",
+      "title": "선정 구성 기술 리포트",
+      "date": "2026-10-13",
+      "status": "과거 기록",
+      "scope": "과거 07_verify와 Luna 관측; FINAL-02 평가가 아님",
+      "pages": 10,
+      "sha256": "d847097d2d890f241a919224ae117bf4156e06a1ba8bab79961a23888959a366",
+      "source": "reports/rag-selected-20261013/RAG_선정구성_기술리포트_20261013.pdf"
+    },
+    {
+      "file": "20261014_기술리포트_07_verify.pdf",
+      "title": "상세 기술 리포트",
+      "date": "2026-10-14",
+      "status": "과거 기록",
+      "scope": "기존 선정 구성과 팀원 비교 범위",
+      "pages": 12,
+      "sha256": "c816bc43132ff6c1984ef284bf4a65d615d128b3a9fe341db69902c61f668007",
+      "source": "reports/rag-midterm-build-20261014/deliverable/기술리포트.pdf"
+    },
+    {
+      "file": "20261014_모델버전_구조설계_요약.pdf",
+      "title": "모델 버전과 구조 설계",
+      "date": "2026-10-14",
+      "status": "과거 기록",
+      "scope": "이전 공개 저장소의 Baseline·Main·Version 1~4 설명",
+      "pages": 3,
+      "sha256": "b2963585521ac46ee783abf2b0e857889bc2b19f83ccbb2cdb89ead9297ca4e0",
+      "source": "0f77930191bcb5d5b12c13a8d52d08184154c2f6:RAG_모델버전_구조설계_요약.pdf"
+    },
+    {
+      "file": "20261016_실험_기술보고서_개정본_v2.pdf",
+      "title": "실험 기술보고서 개정본 v2",
+      "date": "2026-10-16",
+      "status": "과거 기록",
+      "scope": "10문서·30문항 중심의 기록 분석; 새 실행 아님",
+      "pages": 14,
+      "sha256": "fa5fab3eb5a6d36096d4b2d181d4ecdf59aa27b92549a988959005bd6fac38bc",
+      "source": "reports/rag-experiments-20261016/개정본_v2/RAG_실험_기술보고서_개정본.pdf"
+    },
+    {
+      "file": "20261016_실험_핵심요약_v2.pdf",
+      "title": "실험 핵심 요약 v2",
+      "date": "2026-10-16",
+      "status": "과거 기록",
+      "scope": "v2의 2쪽 요약; 별도 실험 아님",
+      "pages": 2,
+      "sha256": "a2d2d0dca2416e40413f557a4600e799e965a1b00a482feae5244e2b1332291c",
+      "source": "reports/rag-experiments-20261016/요약본_2쪽/01_RAG_실험_핵심요약_2쪽.pdf"
+    },
+    {
+      "file": "20261016_실험_상세보고서_v3.pdf",
+      "title": "실험 상세보고서 v3",
+      "date": "2026-10-16",
+      "status": "과거 기록",
+      "scope": "v3 상세 기록 분석; FINAL-02 채택 이전",
+      "pages": 13,
+      "sha256": "98a24a11fdbde98ae19a2ad6542207bdc8a0b696a8143cdb3676ec32134c89bd",
+      "source": "reports/rag-experiments-20261016/논문형식_v3/배포본/01_RAG_실험_상세보고서.pdf"
+    },
+    {
+      "file": "20261016_실험_요약보고서_v3.pdf",
+      "title": "실험 요약보고서 v3",
+      "date": "2026-10-16",
+      "status": "과거 기록",
+      "scope": "v3의 2쪽 요약; 별도 실험 아님",
+      "pages": 2,
+      "sha256": "047346d26eeeb58854d124acde17ecc2aaf99aa9be90d522f6c656832b919236",
+      "source": "reports/rag-experiments-20261016/논문형식_v3/배포본/04_RAG_실험_요약보고서_2쪽.pdf"
+    }
+  ],
+  "removed_legacy_files": [
+    "baseline-main-snapshot.json",
+    "presentations/RAG_중간발표_발표자노트.html",
+    "presentations/RAG_중간발표_아키텍처9장.html",
+    "presentations/RAG_중간발표_아키텍처9장.pdf",
+    "presentations/README.md",
+    "presentations/source-manifest.json",
+    "presentations/발표자노트_아키텍처추가본.pdf"
+  ],
+  "legacy_evidence": "FINAL-02 ZIP 20항목에 없고 0f77930191bcb5d5b12c13a8d52d08184154c2f6에 존재하는 이전 저장소 자료입니다. 현재 트리에서만 제거하고 Git 이력·로컬 보존본은 유지합니다.",
+  "not_published": [
+    {
+      "source": "reports/rag-design-history-20261014/01_팀원자료_평가와반영경위.pdf",
+      "reason": "개인 로컬 계획 파일 경로를 포함하며 공개용 정리본은 확인하지 못했습니다. 원본 PDF 수정 없이 이번 추가 공개를 보류합니다.",
+      "sha256": "e0cc84997cba4c013151b3d7981ba5c68d4732d0a546c71d70477e8a8a236d75"
+    },
+    {
+      "source": "reports/rag-design-history-20261014/02_베이스라인부터_아키텍처설계과정.pdf",
+      "reason": "개인 로컬 계획 파일 경로를 포함하며 공개용 정리본은 확인하지 못했습니다. 원본 PDF 수정 없이 이번 추가 공개를 보류합니다.",
+      "sha256": "8d51611e40fd4c6154323be14940302b52dfc04a6f197d9ad59e0be63891ed75"
+    },
+    {
+      "source": "reports/rag-final-evaluation-20261016/deliverable/RAG_최종평가_리포트.pdf",
+      "reason": "PDF의 클릭 가능한 file:// 링크 5개에 개인 PC 절대 경로가 포함돼 있습니다. 본문과 원본을 임의 수정하지 않고 이번 추가 공개를 보류합니다.",
+      "sha256": "16654311e6e1c8696360b341b54cdb47464273316e9e0e43a3c1d3304ff82e83"
+    }
+  ],
+  "excluded_from_technical_reports": [
+    {
+      "title": "팀 저장소 통합 상태",
+      "reason": "별도 저장소의 운영·접근 점검 문서이며 개인 로컬 파일 URL이 포함돼 제외합니다."
+    },
+    {
+      "title": "통제 비교 실행 준비 점검",
+      "reason": "CLI 전송 승인과 실행 준비를 다루는 운영 검수 문서로, 버전별 기술 보고서 모음에서 제외합니다."
+    },
+    {
+      "title": "기존 발표 슬라이드·발표자 노트·개별 그래프",
+      "reason": "보고서와 구분합니다. 사용자 PC의 발표 원본은 변경하지 않습니다."
+    }
+  ]
+}
