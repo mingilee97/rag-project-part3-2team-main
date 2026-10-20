@@ -1,0 +1,36 @@
+{
+  "archive": "FINAL-02_재현.zip",
+  "archive_sha256": "ee19febf228e9634391eb59cdad68d029e0dc837027483076a0db54b0491630c",
+  "authors": [
+    "이원영",
+    "김현경"
+  ],
+  "upstream_commit_as_provided": "7db81eb",
+  "upstream_commit_verified": false,
+  "files": {
+    "config.py": "4375d72eb1ddf4044b3c1f78460b9a05672e8b9b7e8a7a5b680213b961a2abf4",
+    "data.py": "b89932e8dc6a6bfb51fd8d8cb6cb943cf1c99521bf9d396a737a362ee1e20c8a",
+    "evaluation.py": "1e17edf44d86db53912501b3adaacc126aa466eb6df88d356d8ab6775f3eaac1",
+    "final02.py": "1436f66a4c5f7255e11a555f9053c348255de4c64fa8231100936161215b6015",
+    "FINAL02_README.md": "80fb02d372a51040fde32d682995b4cccde91c31b1fc38392044c923c566a9fa",
+    "hwp_parser_fix.py": "9e366957f674f14c758361a57095a50087dc896924d2f5f072077d53ecf93a35",
+    "pipeline.py": "d05169cfe6730c6b9d31b1e5ca47379ca1b7120589327860852226550d8eef62",
+    "prompt_final.txt": "340e53caa6d57fcb6d8d329bcbaf022c3f60cfbcad84348a9d427446d5d90a1b",
+    "requirements.txt": "4099828a5fcccf7a5c7d0edb3b420add5533fc31b2f6074ab3fe5ddddc265286",
+    "__init__.py": "36e1be612927bee4749d0f068f7ee3ae0c1a28a07fe5331fced8ce4b17afd650"
+  },
+  "excluded": [
+    "data_list.csv",
+    "dev_benchmark_v1.1.json",
+    "parsed_results/success_files.json",
+    "all_scores.csv",
+    "base_answers.jsonl",
+    "ragas_samples.json"
+  ],
+  "private_asset_sha256": {
+    "data_list.csv": "5e4074d061bf4e38cad70446ff392e7aab8c6e7909f8bc90a7a6f2b270e6ed9d",
+    "dev_benchmark_v1.1.json": "ec62f9b7c529d7cb2c9cf9b143b6146d92fc57842ebaa20499d1eaf8b1903b96",
+    "parsed_results/success_files.json": "19385df635d83e64719bd3c5ddb30f7363be94925cb95882f10252aa4a55ad02",
+    "all_scores.csv": "421925343e4abfd0375b6de1427ab39092c906549def89cab9c9447e81c0eb57"
+  }
+}

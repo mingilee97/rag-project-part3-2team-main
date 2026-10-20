@@ -2,3 +2,4 @@
 *.py text eol=lf
 *.yaml text eol=lf
 *.md text eol=lf
+prompts/final02.txt -text

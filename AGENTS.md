@@ -1,10 +1,9 @@
-# Shared main code
+# FINAL-02 submission
 
-- Maintain only the runtime RFP RAG implementation and its execution settings.
-- The user's 2026-10-14 request also authorizes the approved presentation files and the sanitized structure summary PDF. Keep the root navigation focused on Baseline and Version_1 through Version_4. Preserve required attribution in source records without names in version labels.
-- Do not add private work history, evaluation records, dashboards, reports, source documents, extracted content, answers, model files, credentials, or local environments.
-- This repository has independent Git history. Do not merge the private source repository history.
-- Keep Korean user-facing documentation and code comments. Read README.md and Baseline/docs/인수인계.md before editing.
-- Run runtime commands from Baseline. Validate changes with `python test_core.py`, `python -B -m unittest discover -s tests -v`, `python -B scripts/check_public.py`, and `git diff --check`. Do not call external models for these checks.
-- Keep Anthropic keys empty in examples. The user explicitly approved including the four teammate source bundles on 2026-10-14 after hearing the license concern. Preserve original attribution, fixed SHAs, and existing rights notices; do not invent a license. Do not merge or modify the separate modular repository.
-- Baseline is the preserved reference. Main starts as an independent byte-identical copy for team changes; do not use symlinks or hardlinks. Run candidate checks with `python -B test_versions.py` from the repository root. Candidate entrypoints use the included modules and root version_runtime.py; they require no external source copy.
+- The user's approved 2026-10-20 scope replaces old executable versions with FINAL-02. Preserve Git history and history documents, source records, reports, journals and presentations.
+- Maintain only the final RFP RAG runtime and its configuration. Do not revive Baseline/Main/Version selectors.
+- Never publish original RFPs, parsed text, metadata rows, benchmark questions, answers, checkpoints, keys, vector stores, model weights, private activity or environments.
+- Keep existing attribution and rights notices. Do not invent a license. The supplied archive credits 이원영 and 김현경 final_pipeline at abbreviated commit 7db81eb; this is a source claim, not a verified remote commit.
+- Korean for user-facing documentation and comments. Run python -B -m unittest discover -s tests -v and git diff --check. Tests must use synthetic fixtures, no network, no model downloads and no paid API calls.
+- README.md, docs/기술리포트.md, docs/출처와변경.md and docs/인수인계.md describe the current state.
+- Do not change repository access, invitations, hosting or Git history. No force push.

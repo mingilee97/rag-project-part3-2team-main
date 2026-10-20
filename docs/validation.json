@@ -1,0 +1,211 @@
+{
+  "offline_unit_tests": 12,
+  "original_vs_modular_answer_cases": 6,
+  "identical_ast_definitions": [
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "evaluation_question_ids",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "normalize_filename",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "clean_text",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "load_benchmark",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "select_evaluation_questions",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "data.py",
+      "function": "load_documents",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "parsing.py",
+      "function": "_write_json",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "parsing.py",
+      "function": "_read_json",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "parsing.py",
+      "function": "_extract_file",
+      "ast_equal": true
+    },
+    {
+      "original": "data.py",
+      "module": "parsing.py",
+      "function": "parse_files",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "routing.py",
+      "function": "normalize_project_text",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "routing.py",
+      "function": "project_title_matches_query",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "routing.py",
+      "function": "_choose_project",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "routing.py",
+      "function": "identify_project",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "retrieval.py",
+      "function": "_kiwi_morphs",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "retrieval.py",
+      "function": "_get_retrievers",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "retrieval.py",
+      "function": "rrf",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "generation.py",
+      "function": "_content",
+      "ast_equal": true
+    },
+    {
+      "original": "pipeline.py",
+      "module": "pipeline.py",
+      "function": "answer",
+      "ast_equal": true
+    },
+    {
+      "original": "evaluation.py",
+      "module": "evaluation.py",
+      "function": "GeminiJudge",
+      "ast_equal": true
+    },
+    {
+      "original": "final02.py",
+      "module": "metrics.py",
+      "function": "norm",
+      "ast_equal": true
+    },
+    {
+      "original": "final02.py",
+      "module": "metrics.py",
+      "function": "build_source_text_index",
+      "ast_equal": true
+    },
+    {
+      "original": "final02.py",
+      "module": "metrics.py",
+      "function": "score_retrieval_text",
+      "ast_equal": true
+    }
+  ],
+  "prompt_byte_identical": true,
+  "source_result_rows": 300,
+  "numeric_recalculation": {
+    "hit_at_5": {
+      "count": 289,
+      "mean": 0.955,
+      "missing": 11
+    },
+    "mrr": {
+      "count": 289,
+      "mean": 0.8618,
+      "missing": 11
+    },
+    "llm_as_judge": {
+      "count": 300,
+      "mean": 0.93,
+      "missing": 0
+    },
+    "factual_correctness": {
+      "count": 300,
+      "mean": 0.5749,
+      "missing": 0
+    },
+    "faithfulness": {
+      "count": 300,
+      "mean": 0.9848,
+      "missing": 0
+    },
+    "recall_ctx": {
+      "count": 300,
+      "mean": 0.9055,
+      "missing": 0
+    },
+    "all_found_ctx": {
+      "count": 300,
+      "mean": 0.84,
+      "missing": 0
+    },
+    "context_chars": {
+      "count": 300,
+      "mean": 5079.2167,
+      "missing": 0
+    },
+    "retrieval_time_ms": {
+      "count": 300,
+      "mean": 1699.4744,
+      "missing": 0,
+      "median_ms": 1704.0343
+    }
+  },
+  "live_model_runs": 0,
+  "paid_api_calls": 0,
+  "scope": "합성 동작 비교와 기존 저장 결과의 숫자 재계산. 새 모델 성능 평가가 아님.",
+  "pdf_visual_review": {
+    "pages": 7,
+    "korean_text_tables_and_page_boundaries": "passed"
+  },
+  "publication_check": {
+    "candidate_files": 77,
+    "secret_pattern_findings": 0,
+    "prohibited_data_paths": 0,
+    "authored_relative_links": "passed",
+    "preserved_files_compared": 39,
+    "preservation_mismatches": 0,
+    "source_archive_sha256_verified": true,
+    "base_commit": "0f77930191bcb5d5b12c13a8d52d08184154c2f6"
+  }
+}
