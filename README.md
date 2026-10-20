@@ -15,7 +15,7 @@
 |---|---|---|
 | 이민기 | [개인 협업일지 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=2053649411) | 기존 개인 탭, 별도 담당자가 최근 기록을 정리한 원본 |
 | 김현경 | [데일리 협업일지](https://app.notion.com/p/3eb67f39201180a4b1dbec087503807a?v=3eb67f39201180d583d7000c73a17268) · [실험 문서](https://app.notion.com/p/3ec67f3920118072b687d3aaed1e4428) | 일지 본문에서 작성자 확인, 현재 게스트 열람 확인 |
-| 김민협 | [기존 개인 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=924303621) | 탭 출처 확인, 최신 개인 원문 여부는 확인 필요 |
+| 김민협 | [개인 협업일지 문서](https://docs.google.com/document/d/1Jsx4ESbBhTFP4R7UN_pCgxd9Jha1HFBjU6lJjErrhYc/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=924303621) | 사용자 제공 · 본문 열람 확인. 작성자명 미표기로 ‘김민혁’ 전달명과 기존 이름의 일치 여부 확인 필요 |
 | 이원영 | [기존 개인 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1041212623) | 탭 출처 확인, 최신 개인 원문 여부는 확인 필요 |
 | 권유진 | [기존 개인 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1632189499) | 탭 출처 확인, 최신 개인 원문 여부는 확인 필요 |
 
