@@ -1,0 +1,62 @@
+{
+  "scope": "사용자가 추가 승인한 세 보고서의 공개용 사본. 원본·Git 이력 유지.",
+  "processed_on": "2026-10-20",
+  "reports": [
+    {
+      "file": "20261014_팀원자료_평가와반영경위_공개용.pdf",
+      "date": "2026-10-14",
+      "pages": 6,
+      "source_sha256": "e0cc84997cba4c013151b3d7981ba5c68d4732d0a546c71d70477e8a8a236d75",
+      "public_sha256": "41f319f2f2e60353e2d7e3ef109021a14343d04c6dfea031cc6fd228b9148681",
+      "original_document_author": "RAG 프로젝트 문서",
+      "source_creation_date": "D:20261014165629+09'00'",
+      "path_locations_removed": 1,
+      "local_link_actions_removed": 0,
+      "Info_XMP_removed": true,
+      "technical_text_numbers_author_attribution_and_document_date_preserved": true,
+      "private_path_findings_in_extracted_text_objects_and_decoded_streams": 0,
+      "remaining_annotations": 0,
+      "original_preserved": true
+    },
+    {
+      "file": "20261014_베이스라인부터_아키텍처설계과정_공개용.pdf",
+      "date": "2026-10-14",
+      "pages": 7,
+      "source_sha256": "8d51611e40fd4c6154323be14940302b52dfc04a6f197d9ad59e0be63891ed75",
+      "public_sha256": "e2318ef2b0220fb8bb8078de51e695963e711fa909c62f4858c9c0bdfca75a9e",
+      "original_document_author": "RAG 프로젝트 문서",
+      "source_creation_date": "D:20261014165630+09'00'",
+      "path_locations_removed": 2,
+      "local_link_actions_removed": 0,
+      "Info_XMP_removed": true,
+      "technical_text_numbers_author_attribution_and_document_date_preserved": true,
+      "private_path_findings_in_extracted_text_objects_and_decoded_streams": 0,
+      "remaining_annotations": 0,
+      "original_preserved": true
+    },
+    {
+      "file": "20261016_종합평가_리포트_FINAL02이전_공개용.pdf",
+      "date": "2026-10-16",
+      "pages": 15,
+      "source_sha256": "16654311e6e1c8696360b341b54cdb47464273316e9e0e43a3c1d3304ff82e83",
+      "public_sha256": "8de35fe5fa2ea696caff4ea0e021cd6df5a6ed70bf3d8fbd03f1411edc354bfd",
+      "original_document_author": "원본 메타데이터에 작성자 표기 없음",
+      "source_creation_date": "D:20261016014833+00'00'",
+      "path_locations_removed": 0,
+      "local_link_actions_removed": 5,
+      "Info_XMP_removed": true,
+      "technical_text_numbers_author_attribution_and_document_date_preserved": true,
+      "private_path_findings_in_extracted_text_objects_and_decoded_streams": 0,
+      "remaining_annotations": 0,
+      "original_preserved": true
+    }
+  ],
+  "verification": {
+    "pages_rendered_and_visually_reviewed": 28,
+    "pixel_identical_pages": 26,
+    "remaining_two_pages_differ_only_inside_removed_path_regions": true,
+    "text_compared_with_independent_pdf_parser": true,
+    "unmodified_technical_text_and_numbers": true,
+    "new_black_boxes_or_redaction_annotations": 0
+  }
+}
