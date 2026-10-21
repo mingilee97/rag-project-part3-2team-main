@@ -17,7 +17,7 @@
 | 김현경 | [데일리 협업일지](https://app.notion.com/p/3eb67f39201180a4b1dbec087503807a?v=3eb67f39201180d583d7000c73a17268) · [실험 문서](https://app.notion.com/p/3ec67f3920118072b687d3aaed1e4428) | 일지 본문에서 작성자 확인, 현재 게스트 열람 확인 |
 | 김민협 | [개인 협업일지 문서](https://docs.google.com/document/d/1Jsx4ESbBhTFP4R7UN_pCgxd9Jha1HFBjU6lJjErrhYc/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=924303621) | 김민협의 개인 협업일지로 사용자 확인 · 본문 열람 확인 |
 | 이원영 | [프로젝트2 (2팀) 이원영 개인일지 (공유용)](https://docs.google.com/document/d/1RKp7OUprcmlTjm5N2BiX6yXr5PQxYqe09bHqKcNVwSA/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1041212623) | 제목·본문 열람 확인 · 새 문서 비로그인 보기 확인(2026-10-21) |
-| 권유진 | [기존 개인 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1632189499) | 탭 출처 확인, 최신 개인 원문 여부는 확인 필요 |
+| 권유진 | [권유진 Daily 협업일지](https://app.notion.com/p/AI_13_-Daily-3eae732bc80e80988fd4d696d6726479?source=copy_link) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1632189499) | 상세 일지의 이름·팀명(권유진·2팀) 확인 · 로그인 게스트 열람 확인 |
 
 이원영 새 Google Docs는 2026-10-21 비로그인 보기를 확인했습니다. 다른 팀원 일지의 익명·평가자 접근은 미확인입니다. 공식 제출 안내의 개인별 원본 링크 요건에 맞춰 연결했으며, 시트형 일지의 PDF 변환·첨부는 아직 완료되지 않았습니다. GitHub에서는 목차·표·접기로 이동할 수 있게 구성했고 팀원의 원문은 수정하지 않았습니다. [접근 조건과 VM 종료 후 보존](docs/협업일지와보존.md)
 
