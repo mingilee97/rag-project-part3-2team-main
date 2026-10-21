@@ -1,39 +1,41 @@
 {
-  "source_filename": "AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서.pdf",
-  "source_sha256": "83f1cf47338533d466af6f3e914ec60267d78cdd9cbf9a25300d7952a740e196",
+  "source_filename": "AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서 (3).pdf",
+  "source_sha256": "fc22b1e9c030dda9586740101255fe2ab70eb7351c3d15dce995e7bd9d984ea6",
+  "source_modified_utc": "2026-10-21T07:53:32.731890+00:00",
+  "source_pdf_created_utc": "2026-10-21T06:17:52+00:00",
   "public_filename": "00_프로젝트_최종보고서_20261021_공개용.pdf",
-  "public_sha256": "ef1016ffc1dee99d170742126b404966a26e0013704206a371a916f08cd566f2",
-  "public_bytes": 861153,
+  "public_sha256": "3c18ea8dee3116e03fb3240fcef28604243af3bbd2a735e65d50680590003143",
+  "public_bytes": 865060,
   "pages": 23,
-  "removed_scope": [
-    "7쪽 4.2의 실제 질문·답변 예시",
-    "6쪽 마지막 문장에 반복된 같은 답변 수치"
-  ],
-  "replacement_notice": "평가 데이터 보호를 위해 질문·답변 예시는 생략했습니다.",
   "source_preserved": true,
   "independent_text_extraction_passed": true,
-  "decompressed_objects_and_streams_checked": 1401,
-  "remaining_redaction_annotations": 0,
-  "embedded_files": 0,
-  "poppler_render_log_bytes": 0,
-  "https_links_preserved": [
+  "removed_scope": [
     {
-      "page": 1,
-      "uri": "https://github.com/mingilee97/rag-project-part3-2team-main"
+      "page": 7,
+      "kind": "실제 질문·답변 예시 생략",
+      "bounds_derived_from_current_source": [
+        62.3421875,
+        174.37222290039062,
+        533.159033203125,
+        242.24937438964844
+      ]
     },
     {
-      "page": 1,
-      "uri": "https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing"
-    },
-    {
-      "page": 23,
-      "uri": "https://github.com/mingilee97/rag-project-part3-2team-main"
-    },
-    {
-      "page": 23,
-      "uri": "https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing"
+      "page": 6,
+      "kind": "반복된 같은 답변 수치 제거",
+      "bounds_derived_from_current_source": [
+        361.2493408203125,
+        770.9221923828125,
+        544.7991455078125,
+        782.7993896484375
+      ]
     }
   ],
+  "replacement_notice": "평가 데이터 보호를 위해 질문·답변 예시는 생략했습니다.",
+  "remaining_redaction_annotations": 0,
+  "embedded_files": 0,
+  "decompressed_objects_and_streams_checked": 1409,
+  "poppler_render_log_bytes": 0,
   "page_pixel_comparison": [
     {
       "page": 1,
@@ -152,13 +154,16 @@
     }
   ],
   "visual_qa_pending": false,
+  "supersedes_source_sha256": "83f1cf47338533d466af6f3e914ec60267d78cdd9cbf9a25300d7952a740e196",
+  "supersedes_public_sha256": "ef1016ffc1dee99d170742126b404966a26e0013704206a371a916f08cd566f2",
+  "revision_changes": "검색 시간 p95·최대값 및 상세 분포 추가, 절 번호 수정, 중복 성과표 정리. 나머지는 최신 원본을 따름.",
+  "published_on": "2026-10-21",
   "visual_qa": {
     "pages_reviewed": 23,
     "edited_pages_reviewed_at_full_size": [
       6,
       7
     ],
-    "result": "글자·표·그래프·쪽번호 확인, 승인된 예시 제거 영역 외 변경 없음"
-  },
-  "published_on": "2026-10-21"
+    "result": "표·그래프·쪽번호·문단 흐름 확인, 최신 원본 대비 승인된 예시 제거 영역 밖은 동일"
+  }
 }

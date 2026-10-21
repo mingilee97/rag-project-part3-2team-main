@@ -10,11 +10,15 @@
       "date_basis": "원본 PDF 생성 메타데이터 2026-10-21, 본문 프로젝트 기간 2026-09-30~2026-10-22",
       "status": "현재 제출용 대표 문서 · 공개용",
       "pages": 23,
-      "sha256": "ef1016ffc1dee99d170742126b404966a26e0013704206a371a916f08cd566f2",
-      "source_sha256": "83f1cf47338533d466af6f3e914ec60267d78cdd9cbf9a25300d7952a740e196",
-      "source": "사용자가 제공한 AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서.pdf",
+      "sha256": "3c18ea8dee3116e03fb3240fcef28604243af3bbd2a735e65d50680590003143",
+      "source_sha256": "fc22b1e9c030dda9586740101255fe2ab70eb7351c3d15dce995e7bd9d984ea6",
+      "source": "사용자가 제공한 AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서 (3).pdf",
       "public_copy_changes": "7쪽 4.2의 실제 평가 질문·답변 예시와 6쪽에 반복된 같은 답변 수치를 실제 제거. 생략 안내와 일반 표현으로 대체. 나머지 본문·집계값·작성자·날짜 보존.",
-      "verification": "project-report-publication.json"
+      "verification": "project-report-publication.json",
+      "source_modified_utc": "2026-10-21T07:53:32.731890+00:00",
+      "source_pdf_created_utc": "2026-10-21T06:17:52+00:00",
+      "revision_changes": "검색 시간 p95·최대값 및 상세 분포 추가, 절 번호 수정, 중복 성과표 정리. 나머지는 최신 원본을 따름.",
+      "replaces_public_commit": "1970520434ff46384e248a3832e1299f87fd3a88"
     },
     {
       "file": "00_FINAL02_최종기술리포트_20261020.pdf",
