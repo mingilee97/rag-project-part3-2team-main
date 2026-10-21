@@ -1,13 +1,26 @@
 {
   "collected_on": "2026-10-20",
-  "final_report": "00_FINAL02_최종기술리포트_20261020.pdf",
-  "policy": "총 13개 PDF. 기존 10개는 원본 바이트를 보존했고 추가 3개는 공개용 정제 사본입니다. 원본과 공개용 사본의 SHA256을 구분하며 날짜·판본·기술 내용·수치·작성자 표기를 보존합니다.",
+  "final_report": "00_프로젝트_최종보고서_20261021_공개용.pdf",
+  "policy": "총 14개 PDF. 기존 13개 바이트를 보존하고, 최신 프로젝트 최종 보고서의 공개용 사본 1개를 추가했습니다. 사용자 제공 원본은 PC에 보존하며 승인된 평가 예시만 제거했습니다. 제출용 대표 프로젝트 보고서와 모듈화·검증 보조 자료, 과거 버전 기록을 구분합니다.",
   "reports": [
+    {
+      "file": "00_프로젝트_최종보고서_20261021_공개용.pdf",
+      "title": "프로젝트 최종 보고서 · 공개용",
+      "date": "2026-10-21",
+      "date_basis": "원본 PDF 생성 메타데이터 2026-10-21, 본문 프로젝트 기간 2026-09-30~2026-10-22",
+      "status": "현재 제출용 대표 문서 · 공개용",
+      "pages": 23,
+      "sha256": "ef1016ffc1dee99d170742126b404966a26e0013704206a371a916f08cd566f2",
+      "source_sha256": "83f1cf47338533d466af6f3e914ec60267d78cdd9cbf9a25300d7952a740e196",
+      "source": "사용자가 제공한 AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서.pdf",
+      "public_copy_changes": "7쪽 4.2의 실제 평가 질문·답변 예시와 6쪽에 반복된 같은 답변 수치를 실제 제거. 생략 안내와 일반 표현으로 대체. 나머지 본문·집계값·작성자·날짜 보존.",
+      "verification": "project-report-publication.json"
+    },
     {
       "file": "00_FINAL02_최종기술리포트_20261020.pdf",
       "title": "FINAL-02 최종 기술 리포트",
       "date": "2026-10-20",
-      "status": "현재 제출용 최종본",
+      "status": "보조 기술 자료 · 모듈화·재현·오프라인 검증",
       "pages": 7,
       "sha256": "53afc46c0c386883b264ecaafe67a3f5a326931b60ab08483f5e3c0b4e06301d",
       "source": "75934af:docs/FINAL02_최종기술리포트.pdf"
@@ -167,5 +180,7 @@
       "reason": "보고서와 구분합니다. 사용자 PC의 발표 원본은 변경하지 않습니다."
     }
   ],
-  "public_copy_verification": "public-report-cleanup.json"
+  "public_copy_verification": "public-report-cleanup.json",
+  "updated_on": "2026-10-21",
+  "supporting_implementation_report": "00_FINAL02_최종기술리포트_20261020.pdf"
 }

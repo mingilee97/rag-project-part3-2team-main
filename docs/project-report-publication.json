@@ -1,0 +1,164 @@
+{
+  "source_filename": "AI13기_파트3_2팀_RFP_RAG_프로젝트_보고서.pdf",
+  "source_sha256": "83f1cf47338533d466af6f3e914ec60267d78cdd9cbf9a25300d7952a740e196",
+  "public_filename": "00_프로젝트_최종보고서_20261021_공개용.pdf",
+  "public_sha256": "ef1016ffc1dee99d170742126b404966a26e0013704206a371a916f08cd566f2",
+  "public_bytes": 861153,
+  "pages": 23,
+  "removed_scope": [
+    "7쪽 4.2의 실제 질문·답변 예시",
+    "6쪽 마지막 문장에 반복된 같은 답변 수치"
+  ],
+  "replacement_notice": "평가 데이터 보호를 위해 질문·답변 예시는 생략했습니다.",
+  "source_preserved": true,
+  "independent_text_extraction_passed": true,
+  "decompressed_objects_and_streams_checked": 1401,
+  "remaining_redaction_annotations": 0,
+  "embedded_files": 0,
+  "poppler_render_log_bytes": 0,
+  "https_links_preserved": [
+    {
+      "page": 1,
+      "uri": "https://github.com/mingilee97/rag-project-part3-2team-main"
+    },
+    {
+      "page": 1,
+      "uri": "https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing"
+    },
+    {
+      "page": 23,
+      "uri": "https://github.com/mingilee97/rag-project-part3-2team-main"
+    },
+    {
+      "page": 23,
+      "uri": "https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing"
+    }
+  ],
+  "page_pixel_comparison": [
+    {
+      "page": 1,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 2,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 3,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 4,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 5,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 6,
+      "pixel_identical": false,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 7,
+      "pixel_identical": false,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 8,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 9,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 10,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 11,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 12,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 13,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 14,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 15,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 16,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 17,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 18,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 19,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 20,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 21,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 22,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    },
+    {
+      "page": 23,
+      "pixel_identical": true,
+      "unchanged_outside_authorized_region": true
+    }
+  ],
+  "visual_qa_pending": false,
+  "visual_qa": {
+    "pages_reviewed": 23,
+    "edited_pages_reviewed_at_full_size": [
+      6,
+      7
+    ],
+    "result": "글자·표·그래프·쪽번호 확인, 승인된 예시 제거 영역 외 변경 없음"
+  },
+  "published_on": "2026-10-21"
+}

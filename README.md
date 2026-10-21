@@ -4,9 +4,10 @@
 
 | 자료 | 바로가기 | 확인할 내용 |
 |---|---|---|
-| **최종 기술 리포트** | [**FINAL-02 최종본 PDF**](technical-reports/00_FINAL02_최종기술리포트_20261020.pdf) | 2026-10-20 최종 구성·선정 이유·결과·한계 |
+| **최종 프로젝트 보고서** | [**최종 보고서 PDF · 공개용**](technical-reports/00_프로젝트_최종보고서_20261021_공개용.pdf) | 2026-10-21 · 프로젝트 개요·실험·최종 결과·협업·한계 · 23쪽 |
+| 모듈화·검증 기술 자료 | [FINAL-02 기술 리포트](technical-reports/00_FINAL02_최종기술리포트_20261020.pdf) | 2026-10-20 · 코드 모듈화·재현·오프라인 검증 근거 · 7쪽 · 보조 자료 |
 | 소스와 실행 안내 | [실행 소스](rfp_rag/) · [설치와 실행](#설치와-실행) | 비공개 입력 자료 준비와 실행 명령 |
-| 전체 기술 리포트 | [PDF 폴더](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md) | **총 13개** · 최종본과 과거 자료·공개용 사본 구분 |
+| 전체 보고서·기술 리포트 | [PDF 폴더](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md) | **총 14개** · 최종본과 과거 자료·공개용 사본 구분 |
 | 실험 기록표 | [Google Sheets](https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing) | 실험 조건·관찰·판단 기록, 접근 권한은 별도 |
 | 개인별 협업일지 | **아래 팀원별 전체 표** | 작성자별 일지 원본과 보조 기록으로 바로 이동 |
 
@@ -264,11 +265,10 @@ FINAL-02 모듈화 당시 검증은 합성 테스트 12개, 원본 대비 답변
 
 ## 보고서와 기록
 
-- [현재 저장소의 FINAL-02 최종 기술 리포트 PDF](technical-reports/00_FINAL02_최종기술리포트_20261020.pdf)
-- [PDF 13개 모음](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md)
+- [PDF 14개 모음](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md)
 - [실험 기록표](https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing) · [실제 설정](docs/final02-settings.json) · [FINAL-02 집계 CSV](docs/final02-summary.csv)
 
-후속 진단·담당 역할·일부 실험 설명은 제공된 23쪽 프로젝트 보고서의 기록을 대조했습니다. 위 PDF 목록은 현재 저장소에서 열 수 있는 문서를 기준으로 합니다.
+제출용 대표 문서는 상단의 **최종 프로젝트 보고서 공개용 PDF**입니다. 평가 데이터 보호를 위해 7쪽 질문·답변 예시와 6쪽에 반복된 같은 답변 수치만 제거했으며, 나머지 기술 내용·집계값·날짜·작성자 표기는 보존했습니다. 기존 7쪽 기술 리포트는 새 보고서가 참고하는 모듈화·검증 근거이므로 보조 자료로 구분합니다. [공개용 사본 검증 기록](docs/project-report-publication.json)
 
 ## 출처와 공개 범위
 
