@@ -21,8 +21,6 @@
 | 이원영 | [프로젝트2 (2팀) 이원영 개인일지 (공유용)](https://docs.google.com/document/d/1RKp7OUprcmlTjm5N2BiX6yXr5PQxYqe09bHqKcNVwSA/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1041212623) | 제목·본문 열람 확인 · 새 문서 비로그인 보기 확인(2026-10-21) |
 | 권유진 | [권유진 Daily 협업일지](https://app.notion.com/p/AI_13_-Daily-3eae732bc80e80988fd4d696d6726479?source=copy_link) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1632189499) | 작성자·2팀 확인 · 2026-10-21 비로그인 목록 및 일지 1건 열람 확인, 전체 항목 미검증 |
 
-이원영 새 Google Docs는 2026-10-21 비로그인 보기를 확인했습니다. 권유진 새 Notion은 비로그인 목록 및 일지 1건 열람을 확인했으며 전체 항목은 미검증입니다. 그 밖의 팀원 일지의 익명·평가자 접근은 미확인입니다. 공식 제출 안내의 개인별 원본 링크 요건에 맞춰 연결했으며, 시트형 일지의 PDF 변환·첨부는 아직 완료되지 않았습니다. GitHub에서는 목차·표·접기로 이동할 수 있게 구성했고 팀원의 원문은 수정하지 않았습니다. [접근 조건과 VM 종료 후 보존](docs/협업일지와보존.md)
-
 ---
 
 <details>
