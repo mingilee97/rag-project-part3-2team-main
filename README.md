@@ -2,41 +2,26 @@
 
 ### 📌 제출 자료 바로가기
 
-| 자료 | 바로가기 | 확인할 내용 |
-|---|---|---|
-| **최종 프로젝트 보고서** | [**최종 보고서 PDF · 공개용**](technical-reports/00_프로젝트_최종보고서_20261021_공개용.pdf) | 2026-10-21 최신 다운로드판 · 검색 시간 p95·최대값 포함 · 23쪽 |
-| 모듈화·검증 기술 자료 | [FINAL-02 기술 리포트](technical-reports/00_FINAL02_최종기술리포트_20261020.pdf) | 2026-10-20 · 코드 모듈화·재현·오프라인 검증 근거 · 7쪽 · 보조 자료 |
-| 소스와 실행 안내 | [실행 소스](rfp_rag/) · [설치와 실행](#설치와-실행) | 비공개 입력 자료 준비와 실행 명령 |
-| 전체 보고서·기술 리포트 | [PDF 폴더](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md) | **총 14개** · 최종본과 과거 자료·공개용 사본 구분 |
-| 실험 기록표 | [Google Sheets](https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing) | 실험 조건·관찰·판단 기록, 접근 권한은 별도 |
-| 개인별 협업일지 | **아래 팀원별 전체 표** | 작성자별 일지 원본과 보조 기록으로 바로 이동 |
+| 자료 | 링크 |
+|---|---|
+| **최종 프로젝트 보고서** | [**최종 보고서 PDF · 공개용**](technical-reports/00_프로젝트_최종보고서_20261021_공개용.pdf) |
+| 모듈화·검증 기술 자료 | [FINAL-02 기술 리포트](technical-reports/00_FINAL02_최종기술리포트_20261020.pdf) |
+| 소스와 실행 안내 | [실행 소스](rfp_rag/) · [설치와 실행](#설치와-실행) |
+| 전체 보고서·기술 리포트 | [PDF 폴더](technical-reports/) · [날짜·판본·출처 목록](docs/기술리포트목록.md) |
+| 실험 기록표 | [Google Sheets](https://docs.google.com/spreadsheets/d/16x-29flLEjQfMDl5mSvRzgBmKU4O-IBlRtxYxJqHb7E/edit?usp=sharing) |
+| 팀원과 협업일지 | [👥 Team](#-team) |
 
-### 팀원별 협업일지
+## 👥 Team
 
-| 팀원 | 협업일지 원본 | 확인 범위 |
-|---|---|---|
-| 이민기 | [개인 협업일지 시트](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=2053649411) | 기존 개인 탭, 별도 담당자가 최근 기록을 정리한 원본 |
-| 김현경 | [데일리 협업일지](https://app.notion.com/p/3eb67f39201180a4b1dbec087503807a?v=3eb67f39201180d583d7000c73a17268) · [실험 문서](https://app.notion.com/p/3ec67f3920118072b687d3aaed1e4428) | 일지 본문에서 작성자 확인, 현재 게스트 열람 확인 |
-| 김민협 | [개인 협업일지 문서](https://docs.google.com/document/d/1Jsx4ESbBhTFP4R7UN_pCgxd9Jha1HFBjU6lJjErrhYc/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=924303621) | 김민협의 개인 협업일지로 사용자 확인 · 본문 열람 확인 |
-| 이원영 | [프로젝트2 (2팀) 이원영 개인일지 (공유용)](https://docs.google.com/document/d/1RKp7OUprcmlTjm5N2BiX6yXr5PQxYqe09bHqKcNVwSA/edit?usp=sharing) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1041212623) | 제목·본문 열람 확인 · 새 문서 비로그인 보기 확인(2026-10-21) |
-| 권유진 | [권유진 Daily 협업일지](https://app.notion.com/p/AI_13_-Daily-3eae732bc80e80988fd4d696d6726479?source=copy_link) · [이전 시트(보조)](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=1632189499) | 작성자·2팀 확인 · 2026-10-21 비로그인 목록 및 일지 1건 열람 확인, 전체 항목 미검증 |
+| Name | GitHub | Role | 협업 일지 |
+| --- | --- | --- | --- |
+| 이민기 (팀장) | [@mingilee97](https://github.com/mingilee97) | 프로젝트 관리, 기준 파이프라인, 발표, 저장소 정리 | [민기님 협업일지](https://docs.google.com/spreadsheets/d/1sWL-WgSjILLUkuB_yw3edxLnqOATh7gCUG410d-JvrA/edit#gid=2053649411) |
+| 김현경 | [@HyeongyeongKim](https://github.com/HyeongyeongKim) | 팀 공통 파이프라인 개발, 검색 구조 실험, FINAL-01 | [현경님 협업일지](https://app.notion.com/p/3eb67f39201180a4b1dbec087503807a?v=3eb67f39201180d583d7000c73a17268) |
+| 김민협 | [@seolwoom](https://github.com/seolwoom) | 개발 환경, 평가 도구(RAGAS·LangSmith), BM25·parent-child 실험 | [민협님 협업일지](https://docs.google.com/document/d/1Jsx4ESbBhTFP4R7UN_pCgxd9Jha1HFBjU6lJjErrhYc/edit?usp=sharing) |
+| 권유진 | [@eugene527](https://github.com/eugene527) | 평가 데이터셋 구축, Holdout 진단 평가 | [유진님 협업일지](https://app.notion.com/p/AI_13_-Daily-3eae732bc80e80988fd4d696d6726479?source=copy_link) |
+| 이원영 | [@1young-codes](https://github.com/1young-codes) | 재순위화·청킹 실험, 검색 전용 평가, FINAL-02, 보고서 | [원영님 협업일지](https://docs.google.com/document/d/1RKp7OUprcmlTjm5N2BiX6yXr5PQxYqe09bHqKcNVwSA/edit?usp=sharing) |
 
 ---
-
-<details>
-<summary>팀원별 담당</summary>
-
-아래 역할은 다운로드 README와 제공된 프로젝트 보고서의 팀 구성 기록을 요약했습니다.
-
-| 팀원 | 담당 내용 |
-|---|---|
-| 이민기(팀장) | 프로젝트 관리, 초기 기준 파이프라인·평가, 팀원 구성 비교, 발표·최종 저장소 정리 |
-| 김현경 | 공통 `final_pipeline`, HWP·표 처리, 하이브리드 검색·프롬프트·질의 분해 실험, FINAL-01 |
-| 김민협 | 개발 환경·평가 도구 연결, HWP 파서 보정, BM25·parent-child 청킹 실험 |
-| 권유진 | 공통 개발 평가셋과 Holdout 평가셋 구축, 최종 기능별 진단 평가 |
-| 이원영 | 재순위화·청킹·검색 전용 비교, FINAL-02 실행·평가와 재현 묶음, 프로젝트 보고서 |
-
-</details>
 
 ## 프로젝트 소개
 
@@ -48,7 +33,7 @@ Codeit AI Engineer Bootcamp 13기 중급 프로젝트 · 파트3 2팀으로 진�
 
 ## 목차
 
-[아키텍처](#아키텍처) · [개발 환경](#개발-환경) · [설치와 실행](#설치와-실행) · [모델 교체와 확장](#모델-교체와-확장) · [데이터와 평가](#데이터와-평가) · [실험과 최종 선정](#실험과-최종-선정) · [결과와 한계](#결과와-한계) · [보고서와 기록](#보고서와-기록) · [출처와 공개 범위](#출처와-공개-범위)
+[Team](#-team) · [아키텍처](#아키텍처) · [개발 환경](#개발-환경) · [설치와 실행](#설치와-실행) · [모델 교체와 확장](#모델-교체와-확장) · [데이터와 평가](#데이터와-평가) · [실험과 최종 선정](#실험과-최종-선정) · [결과와 한계](#결과와-한계) · [보고서와 기록](#보고서와-기록) · [출처와 공개 범위](#출처와-공개-범위)
 
 ## 아키텍처
 
